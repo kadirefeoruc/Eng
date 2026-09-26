@@ -1,5 +1,9 @@
-# Eng — İngilizce eğitim
+# Eng — İngilizce Eğitim
 
-Kolay, orta ve zor seviyede okuma, Türkçe kelime sözlüğü ve sesli çalışma.
+[Ders 1’i aç](https://ingilizce-egitim-dersleri.kefeorc.chatgpt.site)
 
-Paylaşım sürümü hazırlanıyor.
+YDS/YÖKDİL için kolay, orta ve zor düzeyde okuma, Türkçe kelime anlamları ve sesli cümle açıklamaları.
+
+Bu depo üzerinden yukarıdaki ders bağlantısını herkesle paylaşabilirsiniz.
+
+Kaynak kod paylaşımı henüz tamamlanmadı.
