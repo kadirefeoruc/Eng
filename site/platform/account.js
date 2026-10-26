@@ -67,7 +67,7 @@ document.addEventListener('DOMContentLoaded',async()=>{
  const host=document.querySelector('.platform-tools')||document.querySelector('header');if(!host)return;
  const badge=document.createElement('a');badge.href='/account/#membership';badge.style.cssText='display:inline-block;background:#fff3cf;color:#4d3700;padding:8px 12px;border-radius:9px;margin:8px';
  const m=result.membership;
- badge.textContent=m?.plan==='paid'?'Ücretli üyelik aktif':m?.active?'Deneme süresi: '+m.remaining_days+' gün kaldı':m?.configured===false?'Deneme süresi kurulumu bekleniyor':m?.active===false?'Deneme süresi sona erdi':'Üyelik durumu';
+ badge.textContent=m?.plan==='paid'?'Ücretli üyelik aktif':m?.active?'Deneme süresi: '+m.remaining_days+' gün kaldı':m?.configured===false?'Üyeliğiniz: Deneme Aşamasında':m?.active===false?'Deneme süresi sona erdi':'Üyelik durumu';
  host.append(badge);
 });
 })();
