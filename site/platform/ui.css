@@ -4,3 +4,9 @@
 
 /* Keep navigation centered while preserving horizontal scrolling on narrow screens. */
 .platform-nav,header .tabs{justify-content:safe center!important}
+
+header.platform-header:not(.lesson-header){box-sizing:border-box;max-width:1204px;width:calc(100% - 36px);margin:24px auto 0;padding:24px 28px!important;border-radius:20px;background:linear-gradient(120deg,#123764,#175a9c);box-shadow:0 12px 32px #12376420;color:#fff}
+.platform-account-row{display:flex;justify-content:flex-start;margin-bottom:12px}
+.platform-account-link{display:inline-flex;align-items:center;padding:8px 14px;border:1px solid #ffffff80;border-radius:9px;background:#ffffff18;color:#fff;font:600 15px/1.4 system-ui;text-decoration:none}
+header .header-actions a[href*="/account/"],header .header-actions a[href*="/signin-with-chatgpt"]{display:none!important}
+@media(max-width:650px){header.platform-header:not(.lesson-header){width:calc(100% - 20px);margin-top:10px;padding:18px!important}}
