@@ -53,7 +53,12 @@
         "explanationTr": "Özne zamirleri isimlerin yerine geçer: I ben, you sen/siz, he erkek, she kadın, it nesne veya hayvan, we biz, they onlar. Fiilden önce kullanılır."
       }
     ],
-    "introduction": "Özne zamirleri isimlerin yerine geçer: I ben, you sen/siz, he erkek, she kadın, it nesne veya hayvan, we biz, they onlar. Fiilden önce kullanılır. Bir kişiden veya nesneden söz ettikten sonra aynı ismi tekrar etmek yerine uygun zamiri seçebilirsin. Örneğin “Ayşe is a teacher. She is happy.” ifadesinde she, Ayşe'nin yerine geçer; “My books are new. They are useful.” ifadesinde çoğul books için they kullanılır."
+    "introduction": "Özne zamirleri isimlerin yerine geçer: I ben, you sen/siz, he erkek, she kadın, it nesne veya hayvan, we biz, they onlar. Fiilden önce kullanılır. Bir kişiden veya nesneden söz ettikten sonra aynı ismi tekrar etmek yerine uygun zamiri seçebilirsin. Örneğin “Ayşe is a teacher. She is happy.” ifadesinde she, Ayşe'nin yerine geçer; “My books are new. They are useful.” ifadesinde çoğul books için they kullanılır.",
+    "introductionParagraphs": [
+      "Subject Pronouns (özne zamirleri), cümlede işi yapan veya durumu yaşayan kişiyi ya da nesneyi adlandırmakla ilgilidir. Özne zamirleri isimlerin yerine geçer: I ben, you sen/siz, he erkek, she kadın, it nesne veya hayvan, we biz, they onlar. Fiilden önce kullanılır.",
+      "Bir kişiden veya nesneden söz ettikten sonra aynı ismi tekrar etmek yerine uygun zamiri seçebilirsin. Örneğin “Ayşe is a teacher. She is happy.” ifadesinde she, Ayşe'nin yerine geçer; “My books are new. They are useful.” ifadesinde çoğul books için they kullanılır."
+    ],
+    "exampleAnalysis": "Örneğin “Mert is a pilot. He flies planes.” cümlelerinde Mert bir kez adlandırılır; ikinci cümlede he, Mert'in yerine geçerek tekrarın önüne geçer. Türkçesi: “Mert pilottur. O uçak uçurur.”"
   },
   {
     "id": "cefr-a1-02",
@@ -109,7 +114,12 @@
         "explanationTr": "I ile am, he/she/it ile is, you/we/they ile are kullanılır. Olumsuzda not eklenir; soruda fiil öznenin önüne gelir."
       }
     ],
-    "introduction": "I ile am, he/she/it ile is, you/we/they ile are kullanılır. Olumsuzda not eklenir; soruda fiil öznenin önüne gelir. Bu fiil Türkçedeki “-dır/-dir” veya bulunma anlamını karşılayabilir: “I am tired” ve “They are at home.” Olumsuzda “She is not ready”, soruda “Is she ready?” denir; kısa cevaplar “Yes, she is” veya “No, she isn't” şeklindedir."
+    "introduction": "I ile am, he/she/it ile is, you/we/they ile are kullanılır. Olumsuzda not eklenir; soruda fiil öznenin önüne gelir. Bu fiil Türkçedeki “-dır/-dir” veya bulunma anlamını karşılayabilir: “I am tired” ve “They are at home.” Olumsuzda “She is not ready”, soruda “Is she ready?” denir; kısa cevaplar “Yes, she is” veya “No, she isn't” şeklindedir.",
+    "introductionParagraphs": [
+      "To Be (olmak fiili), bir kişinin veya şeyin kim olduğunu, nasıl olduğunu ya da nerede bulunduğunu anlatmakla ilgilidir. I ile am, he/she/it ile is, you/we/they ile are kullanılır. Olumsuzda not eklenir; soruda fiil öznenin önüne gelir.",
+      "Bu fiil Türkçedeki “-dır/-dir” veya bulunma anlamını karşılayabilir: “I am tired” ve “They are at home.” Olumsuzda “She is not ready”, soruda “Is she ready?” denir; kısa cevaplar “Yes, she is” veya “No, she isn't” şeklindedir."
+    ],
+    "exampleAnalysis": "“The children are at school.” cümlesinde çoğul özne children ile are kullanılır; at school bulunduğu yeri gösterir. “Çocuklar okuldadır.” Olumsuzu “The children aren't at school”, sorusu “Are the children at school?” olur."
   },
   {
     "id": "cefr-a1-03",
@@ -165,7 +175,12 @@
         "explanationTr": "İyelik sıfatları isimden önce gelir: my, your, his, her, its, our, their. It's kısaltması it is demektir; its ise iyeliktir."
       }
     ],
-    "introduction": "İyelik sıfatları isimden önce gelir: my, your, his, her, its, our, their. It's kısaltması it is demektir; its ise iyeliktir. İyelik sıfatı sahip olan kişiyi belirtir ama tek başına kullanılmaz: “my book”, “their house”. Sahip ile nesnenin sayısını karıştırma; “her books” onun birden fazla kitabı, “their book” onların bir kitabı olabilir."
+    "introduction": "İyelik sıfatları isimden önce gelir: my, your, his, her, its, our, their. It's kısaltması it is demektir; its ise iyeliktir. İyelik sıfatı sahip olan kişiyi belirtir ama tek başına kullanılmaz: “my book”, “their house”. Sahip ile nesnenin sayısını karıştırma; “her books” onun birden fazla kitabı, “their book” onların bir kitabı olabilir.",
+    "introductionParagraphs": [
+      "Possessive Adjectives (iyelik sıfatları), bir nesnenin veya kişinin kime ait olduğunu isimden önce belirtmekle ilgilidir. İyelik sıfatları isimden önce gelir: my, your, his, her, its, our, their. It's kısaltması it is demektir; its ise iyeliktir.",
+      "İyelik sıfatı sahip olan kişiyi belirtir ama tek başına kullanılmaz: “my book”, “their house”. Sahip ile nesnenin sayısını karıştırma; “her books” onun birden fazla kitabı, “their book” onların bir kitabı olabilir."
+    ],
+    "exampleAnalysis": "“Their house is small.” cümlesinde their, house isminin kimlere ait olduğunu gösterir; “Onların evi küçük.” demektir. Their tek başına kullanılmaz: “The house is theirs” cümlesindeki theirs ise bağımsız iyelik zamiridir."
   },
   {
     "id": "cefr-a1-04",
@@ -221,7 +236,12 @@
         "explanationTr": "Çoğul genellikle -s veya -es alır. Bazıları düzensizdir: child → children, person → people. Tekil sayılabilir isim genellikle bir belirleyici ister."
       }
     ],
-    "introduction": "Çoğul genellikle -s veya -es alır. Bazıları düzensizdir: child → children, person → people. Tekil sayılabilir isim genellikle bir belirleyici ister. Birçok isimde sonuna -s eklenir; box → boxes ve city → cities gibi yazım değişiklikleri de vardır. Bazı sözcükler kurala uymaz: man → men, child → children. “Two childs” yerine “two children” kullanılır."
+    "introduction": "Çoğul genellikle -s veya -es alır. Bazıları düzensizdir: child → children, person → people. Tekil sayılabilir isim genellikle bir belirleyici ister. Birçok isimde sonuna -s eklenir; box → boxes ve city → cities gibi yazım değişiklikleri de vardır. Bazı sözcükler kurala uymaz: man → men, child → children. “Two childs” yerine “two children” kullanılır.",
+    "introductionParagraphs": [
+      "Singular & Plural Nouns (tekil ve çoğul isimler), İngilizcede bir veya birden fazla varlığı isim biçiminde göstermeyle ilgilidir. Çoğul genellikle -s veya -es alır. Bazıları düzensizdir: child → children, person → people. Tekil sayılabilir isim genellikle bir belirleyici ister.",
+      "Birçok isimde sonuna -s eklenir; box → boxes ve city → cities gibi yazım değişiklikleri de vardır. Bazı sözcükler kurala uymaz: man → men, child → children. “Two childs” yerine “two children” kullanılır."
+    ],
+    "exampleAnalysis": "“One woman has two watches.” örneğinde woman tekil, watches ise watch isminin -es almış çoğuludur: “Bir kadının iki saati var.” “Two women” denildiğinde ise woman düzensiz biçimde women olur."
   },
   {
     "id": "cefr-a1-05",
@@ -277,7 +297,12 @@
         "explanationTr": "A/an tekil sayılabilir ve belirsiz isimlerle kullanılır; sesli başlayan seslerden önce an gelir. The, konuşanların bildiği veya belirli bir varlığı gösterir."
       }
     ],
-    "introduction": "A/an tekil sayılabilir ve belirsiz isimlerle kullanılır; sesli başlayan seslerden önce an gelir. The, konuşanların bildiği veya belirli bir varlığı gösterir. Seçim harfe değil sese bağlıdır: “an hour” ve “a university” doğru örneklerdir. İlk kez tanıtılan tekil bir nesne için “a book”, bilinen aynı nesne için sonraki cümlede “the book” denebilir; çoğul ve genel isimlerde her zaman the gerekmez."
+    "introduction": "A/an tekil sayılabilir ve belirsiz isimlerle kullanılır; sesli başlayan seslerden önce an gelir. The, konuşanların bildiği veya belirli bir varlığı gösterir. Seçim harfe değil sese bağlıdır: “an hour” ve “a university” doğru örneklerdir. İlk kez tanıtılan tekil bir nesne için “a book”, bilinen aynı nesne için sonraki cümlede “the book” denebilir; çoğul ve genel isimlerde her zaman the gerekmez.",
+    "introductionParagraphs": [
+      "Articles (a, an, the), bir ismin belirsiz mi yoksa belirli ve bilinen bir varlık mı olduğunu göstermeyle ilgilidir. A/an tekil sayılabilir ve belirsiz isimlerle kullanılır; sesli başlayan seslerden önce an gelir. The, konuşanların bildiği veya belirli bir varlığı gösterir.",
+      "Seçim harfe değil sese bağlıdır: “an hour” ve “a university” doğru örneklerdir. İlk kez tanıtılan tekil bir nesne için “a book”, bilinen aynı nesne için sonraki cümlede “the book” denebilir; çoğul ve genel isimlerde her zaman the gerekmez."
+    ],
+    "exampleAnalysis": "“I found a key. The key was under the chair.” örneğinde a key ilk kez bahsedilen herhangi bir anahtardır; the key ise artık bilinen aynı anahtardır. Türkçesi: “Bir anahtar buldum. Anahtar sandalyenin altındaydı.”"
   },
   {
     "id": "cefr-a1-06",
@@ -333,7 +358,12 @@
         "explanationTr": "This ve these yakın, that ve those uzak nesneleri gösterir. This/that tekil; these/those çoğuldur."
       }
     ],
-    "introduction": "This ve these yakın, that ve those uzak nesneleri gösterir. This/that tekil; these/those çoğuldur. “This book” yakındaki tek kitabı, “these books” yakındaki birden fazla kitabı gösterir; uzaktakiler için that book ve those books kullanılır. İsim olmadan da “This is mine” veya “Those are yours” diyebilirsin."
+    "introduction": "This ve these yakın, that ve those uzak nesneleri gösterir. This/that tekil; these/those çoğuldur. “This book” yakındaki tek kitabı, “these books” yakındaki birden fazla kitabı gösterir; uzaktakiler için that book ve those books kullanılır. İsim olmadan da “This is mine” veya “Those are yours” diyebilirsin.",
+    "introductionParagraphs": [
+      "Demonstratives (işaret sözcükleri), konuşanın kişi veya nesneleri yakınlık ve tekillik-çoğulluk bakımından göstermesiyle ilgilidir. This ve these yakın, that ve those uzak nesneleri gösterir. This/that tekil; these/those çoğuldur.",
+      "“This book” yakındaki tek kitabı, “these books” yakındaki birden fazla kitabı gösterir; uzaktakiler için that book ve those books kullanılır. İsim olmadan da “This is mine” veya “Those are yours” diyebilirsin."
+    ],
+    "exampleAnalysis": "“That chair is old, but these chairs are new.” cümlesinde that uzaktaki tek sandalyeyi, these yakındaki birden fazla sandalyeyi gösterir. Türkçesi: “Şu sandalye eski, ama bu sandalyeler yeni.”"
   },
   {
     "id": "cefr-a1-07",
@@ -389,7 +419,12 @@
         "explanationTr": "There is tekil veya sayılamayan, there are çoğul isimle kullanılır. Olumsuz için not; soru için is/are başa gelir."
       }
     ],
-    "introduction": "There is tekil veya sayılamayan, there are çoğul isimle kullanılır. Olumsuz için not; soru için is/are başa gelir. “There's a library” bir kütüphane bulunduğunu, “There are two libraries” iki kütüphane olduğunu bildirir. Soruda “Is there a library?” veya “Are there any libraries?” denir; olumsuzda isn't/aren't kullanılır."
+    "introduction": "There is tekil veya sayılamayan, there are çoğul isimle kullanılır. Olumsuz için not; soru için is/are başa gelir. “There's a library” bir kütüphane bulunduğunu, “There are two libraries” iki kütüphane olduğunu bildirir. Soruda “Is there a library?” veya “Are there any libraries?” denir; olumsuzda isn't/aren't kullanılır.",
+    "introductionParagraphs": [
+      "There is / There are, bir yerde bir şeyin bulunup bulunmadığını İngilizce ifade etmekle ilgilidir. There is tekil veya sayılamayan, there are çoğul isimle kullanılır. Olumsuz için not; soru için is/are başa gelir.",
+      "“There's a library” bir kütüphane bulunduğunu, “There are two libraries” iki kütüphane olduğunu bildirir. Soruda “Is there a library?” veya “Are there any libraries?” denir; olumsuzda isn't/aren't kullanılır."
+    ],
+    "exampleAnalysis": "“There are three windows in the room.” cümlesinde three windows çoğul olduğu için there are kullanılır: “Odada üç pencere var.” Tek bir pencere için “There is a window” denir; soru “Are there three windows?” olur."
   },
   {
     "id": "cefr-a1-08",
@@ -445,7 +480,12 @@
         "explanationTr": "I/you/we/they have got; he/she/it has got ile sahiplik ifade edilir. Soruda have veya has öznenin önüne geçer."
       }
     ],
-    "introduction": "I/you/we/they have got; he/she/it has got ile sahiplik ifade edilir. Soruda have veya has öznenin önüne geçer. Bu yapı özellikle İngiliz İngilizcesinde sahipliği anlatır: “I have got a car”, “She has got a car”. Olumsuz “I haven't got” ve “She hasn't got”; soru “Have you got...?” şeklindedir. Amerikan İngilizcesinde “Do you have...?” da yaygındır."
+    "introduction": "I/you/we/they have got; he/she/it has got ile sahiplik ifade edilir. Soruda have veya has öznenin önüne geçer. Bu yapı özellikle İngiliz İngilizcesinde sahipliği anlatır: “I have got a car”, “She has got a car”. Olumsuz “I haven't got” ve “She hasn't got”; soru “Have you got...?” şeklindedir. Amerikan İngilizcesinde “Do you have...?” da yaygındır.",
+    "introductionParagraphs": [
+      "Have got / Has got, sahiplik ve bir kişinin veya şeyin belirli bir özelliğe sahip olmasını ifade etmekle ilgilidir. I/you/we/they have got; he/she/it has got ile sahiplik ifade edilir. Soruda have veya has öznenin önüne geçer.",
+      "Bu yapı özellikle İngiliz İngilizcesinde sahipliği anlatır: “I have got a car”, “She has got a car”. Olumsuz “I haven't got” ve “She hasn't got”; soru “Have you got...?” şeklindedir. Amerikan İngilizcesinde “Do you have...?” da yaygındır."
+    ],
+    "exampleAnalysis": "“My brother has got blue eyes.” cümlesinde my brother üçüncü tekil özne olduğu için has got seçilir; blue eyes sahip olunan özelliktir. Anlamı: “Erkek kardeşimin mavi gözleri var.”"
   },
   {
     "id": "cefr-a1-09",
@@ -501,7 +541,12 @@
         "explanationTr": "Emir ve yönergelerde fiilin yalın hâli kullanılır. Olumsuz emir için don't + fiil kullanılır."
       }
     ],
-    "introduction": "Emir ve yönergelerde fiilin yalın hâli kullanılır. Olumsuz emir için don't + fiil kullanılır. Emir cümlelerinde özne çoğunlukla söylenmez: “Open the door.” Talimatı daha kibar hâle getirmek için please eklenebilir: “Please sit down.” Olumsuzda “Don't open the window” kullanılır."
+    "introduction": "Emir ve yönergelerde fiilin yalın hâli kullanılır. Olumsuz emir için don't + fiil kullanılır. Emir cümlelerinde özne çoğunlukla söylenmez: “Open the door.” Talimatı daha kibar hâle getirmek için please eklenebilir: “Please sit down.” Olumsuzda “Don't open the window” kullanılır.",
+    "introductionParagraphs": [
+      "Imperatives (emir ve yönergeler), birinden bir eylemi yapmasını veya yapmamasını istemekle ilgilidir. Emir ve yönergelerde fiilin yalın hâli kullanılır. Olumsuz emir için don't + fiil kullanılır.",
+      "Emir cümlelerinde özne çoğunlukla söylenmez: “Open the door.” Talimatı daha kibar hâle getirmek için please eklenebilir: “Please sit down.” Olumsuzda “Don't open the window” kullanılır."
+    ],
+    "exampleAnalysis": "“Please turn left at the bank.” cümlesi “Lütfen bankada sola dönün.” anlamında bir yönergedir; turn fiili yalın hâlde kullanılır ve özne you genellikle söylenmez. “Don't turn left” ise olumsuz yönergedir."
   },
   {
     "id": "cefr-a1-10",
@@ -557,7 +602,12 @@
         "explanationTr": "Alışkanlıklar ve genel doğrular için kullanılır. He/she/it ile fiile -s/-es eklenir; olumsuz ve soruda does kullanıldığında fiil yalın kalır."
       }
     ],
-    "introduction": "Alışkanlıklar ve genel doğrular için kullanılır. He/she/it ile fiile -s/-es eklenir; olumsuz ve soruda does kullanıldığında fiil yalın kalır. “Every day”, “usually” ve “often” gibi ifadelerle sık görülür. “She studies” yazımında ünsüz + y, -ies olur; “he watches” ise -es alır. “Does she work?” sorusunda does kullanıldığı için work yeniden -s almaz."
+    "introduction": "Alışkanlıklar ve genel doğrular için kullanılır. He/she/it ile fiile -s/-es eklenir; olumsuz ve soruda does kullanıldığında fiil yalın kalır. “Every day”, “usually” ve “often” gibi ifadelerle sık görülür. “She studies” yazımında ünsüz + y, -ies olur; “he watches” ise -es alır. “Does she work?” sorusunda does kullanıldığı için work yeniden -s almaz.",
+    "introductionParagraphs": [
+      "Simple Present (geniş zaman), alışkanlıkları, düzenli yapılan işleri ve genel doğruları anlatmakla ilgilidir. Alışkanlıklar ve genel doğrular için kullanılır. He/she/it ile fiile -s/-es eklenir; olumsuz ve soruda does kullanıldığında fiil yalın kalır.",
+      "“Every day”, “usually” ve “often” gibi ifadelerle sık görülür. “She studies” yazımında ünsüz + y, -ies olur; “he watches” ise -es alır. “Does she work?” sorusunda does kullanıldığı için work yeniden -s almaz."
+    ],
+    "exampleAnalysis": "“Elif walks to work every morning.” cümlesinde every morning düzenli alışkanlığı, walks sonundaki -s ise üçüncü tekil kişiyi gösterir. “Elif her sabah işe yürür.” Soruda “Does Elif walk?” biçiminde fiil yalınlaşır."
   },
   {
     "id": "cefr-a1-11",
@@ -613,7 +663,12 @@
         "explanationTr": "Şu anda süren eylem için am/is/are + fiil-ing kullanılır. Geçici durumlar ve planlanmış yakın gelecek için de kullanılabilir."
       }
     ],
-    "introduction": "Şu anda süren eylem için am/is/are + fiil-ing kullanılır. Geçici durumlar ve planlanmış yakın gelecek için de kullanılabilir. Olumlu örnek “I am reading”, olumsuz örnek “She isn't working”, soru örneği “Are they studying?” şeklindedir. Live → living ve run → running gibi yazım değişikliklerine dikkat et; bazı durum fiilleri bu yapıda genellikle kullanılmaz."
+    "introduction": "Şu anda süren eylem için am/is/are + fiil-ing kullanılır. Geçici durumlar ve planlanmış yakın gelecek için de kullanılabilir. Olumlu örnek “I am reading”, olumsuz örnek “She isn't working”, soru örneği “Are they studying?” şeklindedir. Live → living ve run → running gibi yazım değişikliklerine dikkat et; bazı durum fiilleri bu yapıda genellikle kullanılmaz.",
+    "introductionParagraphs": [
+      "Present Continuous (şimdiki zaman), konuşma anında veya geçici bir dönemde devam eden eylemleri anlatmakla ilgilidir. Şu anda süren eylem için am/is/are + fiil-ing kullanılır. Geçici durumlar ve planlanmış yakın gelecek için de kullanılabilir.",
+      "Olumlu örnek “I am reading”, olumsuz örnek “She isn't working”, soru örneği “Are they studying?” şeklindedir. Live → living ve run → running gibi yazım değişikliklerine dikkat et; bazı durum fiilleri bu yapıda genellikle kullanılmaz."
+    ],
+    "exampleAnalysis": "“The children are playing in the garden.” ifadesinde are yardımcı fiil, playing ise play fiilinin -ing biçimidir. Türkçesi: “Çocuklar bahçede oynuyor.” Soru “Are the children playing?” şeklinde kurulur."
   },
   {
     "id": "cefr-a1-12",
@@ -669,7 +724,12 @@
         "explanationTr": "Some genellikle olumlu; any çoğunlukla soru ve olumsuz cümlelerde kullanılır. A lot of hem sayılabilen çoğul hem sayılamayan isimle kullanılabilir."
       }
     ],
-    "introduction": "Some genellikle olumlu; any çoğunlukla soru ve olumsuz cümlelerde kullanılır. A lot of hem sayılabilen çoğul hem sayılamayan isimle kullanılabilir. “Some water” ve “some books” olumlu cümlelerde yaygındır; “Do you have any water?” soru örneğidir. Teklif ve isteklerde de some görülebilir: “Would you like some tea?” A lot of, “a lot of people” ve “a lot of time” ile kullanılır."
+    "introduction": "Some genellikle olumlu; any çoğunlukla soru ve olumsuz cümlelerde kullanılır. A lot of hem sayılabilen çoğul hem sayılamayan isimle kullanılabilir. “Some water” ve “some books” olumlu cümlelerde yaygındır; “Do you have any water?” soru örneğidir. Teklif ve isteklerde de some görülebilir: “Would you like some tea?” A lot of, “a lot of people” ve “a lot of time” ile kullanılır.",
+    "introductionParagraphs": [
+      "Adjectives of Quantity (miktar belirleyicileri), bir şeyin ne kadar veya kaç tane olduğunu kesin sayı vermeden anlatmakla ilgilidir. Some genellikle olumlu; any çoğunlukla soru ve olumsuz cümlelerde kullanılır. A lot of hem sayılabilen çoğul hem sayılamayan isimle kullanılabilir.",
+      "“Some water” ve “some books” olumlu cümlelerde yaygındır; “Do you have any water?” soru örneğidir. Teklif ve isteklerde de some görülebilir: “Would you like some tea?” A lot of, “a lot of people” ve “a lot of time” ile kullanılır."
+    ],
+    "exampleAnalysis": "“We have some fruit, but we don't have any bread.” örneğinde some olumlu bölümde, any olumsuz bölümde kullanılır. “Biraz meyvemiz var ama hiç ekmeğimiz yok.” Tekliflerde “Would you like some fruit?” da denebilir."
   },
   {
     "id": "cefr-a1-13",
@@ -725,7 +785,12 @@
         "explanationTr": "In ay/yıl ve kapalı alan; on gün/tarih ve yüzey; at saat ve belirli nokta için sık kullanılır. Under altında, behind arkasında anlamındadır."
       }
     ],
-    "introduction": "In ay/yıl ve kapalı alan; on gün/tarih ve yüzey; at saat ve belirli nokta için sık kullanılır. Under altında, behind arkasında anlamındadır. “In the room”, “on the table” ve “at the station” farklı yer ilişkilerini gösterir. Zaman için “in October”, “on Monday” ve “at 9 o'clock” örneklerini karşılaştır; “at night” gibi yerleşik istisnalar da vardır."
+    "introduction": "In ay/yıl ve kapalı alan; on gün/tarih ve yüzey; at saat ve belirli nokta için sık kullanılır. Under altında, behind arkasında anlamındadır. “In the room”, “on the table” ve “at the station” farklı yer ilişkilerini gösterir. Zaman için “in October”, “on Monday” ve “at 9 o'clock” örneklerini karşılaştır; “at night” gibi yerleşik istisnalar da vardır.",
+    "introductionParagraphs": [
+      "Prepositions of Place & Time (yer ve zaman edatları), bir olayın nerede ve ne zaman gerçekleştiğini belirtmekle ilgilidir. In ay/yıl ve kapalı alan; on gün/tarih ve yüzey; at saat ve belirli nokta için sık kullanılır. Under altında, behind arkasında anlamındadır.",
+      "“In the room”, “on the table” ve “at the station” farklı yer ilişkilerini gösterir. Zaman için “in October”, “on Monday” ve “at 9 o'clock” örneklerini karşılaştır; “at night” gibi yerleşik istisnalar da vardır."
+    ],
+    "exampleAnalysis": "“The meeting is in the office on Tuesday at ten.” cümlesinde in bir mekânı, on günü, at saati gösterir. Anlamı: “Toplantı salı günü saat onda ofistedir.” Edatın seçimi, anlatılan yer veya zaman birimine bağlıdır."
   },
   {
     "id": "cefr-a1-14",
@@ -781,7 +846,12 @@
         "explanationTr": "What ne, where nerede, who kim, when ne zaman, why neden ve how nasıl anlamındadır. Yardımcı fiil gerekiyorsa genellikle özneden önce gelir."
       }
     ],
-    "introduction": "What ne, where nerede, who kim, when ne zaman, why neden ve how nasıl anlamındadır. Yardımcı fiil gerekiyorsa genellikle özneden önce gelir. “Where do you work?” yer, “When does the lesson start?” zaman, “Why are you late?” neden sorar. How farklı sıfatlarla birleşebilir: “How old?” kaç yaşında, “How often?” ne sıklıkta anlamına gelir."
+    "introduction": "What ne, where nerede, who kim, when ne zaman, why neden ve how nasıl anlamındadır. Yardımcı fiil gerekiyorsa genellikle özneden önce gelir. “Where do you work?” yer, “When does the lesson start?” zaman, “Why are you late?” neden sorar. How farklı sıfatlarla birleşebilir: “How old?” kaç yaşında, “How often?” ne sıklıkta anlamına gelir.",
+    "introductionParagraphs": [
+      "Question Words (soru sözcükleri), kişi, yer, zaman, neden ve yöntem hakkında bilgi istemekle ilgilidir. What ne, where nerede, who kim, when ne zaman, why neden ve how nasıl anlamındadır. Yardımcı fiil gerekiyorsa genellikle özneden önce gelir.",
+      "“Where do you work?” yer, “When does the lesson start?” zaman, “Why are you late?” neden sorar. How farklı sıfatlarla birleşebilir: “How old?” kaç yaşında, “How often?” ne sıklıkta anlamına gelir."
+    ],
+    "exampleAnalysis": "“Where does Zeynep work?” sorusunda where yer bilgisini ister; does soru yardımcı fiili, work ise yalın ana fiildir. “Zeynep nerede çalışıyor?” Yanıt örneği: “She works in a hospital.”"
   },
   {
     "id": "cefr-a1-15",
@@ -837,7 +907,12 @@
         "explanationTr": "Can yetenek, olasılık veya izin bildirebilir. Can sonrasında fiilin yalın hâli gelir; olumsuz biçimi cannot/can't şeklindedir."
       }
     ],
-    "introduction": "Can yetenek, olasılık veya izin bildirebilir. Can sonrasında fiilin yalın hâli gelir; olumsuz biçimi cannot/can't şeklindedir. “I can swim” yetenek, “Can I sit here?” izin veya rica ifade eder. Üçüncü tekil kişide can değişmez: “She can swim”; “She cans swim” ve “can to swim” doğru değildir."
+    "introduction": "Can yetenek, olasılık veya izin bildirebilir. Can sonrasında fiilin yalın hâli gelir; olumsuz biçimi cannot/can't şeklindedir. “I can swim” yetenek, “Can I sit here?” izin veya rica ifade eder. Üçüncü tekil kişide can değişmez: “She can swim”; “She cans swim” ve “can to swim” doğru değildir.",
+    "introductionParagraphs": [
+      "Can / Can't, bir şeyi yapma yeteneği, olasılık veya izin isteme ve vermeyi anlatmakla ilgilidir. Can yetenek, olasılık veya izin bildirebilir. Can sonrasında fiilin yalın hâli gelir; olumsuz biçimi cannot/can't şeklindedir.",
+      "“I can swim” yetenek, “Can I sit here?” izin veya rica ifade eder. Üçüncü tekil kişide can değişmez: “She can swim”; “She cans swim” ve “can to swim” doğru değildir."
+    ],
+    "exampleAnalysis": "“My father can drive, but he can't swim.” örneğinde can drive araba kullanabilme, can't swim yüzememe yeteneğini gösterir. “Babam araba kullanabilir ama yüzemez.” Can ve can't sonrasında fiil yalın kalır."
   },
   {
     "id": "cefr-a2-16",
@@ -893,7 +968,12 @@
         "explanationTr": "Geçmişte tamamlanmış eylemler için fiilin ikinci hâli kullanılır: worked, went. Did ile soru ve olumsuzda fiil yalınlaşır; be fiili was/were olur."
       }
     ],
-    "introduction": "Geçmişte tamamlanmış eylemler için fiilin ikinci hâli kullanılır: worked, went. Did ile soru ve olumsuzda fiil yalınlaşır; be fiili was/were olur. Düzenli fiiller genellikle -ed alır: work → worked; düzensiz fiillerin ikinci biçimi ayrıca öğrenilir: go → went. “Did you go?” ve “I didn't go” yapılarında did geçmişi gösterdiği için went değil go kullanılır."
+    "introduction": "Geçmişte tamamlanmış eylemler için fiilin ikinci hâli kullanılır: worked, went. Did ile soru ve olumsuzda fiil yalınlaşır; be fiili was/were olur. Düzenli fiiller genellikle -ed alır: work → worked; düzensiz fiillerin ikinci biçimi ayrıca öğrenilir: go → went. “Did you go?” ve “I didn't go” yapılarında did geçmişi gösterdiği için went değil go kullanılır.",
+    "introductionParagraphs": [
+      "Simple Past (geçmiş zaman), geçmişte başlayıp tamamlanmış olayları ve geçmişteki durumları anlatmakla ilgilidir. Geçmişte tamamlanmış eylemler için fiilin ikinci hâli kullanılır: worked, went. Did ile soru ve olumsuzda fiil yalınlaşır; be fiili was/were olur.",
+      "Düzenli fiiller genellikle -ed alır: work → worked; düzensiz fiillerin ikinci biçimi ayrıca öğrenilir: go → went. “Did you go?” ve “I didn't go” yapılarında did geçmişi gösterdiği için went değil go kullanılır."
+    ],
+    "exampleAnalysis": "“We visited the museum last weekend.” örneğinde visited, visit fiilinin geçmiş biçimidir ve last weekend tamamlanmış zamanı belirtir. “Geçen hafta sonu müzeyi ziyaret ettik.” Soru “Did you visit the museum?” olur."
   },
   {
     "id": "cefr-a2-17",
@@ -949,7 +1029,12 @@
         "explanationTr": "Geçmişte belirli bir anda süren eylem was/were + fiil-ing ile anlatılır. Bir başka olay bu eylemi kesebilir."
       }
     ],
-    "introduction": "Geçmişte belirli bir anda süren eylem was/were + fiil-ing ile anlatılır. Bir başka olay bu eylemi kesebilir. “I was reading when the phone rang” örneğinde okuma sürerken telefon çalar. Was I/he/she/it, were you/we/they ile kullanılır; iki eş zamanlı süreç “While I was cooking, she was studying” biçiminde gösterilebilir."
+    "introduction": "Geçmişte belirli bir anda süren eylem was/were + fiil-ing ile anlatılır. Bir başka olay bu eylemi kesebilir. “I was reading when the phone rang” örneğinde okuma sürerken telefon çalar. Was I/he/she/it, were you/we/they ile kullanılır; iki eş zamanlı süreç “While I was cooking, she was studying” biçiminde gösterilebilir.",
+    "introductionParagraphs": [
+      "Past Continuous (süregelen geçmiş), geçmişte belirli bir anda devam etmekte olan bir eylemi anlatmakla ilgilidir. Geçmişte belirli bir anda süren eylem was/were + fiil-ing ile anlatılır. Bir başka olay bu eylemi kesebilir.",
+      "“I was reading when the phone rang” örneğinde okuma sürerken telefon çalar. Was I/he/she/it, were you/we/they ile kullanılır; iki eş zamanlı süreç “While I was cooking, she was studying” biçiminde gösterilebilir."
+    ],
+    "exampleAnalysis": "“I was cooking when the lights went out.” örneğinde was cooking sürmekte olan işi, went out ise o sırada gerçekleşen olayı gösterir. “Işıklar söndüğünde yemek yapıyordum.”"
   },
   {
     "id": "cefr-a2-18",
@@ -1005,7 +1090,12 @@
         "explanationTr": "Will + yalın fiil; anlık karar, teklif ve tahminlerde kullanılır. Olumsuzu won't; soru yapısı will + özne şeklindedir."
       }
     ],
-    "introduction": "Will + yalın fiil; anlık karar, teklif ve tahminlerde kullanılır. Olumsuzu won't; soru yapısı will + özne şeklindedir. Bir telefon çalınca “I'll answer it” anlık karardır; “I think it will rain” ise tahmindir. Önceden yapılmış planlar için going to veya bağlama göre present continuous da kullanılabilir; will her gelecek durumda tek seçenek değildir."
+    "introduction": "Will + yalın fiil; anlık karar, teklif ve tahminlerde kullanılır. Olumsuzu won't; soru yapısı will + özne şeklindedir. Bir telefon çalınca “I'll answer it” anlık karardır; “I think it will rain” ise tahmindir. Önceden yapılmış planlar için going to veya bağlama göre present continuous da kullanılabilir; will her gelecek durumda tek seçenek değildir.",
+    "introductionParagraphs": [
+      "Will ile gelecek zaman, özellikle konuşma anındaki kararları, teklifleri ve geleceğe yönelik tahminleri ifade etmekle ilgilidir. Will + yalın fiil; anlık karar, teklif ve tahminlerde kullanılır. Olumsuzu won't; soru yapısı will + özne şeklindedir.",
+      "Bir telefon çalınca “I'll answer it” anlık karardır; “I think it will rain” ise tahmindir. Önceden yapılmış planlar için going to veya bağlama göre present continuous da kullanılabilir; will her gelecek durumda tek seçenek değildir."
+    ],
+    "exampleAnalysis": "“The phone is ringing. I will answer it.” cümlesinde konuşan, telefon çalınca o anda cevaplama kararı verir. “Telefon çalıyor. Ben cevaplayacağım.” Will sonrasında answer yalın biçimde kalır."
   },
   {
     "id": "cefr-a2-19",
@@ -1061,7 +1151,12 @@
         "explanationTr": "Am/is/are going to + yalın fiil önceden yapılan planı veya mevcut kanıta dayanan tahmini anlatır."
       }
     ],
-    "introduction": "Am/is/are going to + yalın fiil önceden yapılan planı veya mevcut kanıta dayanan tahmini anlatır. Karar daha önce verilmişse “We are going to visit Ankara next week” denebilir. Ayrıca görülen kanıtla tahmin yapılır: “Look at the clouds; it is going to rain.” Özneye göre am, is veya are seçilir."
+    "introduction": "Am/is/are going to + yalın fiil önceden yapılan planı veya mevcut kanıta dayanan tahmini anlatır. Karar daha önce verilmişse “We are going to visit Ankara next week” denebilir. Ayrıca görülen kanıtla tahmin yapılır: “Look at the clouds; it is going to rain.” Özneye göre am, is veya are seçilir.",
+    "introductionParagraphs": [
+      "Be Going To ile gelecek zaman, önceden yapılan planları ve mevcut belirtilere dayanan tahminleri anlatmakla ilgilidir. Am/is/are going to + yalın fiil önceden yapılan planı veya mevcut kanıta dayanan tahmini anlatır.",
+      "Karar daha önce verilmişse “We are going to visit Ankara next week” denebilir. Ayrıca görülen kanıtla tahmin yapılır: “Look at the clouds; it is going to rain.” Özneye göre am, is veya are seçilir."
+    ],
+    "exampleAnalysis": "“She is going to start a course in November.” cümlesinde is going to start, önceden kararlaştırılmış bir planı gösterir: “Kasımda bir kursa başlayacak.” Özne değişirse am/is/are de değişir."
   },
   {
     "id": "cefr-a2-20",
@@ -1117,7 +1212,12 @@
         "explanationTr": "Countable isimler sayılabilir: one apple, two apples. Uncountable isimler genellikle tekil kullanılır: water, information; bunlara doğrudan a/an getirilmez."
       }
     ],
-    "introduction": "Countable isimler sayılabilir: one apple, two apples. Uncountable isimler genellikle tekil kullanılır: water, information; bunlara doğrudan a/an getirilmez. “An apple / three apples” sayılabilir; “water / information” genellikle sayılamazdır. Miktarı belirtmek için “a bottle of water” veya “a piece of information” kullanılabilir. Bazı isimler anlama göre iki türde de kullanılabilir."
+    "introduction": "Countable isimler sayılabilir: one apple, two apples. Uncountable isimler genellikle tekil kullanılır: water, information; bunlara doğrudan a/an getirilmez. “An apple / three apples” sayılabilir; “water / information” genellikle sayılamazdır. Miktarı belirtmek için “a bottle of water” veya “a piece of information” kullanılabilir. Bazı isimler anlama göre iki türde de kullanılabilir.",
+    "introductionParagraphs": [
+      "Countable & Uncountable Nouns (sayılabilen ve sayılamayan isimler), isimlerin sayı ve miktar bildiren sözcüklerle nasıl kullanılacağını belirlemekle ilgilidir. Countable isimler sayılabilir: one apple, two apples. Uncountable isimler genellikle tekil kullanılır: water, information; bunlara doğrudan a/an getirilmez.",
+      "“An apple / three apples” sayılabilir; “water / information” genellikle sayılamazdır. Miktarı belirtmek için “a bottle of water” veya “a piece of information” kullanılabilir. Bazı isimler anlama göre iki türde de kullanılabilir."
+    ],
+    "exampleAnalysis": "“We bought two chairs and some furniture.” örneğinde chairs sayılabilir ve two ile kullanılır; furniture sayılamadığı için some ile belirtilir. “İki sandalye ve biraz mobilya aldık.”"
   },
   {
     "id": "cefr-a2-21",
@@ -1173,7 +1273,12 @@
         "explanationTr": "Many ve a few sayılabilen çoğullarla; much ve a little sayılamayanlarla kullanılır. A lot of her ikisiyle de kullanılabilir."
       }
     ],
-    "introduction": "Many ve a few sayılabilen çoğullarla; much ve a little sayılamayanlarla kullanılır. A lot of her ikisiyle de kullanılabilir. “Many students” ve “much time” karşılaştırılabilir; much özellikle soru ve olumsuzlarda yaygındır. “A few students” birkaç öğrenci, “a little time” biraz zaman anlamına gelir; few/little başındaki a çıkarılınca yetersizlik vurgusu güçlenebilir."
+    "introduction": "Many ve a few sayılabilen çoğullarla; much ve a little sayılamayanlarla kullanılır. A lot of her ikisiyle de kullanılabilir. “Many students” ve “much time” karşılaştırılabilir; much özellikle soru ve olumsuzlarda yaygındır. “A few students” birkaç öğrenci, “a little time” biraz zaman anlamına gelir; few/little başındaki a çıkarılınca yetersizlik vurgusu güçlenebilir.",
+    "introductionParagraphs": [
+      "Quantifiers (miktar belirleyicileri), isimlerin miktarını veya sayısını many, much ve benzeri ifadelerle belirtmekle ilgilidir. Many ve a few sayılabilen çoğullarla; much ve a little sayılamayanlarla kullanılır. A lot of her ikisiyle de kullanılabilir.",
+      "“Many students” ve “much time” karşılaştırılabilir; much özellikle soru ve olumsuzlarda yaygındır. “A few students” birkaç öğrenci, “a little time” biraz zaman anlamına gelir; few/little başındaki a çıkarılınca yetersizlik vurgusu güçlenebilir."
+    ],
+    "exampleAnalysis": "“There are many cars but little space.” cümlesinde many, sayılabilen çoğul cars ile; little ise sayılamayan space ile kullanılır. “Çok araba var ama az yer var.” Little burada yetersizlik vurgusu taşır."
   },
   {
     "id": "cefr-a2-22",
@@ -1229,7 +1334,12 @@
         "explanationTr": "Karşılaştırmada kısa sıfat + -er + than, en üst derecede the + -est kullanılır. Uzun sıfatlarda more/most kullanılır; good → better → best düzensizdir."
       }
     ],
-    "introduction": "Karşılaştırmada kısa sıfat + -er + than, en üst derecede the + -est kullanılır. Uzun sıfatlarda more/most kullanılır; good → better → best düzensizdir. “Small → smaller → the smallest”; “beautiful → more beautiful → the most beautiful” şeklinde kullanılır. Karşılaştırmada than gelir: “This book is better than that one.” Good → better → best gibi düzensiz biçimler ayrıca öğrenilir."
+    "introduction": "Karşılaştırmada kısa sıfat + -er + than, en üst derecede the + -est kullanılır. Uzun sıfatlarda more/most kullanılır; good → better → best düzensizdir. “Small → smaller → the smallest”; “beautiful → more beautiful → the most beautiful” şeklinde kullanılır. Karşılaştırmada than gelir: “This book is better than that one.” Good → better → best gibi düzensiz biçimler ayrıca öğrenilir.",
+    "introductionParagraphs": [
+      "Comparatives & Superlatives (karşılaştırma ve üstünlük), iki veya daha fazla kişi ya da nesnenin özelliklerini karşılaştırmakla ilgilidir. Karşılaştırmada kısa sıfat + -er + than, en üst derecede the + -est kullanılır. Uzun sıfatlarda more/most kullanılır; good → better → best düzensizdir.",
+      "“Small → smaller → the smallest”; “beautiful → more beautiful → the most beautiful” şeklinde kullanılır. Karşılaştırmada than gelir: “This book is better than that one.” Good → better → best gibi düzensiz biçimler ayrıca öğrenilir."
+    ],
+    "exampleAnalysis": "“A train is faster than a bus, but a plane is the fastest.” örneğinde faster than iki aracı karşılaştırır; the fastest grubun en hızlısını belirtir. “Tren otobüsten hızlıdır, ama uçak en hızlısıdır.”"
   },
   {
     "id": "cefr-a2-23",
@@ -1285,7 +1395,12 @@
         "explanationTr": "Mine, yours, his, hers, ours ve theirs isim olmadan kullanılır. Tom's car gibi 's bir isme aitliği gösterir; çoğul -s sonrası yalnız kesme işareti gelir."
       }
     ],
-    "introduction": "Mine, yours, his, hers, ours ve theirs isim olmadan kullanılır. Tom's car gibi 's bir isme aitliği gösterir; çoğul -s sonrası yalnız kesme işareti gelir. “This is my pen” ifadesinde my isimle birlikte, “This pen is mine” ifadesinde mine tek başına kullanılır. Tekil kişide “Ali's car”; çoğul s ile biten isimde “the teachers' room” şeklinde yazılır."
+    "introduction": "Mine, yours, his, hers, ours ve theirs isim olmadan kullanılır. Tom's car gibi 's bir isme aitliği gösterir; çoğul -s sonrası yalnız kesme işareti gelir. “This is my pen” ifadesinde my isimle birlikte, “This pen is mine” ifadesinde mine tek başına kullanılır. Tekil kişide “Ali's car”; çoğul s ile biten isimde “the teachers' room” şeklinde yazılır.",
+    "introductionParagraphs": [
+      "Possessive Pronouns & Nouns (iyelik zamirleri ve isimlerde sahiplik), bir şeyin kime ait olduğunu farklı cümle yapılarıyla ifade etmekle ilgilidir. Mine, yours, his, hers, ours ve theirs isim olmadan kullanılır. Tom's car gibi 's bir isme aitliği gösterir; çoğul -s sonrası yalnız kesme işareti gelir.",
+      "“This is my pen” ifadesinde my isimle birlikte, “This pen is mine” ifadesinde mine tek başına kullanılır. Tekil kişide “Ali's car”; çoğul s ile biten isimde “the teachers' room” şeklinde yazılır."
+    ],
+    "exampleAnalysis": "“This is Deniz's bag; that one is hers.” cümlesinde Deniz's bag çantanın Deniz'e ait olduğunu, hers ise tekrarlanan “her bag” ifadesinin yerini alır. “Bu Deniz'in çantası; şu da onundur.”"
   },
   {
     "id": "cefr-a2-24",
@@ -1341,7 +1456,12 @@
         "explanationTr": "Must ve have to zorunluluğu, should tavsiyeyi ifade eder. Mustn't yasaktır; don't have to ise zorunlu değildir anlamına gelir."
       }
     ],
-    "introduction": "Must ve have to zorunluluğu, should tavsiyeyi ifade eder. Mustn't yasaktır; don't have to ise zorunlu değildir anlamına gelir. “You must wear a seat belt” zorunluluk, “You should rest” tavsiye örneğidir. “You mustn't smoke” sigara içmek yasaktır; “You don't have to come” ise gelmek zorunda değilsin demektir ve yasak bildirmez."
+    "introduction": "Must ve have to zorunluluğu, should tavsiyeyi ifade eder. Mustn't yasaktır; don't have to ise zorunlu değildir anlamına gelir. “You must wear a seat belt” zorunluluk, “You should rest” tavsiye örneğidir. “You mustn't smoke” sigara içmek yasaktır; “You don't have to come” ise gelmek zorunda değilsin demektir ve yasak bildirmez.",
+    "introductionParagraphs": [
+      "Must, have to ve should gibi modallar, zorunluluk, yasak veya tavsiye bildirmekle ilgilidir. Must ve have to zorunluluğu, should tavsiyeyi ifade eder. Mustn't yasaktır; don't have to ise zorunlu değildir anlamına gelir.",
+      "“You must wear a seat belt” zorunluluk, “You should rest” tavsiye örneğidir. “You mustn't smoke” sigara içmek yasaktır; “You don't have to come” ise gelmek zorunda değilsin demektir ve yasak bildirmez."
+    ],
+    "exampleAnalysis": "“You must wear a badge, but you don't have to wear a suit.” cümlesinde rozet zorunludur; takım elbise ise gerekli değildir. “Rozet takmalısınız ama takım elbise giymek zorunda değilsiniz.” Mustn't kullanılsaydı yasak anlamı doğardı."
   },
   {
     "id": "cefr-a2-25",
@@ -1397,7 +1517,12 @@
         "explanationTr": "Durum zarfı eylemin nasıl yapıldığını söyler: slowly, well. Sıklık zarfı genellikle ana fiilden önce, be fiilinden sonra gelir."
       }
     ],
-    "introduction": "Durum zarfı eylemin nasıl yapıldığını söyler: slowly, well. Sıklık zarfı genellikle ana fiilden önce, be fiilinden sonra gelir. “He speaks slowly” cümlenin nasıl yapıldığını, “He often speaks English” sıklığı belirtir. Be fiiliyle “She is always punctual” denir. Good sıfatının yaygın zarf biçimi well'dir: “She sings well.”"
+    "introduction": "Durum zarfı eylemin nasıl yapıldığını söyler: slowly, well. Sıklık zarfı genellikle ana fiilden önce, be fiilinden sonra gelir. “He speaks slowly” cümlenin nasıl yapıldığını, “He often speaks English” sıklığı belirtir. Be fiiliyle “She is always punctual” denir. Good sıfatının yaygın zarf biçimi well'dir: “She sings well.”",
+    "introductionParagraphs": [
+      "Adverbs of Manner & Frequency (durum ve sıklık zarfları), bir eylemin nasıl veya ne sıklıkla yapıldığını anlatmakla ilgilidir. Durum zarfı eylemin nasıl yapıldığını söyler: slowly, well. Sıklık zarfı genellikle ana fiilden önce, be fiilinden sonra gelir.",
+      "“He speaks slowly” cümlenin nasıl yapıldığını, “He often speaks English” sıklığı belirtir. Be fiiliyle “She is always punctual” denir. Good sıfatının yaygın zarf biçimi well'dir: “She sings well.”"
+    ],
+    "exampleAnalysis": "“She usually drives carefully.” cümlesinde usually, araba kullanmanın sıklığını; carefully, nasıl kullanıldığını belirtir. “O genellikle dikkatli araba kullanır.” Usually ana fiilden önce, carefully fiilden sonra yer alır."
   },
   {
     "id": "cefr-a2-26",
@@ -1453,7 +1578,12 @@
         "explanationTr": "And ekleme, but karşıtlık, or seçim, so sonuç ve because neden bildirir. Because ardından özne ve fiil içeren bir cümle gelir."
       }
     ],
-    "introduction": "And ekleme, but karşıtlık, or seçim, so sonuç ve because neden bildirir. Because ardından özne ve fiil içeren bir cümle gelir. “I studied because I had an exam” neden, “I had an exam, so I studied” sonuç bildirir. “She is tired but happy” karşıtlık, “tea or coffee” seçenek anlatır. Bağlaçtan sonra gelen yapı, seçilen bağlaca göre değişebilir."
+    "introduction": "And ekleme, but karşıtlık, or seçim, so sonuç ve because neden bildirir. Because ardından özne ve fiil içeren bir cümle gelir. “I studied because I had an exam” neden, “I had an exam, so I studied” sonuç bildirir. “She is tired but happy” karşıtlık, “tea or coffee” seçenek anlatır. Bağlaçtan sonra gelen yapı, seçilen bağlaca göre değişebilir.",
+    "introductionParagraphs": [
+      "Conjunctions (bağlaçlar), sözcükler veya cümleler arasında ekleme, karşıtlık, seçim, neden ve sonuç ilişkisi kurmakla ilgilidir. And ekleme, but karşıtlık, or seçim, so sonuç ve because neden bildirir. Because ardından özne ve fiil içeren bir cümle gelir.",
+      "“I studied because I had an exam” neden, “I had an exam, so I studied” sonuç bildirir. “She is tired but happy” karşıtlık, “tea or coffee” seçenek anlatır. Bağlaçtan sonra gelen yapı, seçilen bağlaca göre değişebilir."
+    ],
+    "exampleAnalysis": "“It was cold, so we stayed inside.” örneğinde so, ilk durumun sonucunu getirir: “Hava soğuktu, bu yüzden içeride kaldık.” “We stayed inside because it was cold” aynı ilişkiyi neden bildiren because ile kurar."
   },
   {
     "id": "cefr-a2-27",
@@ -1509,7 +1639,12 @@
         "explanationTr": "Me, you, him, her, it, us, them nesne zamirleridir. Fiil veya edattan sonra kullanılır ve isim tekrarını önler."
       }
     ],
-    "introduction": "Me, you, him, her, it, us, them nesne zamirleridir. Fiil veya edattan sonra kullanılır ve isim tekrarını önler. “Ali knows me” cümlesinde me nesnedir; “I know Ali” cümlesinde I öznedir. Edatlardan sonra da nesne biçimi gerekir: “with her”, “for them”, “between you and me”."
+    "introduction": "Me, you, him, her, it, us, them nesne zamirleridir. Fiil veya edattan sonra kullanılır ve isim tekrarını önler. “Ali knows me” cümlesinde me nesnedir; “I know Ali” cümlesinde I öznedir. Edatlardan sonra da nesne biçimi gerekir: “with her”, “for them”, “between you and me”.",
+    "introductionParagraphs": [
+      "Object Pronouns (nesne zamirleri), fiilden veya edattan etkilenen kişi ya da şeyi isim tekrarına gerek kalmadan belirtmekle ilgilidir. Me, you, him, her, it, us, them nesne zamirleridir. Fiil veya edattan sonra kullanılır ve isim tekrarını önler.",
+      "“Ali knows me” cümlesinde me nesnedir; “I know Ali” cümlesinde I öznedir. Edatlardan sonra da nesne biçimi gerekir: “with her”, “for them”, “between you and me”."
+    ],
+    "exampleAnalysis": "“I called Mehmet, but he didn't hear me.” cümlesinde he özne, me ise hear fiilinin nesnesidir. “Mehmet'i aradım ama o beni duymadı.” Özneyi gösteren I ile nesneyi gösteren me birbirinin yerine kullanılmaz."
   },
   {
     "id": "cefr-b1-28",
@@ -1565,7 +1700,12 @@
         "explanationTr": "Have/has + V3 geçmişi şimdiyle ilişkilendirir. Since başlangıç noktası, for süre belirtir; just, already, yet, ever ve never farklı bağlamlarda kullanılır."
       }
     ],
-    "introduction": "Have/has + V3 geçmişi şimdiyle ilişkilendirir. Since başlangıç noktası, for süre belirtir; just, already, yet, ever ve never farklı bağlamlarda kullanılır. “Have you ever visited London?” deneyim, “I have just finished” yeni sonuç bildirir. “Since 2020” başlangıç, “for five years” süre gösterir. “Yet” çoğunlukla soru veya olumsuzlarda, “already” sıklıkla olumlu ifadelerde kullanılır."
+    "introduction": "Have/has + V3 geçmişi şimdiyle ilişkilendirir. Since başlangıç noktası, for süre belirtir; just, already, yet, ever ve never farklı bağlamlarda kullanılır. “Have you ever visited London?” deneyim, “I have just finished” yeni sonuç bildirir. “Since 2020” başlangıç, “for five years” süre gösterir. “Yet” çoğunlukla soru veya olumsuzlarda, “already” sıklıkla olumlu ifadelerde kullanılır.",
+    "introductionParagraphs": [
+      "Present Perfect, geçmişte gerçekleşen bir olayın sonucunu, deneyimi veya bugüne kadar süren bir durumu şimdiyle ilişkilendirmekle ilgilidir. Have/has + V3 geçmişi şimdiyle ilişkilendirir. Since başlangıç noktası, for süre belirtir; just, already, yet, ever ve never farklı bağlamlarda kullanılır.",
+      "“Have you ever visited London?” deneyim, “I have just finished” yeni sonuç bildirir. “Since 2020” başlangıç, “for five years” süre gösterir. “Yet” çoğunlukla soru veya olumsuzlarda, “already” sıklıkla olumlu ifadelerde kullanılır."
+    ],
+    "exampleAnalysis": "“Ece has lost her keys.” cümlesinde has lost, geçmişte gerçekleşen kaybın şu anki sonucunu vurgular: “Ece anahtarlarını kaybetti”; yani anahtarlar şu anda onda değildir. Has üçüncü tekil, lost ise V3 biçimidir."
   },
   {
     "id": "cefr-b1-29",
@@ -1621,7 +1761,12 @@
         "explanationTr": "Simple past bitmiş ve belirli geçmiş zamanla kullanılır; present perfect sonuç, deneyim veya bugüne uzanan dönemle ilişkilidir. Yesterday ile genellikle simple past kullanılır."
       }
     ],
-    "introduction": "Simple past bitmiş ve belirli geçmiş zamanla kullanılır; present perfect sonuç, deneyim veya bugüne uzanan dönemle ilişkilidir. Yesterday ile genellikle simple past kullanılır. “I visited Rome in 2020” belirli ve bitmiş bir geçmiş zamandır; “I have visited Rome” deneyimi anlatır ve zaman belirtilmez. “Yesterday”, “last year” veya “in 2020” gibi bitmiş zamanlarla genellikle simple past seçilir."
+    "introduction": "Simple past bitmiş ve belirli geçmiş zamanla kullanılır; present perfect sonuç, deneyim veya bugüne uzanan dönemle ilişkilidir. Yesterday ile genellikle simple past kullanılır. “I visited Rome in 2020” belirli ve bitmiş bir geçmiş zamandır; “I have visited Rome” deneyimi anlatır ve zaman belirtilmez. “Yesterday”, “last year” veya “in 2020” gibi bitmiş zamanlarla genellikle simple past seçilir.",
+    "introductionParagraphs": [
+      "Present Perfect ile Simple Past karşılaştırması, geçmiş bir olayın bugüne etkisinin mi yoksa tamamlanmış zamanının mı vurgulandığını ayırt etmekle ilgilidir. Simple past bitmiş ve belirli geçmiş zamanla kullanılır; present perfect sonuç, deneyim veya bugüne uzanan dönemle ilişkilidir. Yesterday ile genellikle simple past kullanılır.",
+      "“I visited Rome in 2020” belirli ve bitmiş bir geçmiş zamandır; “I have visited Rome” deneyimi anlatır ve zaman belirtilmez. “Yesterday”, “last year” veya “in 2020” gibi bitmiş zamanlarla genellikle simple past seçilir."
+    ],
+    "exampleAnalysis": "“I have visited Ankara” Ankara deneyiminden söz eder; “I visited Ankara in 2022” ise zamanı belirli, tamamlanmış ziyareti anlatır. İkinci cümlede in 2022 bulunduğu için simple past olan visited kullanılır."
   },
   {
     "id": "cefr-b1-30",
@@ -1677,7 +1822,12 @@
         "explanationTr": "Had + V3, başka bir geçmiş olaydan daha önce tamamlanan eylemi gösterir. Geçmişteki olay sırasını bağlam belirler."
       }
     ],
-    "introduction": "Had + V3, başka bir geçmiş olaydan daha önce tamamlanan eylemi gösterir. Geçmişteki olay sırasını bağlam belirler. “When I arrived, the meeting had started” örneğinde toplantı, varıştan önce başlamıştır. Zaman sırası zaten açıksa bağlama göre simple past da görülebilir; past perfect'i tüm geçmiş olaylarda kullanmak gerekmez."
+    "introduction": "Had + V3, başka bir geçmiş olaydan daha önce tamamlanan eylemi gösterir. Geçmişteki olay sırasını bağlam belirler. “When I arrived, the meeting had started” örneğinde toplantı, varıştan önce başlamıştır. Zaman sırası zaten açıksa bağlama göre simple past da görülebilir; past perfect'i tüm geçmiş olaylarda kullanmak gerekmez.",
+    "introductionParagraphs": [
+      "Past Perfect, geçmişteki bir olaydan daha önce tamamlanmış başka bir olayı ve bu olayların sırasını anlatmakla ilgilidir. Had + V3, başka bir geçmiş olaydan daha önce tamamlanan eylemi gösterir. Geçmişteki olay sırasını bağlam belirler.",
+      "“When I arrived, the meeting had started” örneğinde toplantı, varıştan önce başlamıştır. Zaman sırası zaten açıksa bağlama göre simple past da görülebilir; past perfect'i tüm geçmiş olaylarda kullanmak gerekmez."
+    ],
+    "exampleAnalysis": "“The guests had eaten before the host arrived.” cümlesinde had eaten daha önce gerçekleşen yemeyi, arrived ise daha sonraki varışı gösterir. “Ev sahibi gelmeden önce misafirler yemek yemişti.”"
   },
   {
     "id": "cefr-b1-31",
@@ -1733,7 +1883,12 @@
         "explanationTr": "Edilgende nesne özne konumuna gelir ve uygun zamanda be + V3 kullanılır. Eylemi yapan biliniyorsa veya önemliyse by ile belirtilebilir."
       }
     ],
-    "introduction": "Edilgende nesne özne konumuna gelir ve uygun zamanda be + V3 kullanılır. Eylemi yapan biliniyorsa veya önemliyse by ile belirtilebilir. “People clean the rooms” aktif; “The rooms are cleaned” edilgendir. Geçmişte “The room was cleaned”, şu anda sürüyorsa “The room is being cleaned” denir. Be fiilinin zamanı değişir, ana fiil V3 biçiminde kalır."
+    "introduction": "Edilgende nesne özne konumuna gelir ve uygun zamanda be + V3 kullanılır. Eylemi yapan biliniyorsa veya önemliyse by ile belirtilebilir. “People clean the rooms” aktif; “The rooms are cleaned” edilgendir. Geçmişte “The room was cleaned”, şu anda sürüyorsa “The room is being cleaned” denir. Be fiilinin zamanı değişir, ana fiil V3 biçiminde kalır.",
+    "introductionParagraphs": [
+      "Basic Passive Voice (temel edilgen çatı), bir eylemi kimin yaptığından çok eylemden etkilenen kişi veya nesneyi öne çıkarmakla ilgilidir. Edilgende nesne özne konumuna gelir ve uygun zamanda be + V3 kullanılır. Eylemi yapan biliniyorsa veya önemliyse by ile belirtilebilir.",
+      "“People clean the rooms” aktif; “The rooms are cleaned” edilgendir. Geçmişte “The room was cleaned”, şu anda sürüyorsa “The room is being cleaned” denir. Be fiilinin zamanı değişir, ana fiil V3 biçiminde kalır."
+    ],
+    "exampleAnalysis": "“The chef prepares the meal” aktif cümlesi “The meal is prepared by the chef” edilgen cümlesine dönüşebilir. İkinci cümlede meal öne çıkar, is prepared ise şimdiki geniş zamanda be + V3 yapısıdır."
   },
   {
     "id": "cefr-b1-32",
@@ -1789,7 +1944,12 @@
         "explanationTr": "Type 0 genel doğrular: if + present, present. Type 1 olası gelecek: if + present, will. Type 2 hayali durum: if + past, would."
       }
     ],
-    "introduction": "Type 0 genel doğrular: if + present, present. Type 1 olası gelecek: if + present, will. Type 2 hayali durum: if + past, would. “Water boils if heated” genel durum; “If it rains, we will stay home” olası gelecek; “If I had more time, I would read” şu anki hayali durumdur. Koşul ve sonuç bölümünün sırası değişebilir; if bölümünde normalde will kullanılmaz."
+    "introduction": "Type 0 genel doğrular: if + present, present. Type 1 olası gelecek: if + present, will. Type 2 hayali durum: if + past, would. “Water boils if heated” genel durum; “If it rains, we will stay home” olası gelecek; “If I had more time, I would read” şu anki hayali durumdur. Koşul ve sonuç bölümünün sırası değişebilir; if bölümünde normalde will kullanılmaz.",
+    "introductionParagraphs": [
+      "Conditionals Type 0, 1 ve 2 (koşul cümleleri), bir koşulla onun genel, olası veya hayali sonucunu ilişkilendirmekle ilgilidir. Type 0 genel doğrular: if + present, present. Type 1 olası gelecek: if + present, will. Type 2 hayali durum: if + past, would.",
+      "“Water boils if heated” genel durum; “If it rains, we will stay home” olası gelecek; “If I had more time, I would read” şu anki hayali durumdur. Koşul ve sonuç bölümünün sırası değişebilir; if bölümünde normalde will kullanılmaz."
+    ],
+    "exampleAnalysis": "“If the weather is sunny, we will walk.” olası bir geleceği, “If I had wings, I would fly.” ise hayali bir durumu anlatır. İlkinde if + present / will; ikincisinde if + past / would yapısı kullanılır."
   },
   {
     "id": "cefr-b1-33",
@@ -1845,7 +2005,12 @@
         "explanationTr": "Tanımlayıcı sıfat cümlecikleri hangi kişi veya şeyden söz edildiğini belirtir. Who kişiler, which nesneler, whose aitlik, where yer için kullanılır; that bazı durumlarda who/which yerine geçer."
       }
     ],
-    "introduction": "Tanımlayıcı sıfat cümlecikleri hangi kişi veya şeyden söz edildiğini belirtir. Who kişiler, which nesneler, whose aitlik, where yer için kullanılır; that bazı durumlarda who/which yerine geçer. “The student who studies regularly succeeds” hangi öğrenciden söz edildiğini tanımlar. “The book that I bought” ve “the place where we met” de benzer biçimde açıklama ekler. Nesne görevindeki who/which/that bazı cümlelerde atılabilir."
+    "introduction": "Tanımlayıcı sıfat cümlecikleri hangi kişi veya şeyden söz edildiğini belirtir. Who kişiler, which nesneler, whose aitlik, where yer için kullanılır; that bazı durumlarda who/which yerine geçer. “The student who studies regularly succeeds” hangi öğrenciden söz edildiğini tanımlar. “The book that I bought” ve “the place where we met” de benzer biçimde açıklama ekler. Nesne görevindeki who/which/that bazı cümlelerde atılabilir.",
+    "introductionParagraphs": [
+      "Defining Relative Clauses (tanımlayıcı ilgi cümlecikleri), bir kişi veya nesnenin hangisi olduğunu ek bir cümlecikle belirlemekle ilgilidir. Tanımlayıcı sıfat cümlecikleri hangi kişi veya şeyden söz edildiğini belirtir. Who kişiler, which nesneler, whose aitlik, where yer için kullanılır; that bazı durumlarda who/which yerine geçer.",
+      "“The student who studies regularly succeeds” hangi öğrenciden söz edildiğini tanımlar. “The book that I bought” ve “the place where we met” de benzer biçimde açıklama ekler. Nesne görevindeki who/which/that bazı cümlelerde atılabilir."
+    ],
+    "exampleAnalysis": "“The engineer who designed the bridge is speaking.” cümlesindeki who designed the bridge hangi mühendisin kastedildiğini açıklar. Anlamı: “Köprüyü tasarlayan mühendis konuşuyor.” Bu tanımlayıcı bilgi normalde virgülle ayrılmaz."
   },
   {
     "id": "cefr-b1-34",
@@ -1901,7 +2066,12 @@
         "explanationTr": "Dolaylı anlatımda kişi, zaman ve yer ifadeleri bağlama göre değişir. Geçmişteki reporting verb sonrasında zaman gerilemesi sık görülür: is → was."
       }
     ],
-    "introduction": "Dolaylı anlatımda kişi, zaman ve yer ifadeleri bağlama göre değişir. Geçmişteki reporting verb sonrasında zaman gerilemesi sık görülür: is → was. “I'm tired” sözünü geçmişte aktarırken “She said that she was tired” denebilir. Zamir ve zaman ifadeleri de konuşanın konumuna göre değişebilir: today → that day. Bilgi hâlen geçerliyse zaman gerilemesi her durumda zorunlu değildir."
+    "introduction": "Dolaylı anlatımda kişi, zaman ve yer ifadeleri bağlama göre değişir. Geçmişteki reporting verb sonrasında zaman gerilemesi sık görülür: is → was. “I'm tired” sözünü geçmişte aktarırken “She said that she was tired” denebilir. Zamir ve zaman ifadeleri de konuşanın konumuna göre değişebilir: today → that day. Bilgi hâlen geçerliyse zaman gerilemesi her durumda zorunlu değildir.",
+    "introductionParagraphs": [
+      "Reported Speech (dolaylı anlatım), bir kişinin sözlerini birebir alıntılamadan başka bir kişiye aktarmakla ilgilidir. Dolaylı anlatımda kişi, zaman ve yer ifadeleri bağlama göre değişir. Geçmişteki reporting verb sonrasında zaman gerilemesi sık görülür: is → was.",
+      "“I'm tired” sözünü geçmişte aktarırken “She said that she was tired” denebilir. Zamir ve zaman ifadeleri de konuşanın konumuna göre değişebilir: today → that day. Bilgi hâlen geçerliyse zaman gerilemesi her durumda zorunlu değildir."
+    ],
+    "exampleAnalysis": "“I am busy,” said Ali ifadesi “Ali said that he was busy” diye aktarılabilir. Doğrudan sözdeki I, Ali'ye göre he olur; geçmişteki said sonrasında am, yaygın aktarımda was biçimine değişir."
   },
   {
     "id": "cefr-b1-35",
@@ -1957,7 +2127,12 @@
         "explanationTr": "Bazı fiiller -ing, bazıları to + fiil alır: enjoy reading, want to read. Hangi yapının kullanılacağı çoğu zaman önceki fiile bağlıdır."
       }
     ],
-    "introduction": "Bazı fiiller -ing, bazıları to + fiil alır: enjoy reading, want to read. Hangi yapının kullanılacağı çoğu zaman önceki fiile bağlıdır. “Enjoy reading” örneğinde fiilden sonra -ing; “want to read” örneğinde to + fiil gelir. “Decide to go”, “avoid making” ve “hope to see” farklı kalıplardır. Fiilleri hangi tamamlayıcıyı aldıklarıyla birlikte öğrenmek yararlıdır."
+    "introduction": "Bazı fiiller -ing, bazıları to + fiil alır: enjoy reading, want to read. Hangi yapının kullanılacağı çoğu zaman önceki fiile bağlıdır. “Enjoy reading” örneğinde fiilden sonra -ing; “want to read” örneğinde to + fiil gelir. “Decide to go”, “avoid making” ve “hope to see” farklı kalıplardır. Fiilleri hangi tamamlayıcıyı aldıklarıyla birlikte öğrenmek yararlıdır.",
+    "introductionParagraphs": [
+      "Gerunds & Infinitives (fiilimsiler), bir fiilden sonra başka bir fiilin -ing veya to + yalın fiil biçiminde kullanılmasını öğrenmekle ilgilidir. Bazı fiiller -ing, bazıları to + fiil alır: enjoy reading, want to read. Hangi yapının kullanılacağı çoğu zaman önceki fiile bağlıdır.",
+      "“Enjoy reading” örneğinde fiilden sonra -ing; “want to read” örneğinde to + fiil gelir. “Decide to go”, “avoid making” ve “hope to see” farklı kalıplardır. Fiilleri hangi tamamlayıcıyı aldıklarıyla birlikte öğrenmek yararlıdır."
+    ],
+    "exampleAnalysis": "“She enjoys painting but wants to travel.” cümlesinde enjoys sonrasında painting, wants sonrasında to travel gelir. “Resim yapmaktan hoşlanır ama seyahat etmek ister.” Hangi biçimin geleceğini önceki fiil belirler."
   },
   {
     "id": "cefr-b1-36",
@@ -2013,7 +2188,12 @@
         "explanationTr": "Could yetenek veya nazik istek, may izin, might olasılık, ought to ve had better tavsiye bildirir. Modal sonrasında genellikle yalın fiil gelir."
       }
     ],
-    "introduction": "Could yetenek veya nazik istek, may izin, might olasılık, ought to ve had better tavsiye bildirir. Modal sonrasında genellikle yalın fiil gelir. “Could you help me?” nazik istek, “You should rest” tavsiye, “It might rain” olasılık bildirir. “Ought to leave” ve “had better leave” yapılarını karşılaştır: ilkinde to bulunur, ikincisinde bulunmaz."
+    "introduction": "Could yetenek veya nazik istek, may izin, might olasılık, ought to ve had better tavsiye bildirir. Modal sonrasında genellikle yalın fiil gelir. “Could you help me?” nazik istek, “You should rest” tavsiye, “It might rain” olasılık bildirir. “Ought to leave” ve “had better leave” yapılarını karşılaştır: ilkinde to bulunur, ikincisinde bulunmaz.",
+    "introductionParagraphs": [
+      "Yetenek, izin ve tavsiye bildiren modallar, konuşanın bir eylemin mümkün, uygun veya önerilen olduğunu göstermesiyle ilgilidir. Could yetenek veya nazik istek, may izin, might olasılık, ought to ve had better tavsiye bildirir. Modal sonrasında genellikle yalın fiil gelir.",
+      "“Could you help me?” nazik istek, “You should rest” tavsiye, “It might rain” olasılık bildirir. “Ought to leave” ve “had better leave” yapılarını karşılaştır: ilkinde to bulunur, ikincisinde bulunmaz."
+    ],
+    "exampleAnalysis": "“You could ask the teacher, and you ought to check the notes.” örneğinde could bir olasılık veya öneri, ought to ise tavsiye ifade eder. “Öğretmene sorabilirsin ve notları kontrol etmelisin.”"
   },
   {
     "id": "cefr-b1-37",
@@ -2069,7 +2249,12 @@
         "explanationTr": "Used to geçmişte düzenli alışkanlıkları ve artık geçerli olmayan durumları anlatır. Would tekrarlanan geçmiş eylemler için kullanılır; geçmiş durumları anlatmakta her zaman used to yerine geçmez."
       }
     ],
-    "introduction": "Used to geçmişte düzenli alışkanlıkları ve artık geçerli olmayan durumları anlatır. Would tekrarlanan geçmiş eylemler için kullanılır; geçmiş durumları anlatmakta her zaman used to yerine geçmez. “I used to walk to school” geçmiş alışkanlığı anlatır. “Every summer we would visit our grandparents” tekrarlanan eylemdir; ancak “I used to be shy” gibi bir geçmiş durumda would genellikle uygun değildir. “Be used to + -ing” ise alışkın olmak demektir."
+    "introduction": "Used to geçmişte düzenli alışkanlıkları ve artık geçerli olmayan durumları anlatır. Would tekrarlanan geçmiş eylemler için kullanılır; geçmiş durumları anlatmakta her zaman used to yerine geçmez. “I used to walk to school” geçmiş alışkanlığı anlatır. “Every summer we would visit our grandparents” tekrarlanan eylemdir; ancak “I used to be shy” gibi bir geçmiş durumda would genellikle uygun değildir. “Be used to + -ing” ise alışkın olmak demektir.",
+    "introductionParagraphs": [
+      "Used to / Would, geçmişte tekrar eden alışkanlıkları veya geçmişte geçerli olup artık değişmiş durumları anlatmakla ilgilidir. Used to geçmişte düzenli alışkanlıkları ve artık geçerli olmayan durumları anlatır. Would tekrarlanan geçmiş eylemler için kullanılır; geçmiş durumları anlatmakta her zaman used to yerine geçmez.",
+      "“I used to walk to school” geçmiş alışkanlığı anlatır. “Every summer we would visit our grandparents” tekrarlanan eylemdir; ancak “I used to be shy” gibi bir geçmiş durumda would genellikle uygun değildir. “Be used to + -ing” ise alışkın olmak demektir."
+    ],
+    "exampleAnalysis": "“When I was a child, I used to play outside.” cümlesi geçmişteki bir alışkanlığı anlatır: “Çocukken dışarıda oynardım.” “I used to live there” bir geçmiş durumu da anlatır; would bu durum kullanımında aynı işlevi görmez."
   },
   {
     "id": "cefr-b1-38",
@@ -2125,7 +2310,12 @@
         "explanationTr": "Myself, yourself, himself, herself, itself, ourselves, yourselves ve themselves özne ve nesne aynı kişiyse kullanılır."
       }
     ],
-    "introduction": "Myself, yourself, himself, herself, itself, ourselves, yourselves ve themselves özne ve nesne aynı kişiyse kullanılır. “He hurt himself” öznenin kendisini etkilediğini, “We prepared ourselves” bizim kendimizi hazırladığımızı gösterir. Ayrıca vurgu için “I did it myself” denebilir. Each other ise kişilerin birbirini etkilemesini anlatır."
+    "introduction": "Myself, yourself, himself, herself, itself, ourselves, yourselves ve themselves özne ve nesne aynı kişiyse kullanılır. “He hurt himself” öznenin kendisini etkilediğini, “We prepared ourselves” bizim kendimizi hazırladığımızı gösterir. Ayrıca vurgu için “I did it myself” denebilir. Each other ise kişilerin birbirini etkilemesini anlatır.",
+    "introductionParagraphs": [
+      "Reflexive Pronouns (dönüşlülük zamirleri), bir eylemi yapan kişi ile eylemden etkilenen kişinin aynı olduğunu belirtmekle ilgilidir. Myself, yourself, himself, herself, itself, ourselves, yourselves ve themselves özne ve nesne aynı kişiyse kullanılır.",
+      "“He hurt himself” öznenin kendisini etkilediğini, “We prepared ourselves” bizim kendimizi hazırladığımızı gösterir. Ayrıca vurgu için “I did it myself” denebilir. Each other ise kişilerin birbirini etkilemesini anlatır."
+    ],
+    "exampleAnalysis": "“Ali made himself a cup of tea.” cümlesinde Ali eylemi yapar ve çayı kendisi için hazırlar; himself Ali'ye geri döner. “Ali kendisine bir fincan çay hazırladı.”"
   },
   {
     "id": "cefr-b2-39",
@@ -2181,7 +2371,12 @@
         "explanationTr": "Will be + V-ing gelecekte belirli bir anda devam edecek eylemi; will have + V3 o ana kadar tamamlanmış eylemi gösterir."
       }
     ],
-    "introduction": "Will be + V-ing gelecekte belirli bir anda devam edecek eylemi; will have + V3 o ana kadar tamamlanmış eylemi gösterir. “This time tomorrow I will be travelling” gelecekte belli bir anda sürmekte olan eylemdir. “By tomorrow I will have finished” ise belirli bir son tarihe kadar tamamlanmayı vurgular. By ile kullanılan zaman sınırına dikkat et."
+    "introduction": "Will be + V-ing gelecekte belirli bir anda devam edecek eylemi; will have + V3 o ana kadar tamamlanmış eylemi gösterir. “This time tomorrow I will be travelling” gelecekte belli bir anda sürmekte olan eylemdir. “By tomorrow I will have finished” ise belirli bir son tarihe kadar tamamlanmayı vurgular. By ile kullanılan zaman sınırına dikkat et.",
+    "introductionParagraphs": [
+      "Future Continuous ve Future Perfect, gelecekte belirli bir anda sürmekte olacak veya o zamana kadar tamamlanmış olacak eylemleri ayırt etmekle ilgilidir. Will be + V-ing gelecekte belirli bir anda devam edecek eylemi; will have + V3 o ana kadar tamamlanmış eylemi gösterir.",
+      "“This time tomorrow I will be travelling” gelecekte belli bir anda sürmekte olan eylemdir. “By tomorrow I will have finished” ise belirli bir son tarihe kadar tamamlanmayı vurgular. By ile kullanılan zaman sınırına dikkat et."
+    ],
+    "exampleAnalysis": "“At noon I will be working; by six I will have finished.” cümlesinde will be working öğlen devam eden işi, will have finished ise saat altıya kadar tamamlanmayı gösterir. “Öğlen çalışıyor olacağım; altıya kadar bitirmiş olacağım.”"
   },
   {
     "id": "cefr-b2-40",
@@ -2237,7 +2432,12 @@
         "explanationTr": "Have/has been + V-ing geçmişten bugüne uzanan süreci; had been + V-ing geçmişte başka bir ana kadar süren süreci vurgular."
       }
     ],
-    "introduction": "Have/has been + V-ing geçmişten bugüne uzanan süreci; had been + V-ing geçmişte başka bir ana kadar süren süreci vurgular. “She has been studying for two hours” sürecin bugüne uzandığını; “She had been studying for two hours when I arrived” başka bir geçmiş ana kadar sürdüğünü gösterir. Perfect continuous süreye veya etkinliğin kendisine odaklanır."
+    "introduction": "Have/has been + V-ing geçmişten bugüne uzanan süreci; had been + V-ing geçmişte başka bir ana kadar süren süreci vurgular. “She has been studying for two hours” sürecin bugüne uzandığını; “She had been studying for two hours when I arrived” başka bir geçmiş ana kadar sürdüğünü gösterir. Perfect continuous süreye veya etkinliğin kendisine odaklanır.",
+    "introductionParagraphs": [
+      "Present ve Past Perfect Continuous, bir eylemin belirli bir ana kadar ne kadar süredir devam ettiğini ve süreç niteliğini vurgulamakla ilgilidir. Have/has been + V-ing geçmişten bugüne uzanan süreci; had been + V-ing geçmişte başka bir ana kadar süren süreci vurgular.",
+      "“She has been studying for two hours” sürecin bugüne uzandığını; “She had been studying for two hours when I arrived” başka bir geçmiş ana kadar sürdüğünü gösterir. Perfect continuous süreye veya etkinliğin kendisine odaklanır."
+    ],
+    "exampleAnalysis": "“They have been waiting since noon.” bekleyişin geçmişte başlayıp şimdiye kadar sürdüğünü belirtir: “Öğlenden beri bekliyorlar.” “They had been waiting when I arrived” ise süreci geçmişteki başka bir ana bağlar."
   },
   {
     "id": "cefr-b2-41",
@@ -2293,7 +2493,12 @@
         "explanationTr": "Edilgende zaman ve modal yardımcı fiilde gösterilir: can be done, has been done. It is said that... kalıbı kaynağı belirtmeden bir görüş aktarır."
       }
     ],
-    "introduction": "Edilgende zaman ve modal yardımcı fiilde gösterilir: can be done, has been done. It is said that... kalıbı kaynağı belirtmeden bir görüş aktarır. “The work has been completed”, “The work can be completed” ve “It is said that...” farklı edilgen yapılardır. “He is said to be...” da benzer bir aktarım sağlar. Zamanı veya modalı belirleyen yardımcı fiiller korunmalıdır."
+    "introduction": "Edilgende zaman ve modal yardımcı fiilde gösterilir: can be done, has been done. It is said that... kalıbı kaynağı belirtmeden bir görüş aktarır. “The work has been completed”, “The work can be completed” ve “It is said that...” farklı edilgen yapılardır. “He is said to be...” da benzer bir aktarım sağlar. Zamanı veya modalı belirleyen yardımcı fiiller korunmalıdır.",
+    "introductionParagraphs": [
+      "Advanced Passive Voice (ileri edilgen çatı), edilgen yapıyı farklı zamanlarda ve modal fiillerle kullanmakla ilgilidir. Edilgende zaman ve modal yardımcı fiilde gösterilir: can be done, has been done. It is said that... kalıbı kaynağı belirtmeden bir görüş aktarır.",
+      "“The work has been completed”, “The work can be completed” ve “It is said that...” farklı edilgen yapılardır. “He is said to be...” da benzer bir aktarım sağlar. Zamanı veya modalı belirleyen yardımcı fiiller korunmalıdır."
+    ],
+    "exampleAnalysis": "“The report has been approved.” cümlesi “Rapor onaylandı/onaylanmış durumda.” demektir; has been yardımcıları present perfect'i, approved V3 biçimi edilgenliği kurar. “The report must be approved” ise onay zorunluluğunu anlatır."
   },
   {
     "id": "cefr-b2-42",
@@ -2349,7 +2554,12 @@
         "explanationTr": "Type 3 geçmişte gerçekleşmemiş koşul ve sonucunu anlatır: if + had V3, would have V3. Mixed conditional geçmiş koşulu mevcut sonuçla birleştirebilir."
       }
     ],
-    "introduction": "Type 3 geçmişte gerçekleşmemiş koşul ve sonucunu anlatır: if + had V3, would have V3. Mixed conditional geçmiş koşulu mevcut sonuçla birleştirebilir. “If I had left earlier, I would have caught the train” geçmişte gerçekleşmemiş koşul ve sonucu anlatır. “If I had studied medicine, I would be a doctor now” geçmiş koşulu şimdiki hayali sonuçla birleştiren karma yapıdır."
+    "introduction": "Type 3 geçmişte gerçekleşmemiş koşul ve sonucunu anlatır: if + had V3, would have V3. Mixed conditional geçmiş koşulu mevcut sonuçla birleştirebilir. “If I had left earlier, I would have caught the train” geçmişte gerçekleşmemiş koşul ve sonucu anlatır. “If I had studied medicine, I would be a doctor now” geçmiş koşulu şimdiki hayali sonuçla birleştiren karma yapıdır.",
+    "introductionParagraphs": [
+      "Type 3 ve Mixed Conditionals, gerçekleşmemiş geçmiş durumların geçmişteki veya günümüzdeki hayali sonuçlarını anlatmakla ilgilidir. Type 3 geçmişte gerçekleşmemiş koşul ve sonucunu anlatır: if + had V3, would have V3. Mixed conditional geçmiş koşulu mevcut sonuçla birleştirebilir.",
+      "“If I had left earlier, I would have caught the train” geçmişte gerçekleşmemiş koşul ve sonucu anlatır. “If I had studied medicine, I would be a doctor now” geçmiş koşulu şimdiki hayali sonuçla birleştiren karma yapıdır."
+    ],
+    "exampleAnalysis": "“If she had left earlier, she would have caught the bus.” geçmiş koşul ile geçmiş sonucu gösterir: “Daha erken çıksaydı otobüse yetişirdi.” “If she had taken that job, she would live abroad now” ise geçmiş koşulu şimdiki sonuçla birleştirir."
   },
   {
     "id": "cefr-b2-43",
@@ -2405,7 +2615,12 @@
         "explanationTr": "Virgüllü yan cümlecik ek bilgi verir; çıkarıldığında ana kişi veya nesne yine belirli kalır. Bu kullanımda genellikle that kullanılmaz."
       }
     ],
-    "introduction": "Virgüllü yan cümlecik ek bilgi verir; çıkarıldığında ana kişi veya nesne yine belirli kalır. Bu kullanımda genellikle that kullanılmaz. “My brother, who lives in Ankara, is a doctor” ek bilgi verir; virgüller bilgiyi ayırır. “The brother who lives in Ankara” ise hangi kardeşin kastedildiğini belirler. Virgüllü yapıda that yerine who veya which kullanılır."
+    "introduction": "Virgüllü yan cümlecik ek bilgi verir; çıkarıldığında ana kişi veya nesne yine belirli kalır. Bu kullanımda genellikle that kullanılmaz. “My brother, who lives in Ankara, is a doctor” ek bilgi verir; virgüller bilgiyi ayırır. “The brother who lives in Ankara” ise hangi kardeşin kastedildiğini belirler. Virgüllü yapıda that yerine who veya which kullanılır.",
+    "introductionParagraphs": [
+      "Non-Defining Relative Clauses (ek bilgi veren ilgi cümlecikleri), zaten belirli olan kişi veya nesne hakkında çıkarılabilir ek bilgi vermekle ilgilidir. Virgüllü yan cümlecik ek bilgi verir; çıkarıldığında ana kişi veya nesne yine belirli kalır. Bu kullanımda genellikle that kullanılmaz.",
+      "“My brother, who lives in Ankara, is a doctor” ek bilgi verir; virgüller bilgiyi ayırır. “The brother who lives in Ankara” ise hangi kardeşin kastedildiğini belirler. Virgüllü yapıda that yerine who veya which kullanılır."
+    ],
+    "exampleAnalysis": "“Ankara, which is Türkiye's capital, is in Central Anatolia.” cümlesinde which is Türkiye's capital ek bilgidir ve virgüllerle ayrılır. “Türkiye'nin başkenti olan Ankara, İç Anadolu'dadır.”"
   },
   {
     "id": "cefr-b2-44",
@@ -2461,7 +2676,12 @@
         "explanationTr": "İsim cümlecikleri cümlede özne veya nesne görevi görür. Dolaylı sorularda soru sırası kullanılmaz: where he is, where is he değil."
       }
     ],
-    "introduction": "İsim cümlecikleri cümlede özne veya nesne görevi görür. Dolaylı sorularda soru sırası kullanılmaz: where he is, where is he değil. “I know what you mean” ve “I wonder where she lives” isim cümleciği örnekleridir. Dolaylı soruda normal cümle sırası korunur: “Do you know where he is?”; “where is he” doğrudan soru sırasıdır."
+    "introduction": "İsim cümlecikleri cümlede özne veya nesne görevi görür. Dolaylı sorularda soru sırası kullanılmaz: where he is, where is he değil. “I know what you mean” ve “I wonder where she lives” isim cümleciği örnekleridir. Dolaylı soruda normal cümle sırası korunur: “Do you know where he is?”; “where is he” doğrudan soru sırasıdır.",
+    "introductionParagraphs": [
+      "Noun Clauses (isim cümlecikleri), bir cümleciğin başka bir cümlede isim gibi özne veya nesne görevi görmesiyle ilgilidir. İsim cümlecikleri cümlede özne veya nesne görevi görür. Dolaylı sorularda soru sırası kullanılmaz: where he is, where is he değil.",
+      "“I know what you mean” ve “I wonder where she lives” isim cümleciği örnekleridir. Dolaylı soruda normal cümle sırası korunur: “Do you know where he is?”; “where is he” doğrudan soru sırasıdır."
+    ],
+    "exampleAnalysis": "“I understand why the meeting was delayed.” cümlesinde why the meeting was delayed, understand fiilinin nesnesidir: “Toplantının neden ertelendiğini anlıyorum.” Dolaylı soruda özne the meeting, fiil was delayed öncesinde yer alır."
   },
   {
     "id": "cefr-b2-45",
@@ -2517,7 +2737,12 @@
         "explanationTr": "Although/whereas ardından cümle gelir; despite ardından isim veya -ing gelir. Unless aksi belirtilmedikçe if not anlamına, as long as koşuluyla anlamına gelebilir."
       }
     ],
-    "introduction": "Although/whereas ardından cümle gelir; despite ardından isim veya -ing gelir. Unless aksi belirtilmedikçe if not anlamına, as long as koşuluyla anlamına gelebilir. “Although it rained, we went out” sonrasında cümle; “Despite the rain, we went out” sonrasında isim gelir. “Unless you study, you may fail” olumsuz koşul, “as long as you agree” ise bir şart bildirir."
+    "introduction": "Although/whereas ardından cümle gelir; despite ardından isim veya -ing gelir. Unless aksi belirtilmedikçe if not anlamına, as long as koşuluyla anlamına gelebilir. “Although it rained, we went out” sonrasında cümle; “Despite the rain, we went out” sonrasında isim gelir. “Unless you study, you may fail” olumsuz koşul, “as long as you agree” ise bir şart bildirir.",
+    "introductionParagraphs": [
+      "Adverbial Clauses ve bağlaçlar, cümleler arasında zaman, neden, karşıtlık veya koşul ilişkisini daha ayrıntılı kurmakla ilgilidir. Although/whereas ardından cümle gelir; despite ardından isim veya -ing gelir. Unless aksi belirtilmedikçe if not anlamına, as long as koşuluyla anlamına gelebilir.",
+      "“Although it rained, we went out” sonrasında cümle; “Despite the rain, we went out” sonrasında isim gelir. “Unless you study, you may fail” olumsuz koşul, “as long as you agree” ise bir şart bildirir."
+    ],
+    "exampleAnalysis": "“Although the road was icy, the bus arrived on time.” örneğinde although karşıt durum bildiren bir cümleciği başlatır: “Yol buzlu olmasına rağmen otobüs zamanında geldi.” “Despite the ice” kullanılırsa despite sonrasında isim gelir."
   },
   {
     "id": "cefr-b2-46",
@@ -2573,7 +2798,12 @@
         "explanationTr": "Have/get something done işi başkasına yaptırmayı anlatır. Make/let + kişi + yalın fiil, zorlamak veya izin vermek için kullanılır."
       }
     ],
-    "introduction": "Have/get something done işi başkasına yaptırmayı anlatır. Make/let + kişi + yalın fiil, zorlamak veya izin vermek için kullanılır. “I had my hair cut” saçımı başkasına kestirdim demektir; “I cut my hair” kendim kestim anlamına gelir. “The teacher made us rewrite it” zorlamayı, “She let me leave” izin vermeyi anlatır."
+    "introduction": "Have/get something done işi başkasına yaptırmayı anlatır. Make/let + kişi + yalın fiil, zorlamak veya izin vermek için kullanılır. “I had my hair cut” saçımı başkasına kestirdim demektir; “I cut my hair” kendim kestim anlamına gelir. “The teacher made us rewrite it” zorlamayı, “She let me leave” izin vermeyi anlatır.",
+    "introductionParagraphs": [
+      "Causatives (ettirgen yapılar), bir işin başkası tarafından yapılmasını sağlama, birini bir şeye zorlama veya izin verme ilişkisiyle ilgilidir. Have/get something done işi başkasına yaptırmayı anlatır. Make/let + kişi + yalın fiil, zorlamak veya izin vermek için kullanılır.",
+      "“I had my hair cut” saçımı başkasına kestirdim demektir; “I cut my hair” kendim kestim anlamına gelir. “The teacher made us rewrite it” zorlamayı, “She let me leave” izin vermeyi anlatır."
+    ],
+    "exampleAnalysis": "“I had the windows cleaned.” cümlesinde pencereleri konuşan değil, onun ayarladığı başka biri temizlemiştir. “Pencereleri temizlettim.” Had + nesne + V3 yapısındaki cleaned, yapılan işi gösterir."
   },
   {
     "id": "cefr-b2-47",
@@ -2629,7 +2859,12 @@
         "explanationTr": "Must mevcut güçlü çıkarımı, can't imkânsıza yakınlığı, might olasılığı gösterebilir. Geçmiş çıkarımda modal + have + V3 kullanılır."
       }
     ],
-    "introduction": "Must mevcut güçlü çıkarımı, can't imkânsıza yakınlığı, might olasılığı gösterebilir. Geçmiş çıkarımda modal + have + V3 kullanılır. “Her car is outside; she must be home” güçlü çıkarımdır. “She might have missed the bus” geçmişe dair olasılıktır; “He can't have finished already” geçmişe dair düşük olasılık ifade eder. Bu yapılar kesin kanıt olarak sunulmaz."
+    "introduction": "Must mevcut güçlü çıkarımı, can't imkânsıza yakınlığı, might olasılığı gösterebilir. Geçmiş çıkarımda modal + have + V3 kullanılır. “Her car is outside; she must be home” güçlü çıkarımdır. “She might have missed the bus” geçmişe dair olasılıktır; “He can't have finished already” geçmişe dair düşük olasılık ifade eder. Bu yapılar kesin kanıt olarak sunulmaz.",
+    "introductionParagraphs": [
+      "Modals of Deduction (çıkarım modalları), mevcut veya geçmiş kanıtlardan hareketle olasılık ve çıkarım ifade etmekle ilgilidir. Must mevcut güçlü çıkarımı, can't imkânsıza yakınlığı, might olasılığı gösterebilir. Geçmiş çıkarımda modal + have + V3 kullanılır.",
+      "“Her car is outside; she must be home” güçlü çıkarımdır. “She might have missed the bus” geçmişe dair olasılıktır; “He can't have finished already” geçmişe dair düşük olasılık ifade eder. Bu yapılar kesin kanıt olarak sunulmaz."
+    ],
+    "exampleAnalysis": "“The office is dark; they might have gone home.” cümlesinde might have gone, geçmişte eve gitmiş olma ihtimalini gösterir. “Ofis karanlık; eve gitmiş olabilirler.” Bu, kesin bilgi değil çıkarımdır."
   },
   {
     "id": "cefr-b2-48",
@@ -2685,7 +2920,12 @@
         "explanationTr": "Wish + past simple şu andaki gerçek dışı isteği; wish + past perfect geçmişe ilişkin pişmanlığı ifade eder. Wish + would bir değişiklik isteğini anlatabilir."
       }
     ],
-    "introduction": "Wish + past simple şu andaki gerçek dışı isteği; wish + past perfect geçmişe ilişkin pişmanlığı ifade eder. Wish + would bir değişiklik isteğini anlatabilir. “I wish I knew the answer” şu anda cevabı bilmeme durumuna; “I wish I had studied” geçmişte çalışmamış olmaya işaret eder. “I wish you would listen” değişmesini istediğim bir davranışı ifade edebilir."
+    "introduction": "Wish + past simple şu andaki gerçek dışı isteği; wish + past perfect geçmişe ilişkin pişmanlığı ifade eder. Wish + would bir değişiklik isteğini anlatabilir. “I wish I knew the answer” şu anda cevabı bilmeme durumuna; “I wish I had studied” geçmişte çalışmamış olmaya işaret eder. “I wish you would listen” değişmesini istediğim bir davranışı ifade edebilir.",
+    "introductionParagraphs": [
+      "Wish / If Only (keşke yapıları), şu anki durumun farklı olmasını istemek veya geçmişle ilgili pişmanlık ifade etmekle ilgilidir. Wish + past simple şu andaki gerçek dışı isteği; wish + past perfect geçmişe ilişkin pişmanlığı ifade eder. Wish + would bir değişiklik isteğini anlatabilir.",
+      "“I wish I knew the answer” şu anda cevabı bilmeme durumuna; “I wish I had studied” geçmişte çalışmamış olmaya işaret eder. “I wish you would listen” değişmesini istediğim bir davranışı ifade edebilir."
+    ],
+    "exampleAnalysis": "“I wish I had a garden.” şu anda bir bahçeye sahip olma isteğini anlatır; “I wish I had planted a tree.” ise geçmişte dikilmemiş bir ağaçla ilgili pişmanlıktır. İkinci cümlede had planted, past perfect yapısıdır."
   },
   {
     "id": "cefr-b2-49",
@@ -2741,7 +2981,12 @@
         "explanationTr": "Edatlardan sonra -ing kullanılır: interested in learning. Stop, remember ve try gibi fiillerin -ing veya to infinitive ile anlamları değişebilir."
       }
     ],
-    "introduction": "Edatlardan sonra -ing kullanılır: interested in learning. Stop, remember ve try gibi fiillerin -ing veya to infinitive ile anlamları değişebilir. “Remember locking the door” kapıyı kilitlediğini hatırlamak, “remember to lock the door” kilitlemeyi unutmamak demektir. “Stop smoking” sigarayı bırakmak; “stop to smoke” ise sigara içmek için durmak anlamındadır."
+    "introduction": "Edatlardan sonra -ing kullanılır: interested in learning. Stop, remember ve try gibi fiillerin -ing veya to infinitive ile anlamları değişebilir. “Remember locking the door” kapıyı kilitlediğini hatırlamak, “remember to lock the door” kilitlemeyi unutmamak demektir. “Stop smoking” sigarayı bırakmak; “stop to smoke” ise sigara içmek için durmak anlamındadır.",
+    "introductionParagraphs": [
+      "Advanced Gerunds & Infinitives, fiil veya edatlardan sonra -ing ve to infinitive seçiminin anlamı nasıl değiştirdiğiyle ilgilidir. Edatlardan sonra -ing kullanılır: interested in learning. Stop, remember ve try gibi fiillerin -ing veya to infinitive ile anlamları değişebilir.",
+      "“Remember locking the door” kapıyı kilitlediğini hatırlamak, “remember to lock the door” kilitlemeyi unutmamak demektir. “Stop smoking” sigarayı bırakmak; “stop to smoke” ise sigara içmek için durmak anlamındadır."
+    ],
+    "exampleAnalysis": "“She stopped to answer the phone.” başka bir işi telefonu açmak için bıraktığını; “She stopped answering the phone.” ise telefonlara cevap vermeyi bıraktığını anlatır. Stop sonrasındaki yapı değişince anlam da değişir."
   },
   {
     "id": "cefr-c1-50",
@@ -2797,7 +3042,12 @@
         "explanationTr": "Olumsuz veya sınırlayıcı ifade cümle başına geldiğinde yardımcı fiil özneden önce gelebilir: rarely, seldom, never, not only. Yapı vurgu ve resmiyet katar."
       }
     ],
-    "introduction": "Olumsuz veya sınırlayıcı ifade cümle başına geldiğinde yardımcı fiil özneden önce gelebilir: rarely, seldom, never, not only. Yapı vurgu ve resmiyet katar. “Never have I seen...” ve “Only then did I understand...” kalıplarında yardımcı fiil öznenin önüne geçer. Normal sıra “I have never seen...” veya “I understood only then” biçimindedir; her başa alınan ifadede devriklik oluşmaz."
+    "introduction": "Olumsuz veya sınırlayıcı ifade cümle başına geldiğinde yardımcı fiil özneden önce gelebilir: rarely, seldom, never, not only. Yapı vurgu ve resmiyet katar. “Never have I seen...” ve “Only then did I understand...” kalıplarında yardımcı fiil öznenin önüne geçer. Normal sıra “I have never seen...” veya “I understood only then” biçimindedir; her başa alınan ifadede devriklik oluşmaz.",
+    "introductionParagraphs": [
+      "Inversion (devrik yapı), özellikle olumsuz veya sınırlayıcı bir ifade öne çıkarıldığında yardımcı fiilin özneden önce gelmesiyle ilgilidir. Olumsuz veya sınırlayıcı ifade cümle başına geldiğinde yardımcı fiil özneden önce gelebilir: rarely, seldom, never, not only. Yapı vurgu ve resmiyet katar.",
+      "“Never have I seen...” ve “Only then did I understand...” kalıplarında yardımcı fiil öznenin önüne geçer. Normal sıra “I have never seen...” veya “I understood only then” biçimindedir; her başa alınan ifadede devriklik oluşmaz."
+    ],
+    "exampleAnalysis": "“Never have we faced such a problem.” cümlesinde never başa alındığı için have özne we'den önce gelir. Normal sıra “We have never faced such a problem” olur; anlamı “Böyle bir sorunla hiç karşılaşmadık.”tır."
   },
   {
     "id": "cefr-c1-51",
@@ -2853,7 +3103,12 @@
         "explanationTr": "Öneri, talep ve gereklilik bildiren bazı yapılarda that sonrasında fiilin yalın hâli kullanılır: It is essential that he be present. Alternatif olarak should da görülebilir."
       }
     ],
-    "introduction": "Öneri, talep ve gereklilik bildiren bazı yapılarda that sonrasında fiilin yalın hâli kullanılır: It is essential that he be present. Alternatif olarak should da görülebilir. “The manager requested that he attend” ve “It is important that she be informed” örneklerinde fiil yalın biçimdedir. Bu yapı resmî dilde yaygındır; Britanya İngilizcesinde “should attend” alternatifi de görülebilir."
+    "introduction": "Öneri, talep ve gereklilik bildiren bazı yapılarda that sonrasında fiilin yalın hâli kullanılır: It is essential that he be present. Alternatif olarak should da görülebilir. “The manager requested that he attend” ve “It is important that she be informed” örneklerinde fiil yalın biçimdedir. Bu yapı resmî dilde yaygındır; Britanya İngilizcesinde “should attend” alternatifi de görülebilir.",
+    "introductionParagraphs": [
+      "Subjunctive Mood (dilek ve gereklilik kipi), belirli talep, öneri ve gereklilik ifadelerinden sonra fiilin özel yalın biçimde kullanılmasıyla ilgilidir. Öneri, talep ve gereklilik bildiren bazı yapılarda that sonrasında fiilin yalın hâli kullanılır: It is essential that he be present. Alternatif olarak should da görülebilir.",
+      "“The manager requested that he attend” ve “It is important that she be informed” örneklerinde fiil yalın biçimdedir. Bu yapı resmî dilde yaygındır; Britanya İngilizcesinde “should attend” alternatifi de görülebilir."
+    ],
+    "exampleAnalysis": "“The doctor recommended that she rest.” cümlesinde recommended that sonrasında üçüncü tekil özneye rağmen rest yalın kalır: “Doktor onun dinlenmesini önerdi.” Resmî bağlamlarda benzer şekilde “that he be” görülebilir."
   },
   {
     "id": "cefr-c1-52",
@@ -2909,7 +3164,12 @@
         "explanationTr": "Vurgu için It is/was ... that/who veya What ... is ... yapısı kullanılır. Bilgi yeniden düzenlenerek odak vurgulanır."
       }
     ],
-    "introduction": "Vurgu için It is/was ... that/who veya What ... is ... yapısı kullanılır. Bilgi yeniden düzenlenerek odak vurgulanır. “It was yesterday that we met” zamanı, “It was Ece who called” kişiyi vurgular. “What I need is a break” ise ihtiyaç duyulan şeyi öne çıkarır. Cümlenin hangi bilgisini vurguladığını belirlemek doğru yapıyı seçmeye yardım eder."
+    "introduction": "Vurgu için It is/was ... that/who veya What ... is ... yapısı kullanılır. Bilgi yeniden düzenlenerek odak vurgulanır. “It was yesterday that we met” zamanı, “It was Ece who called” kişiyi vurgular. “What I need is a break” ise ihtiyaç duyulan şeyi öne çıkarır. Cümlenin hangi bilgisini vurguladığını belirlemek doğru yapıyı seçmeye yardım eder.",
+    "introductionParagraphs": [
+      "Cleft Sentences (vurgulu bölünmüş cümleler), cümlenin belirli bir unsurunu özel bir yapı aracılığıyla öne çıkarmakla ilgilidir. Vurgu için It is/was ... that/who veya What ... is ... yapısı kullanılır. Bilgi yeniden düzenlenerek odak vurgulanır.",
+      "“It was yesterday that we met” zamanı, “It was Ece who called” kişiyi vurgular. “What I need is a break” ise ihtiyaç duyulan şeyi öne çıkarır. Cümlenin hangi bilgisini vurguladığını belirlemek doğru yapıyı seçmeye yardım eder."
+    ],
+    "exampleAnalysis": "“It was the budget that concerned the committee.” cümlesi komiteyi ilgilendiren unsurun bütçe olduğunu vurgular. “Komiteyi ilgilendiren şey bütçeydi.” It was ... that yapısı odaklanılan bilgiyi çevreler."
   },
   {
     "id": "cefr-c1-53",
@@ -2965,7 +3225,12 @@
         "explanationTr": "Participle clause uygun özne ilişkisi varsa yan cümleyi kısaltır. Having + V3 önce tamamlanan, V-ing eş zamanlı eylemi gösterebilir."
       }
     ],
-    "introduction": "Participle clause uygun özne ilişkisi varsa yan cümleyi kısaltır. Having + V3 önce tamamlanan, V-ing eş zamanlı eylemi gösterebilir. “Having completed the work, she left” önce işin tamamlandığını gösterir; “Walking home, she called me” eş zamanlılığı anlatabilir. Kısaltılan bölümün öznesi ile ana cümlenin öznesi uyumlu olmalıdır; aksi hâlde anlatım belirsizleşebilir."
+    "introduction": "Participle clause uygun özne ilişkisi varsa yan cümleyi kısaltır. Having + V3 önce tamamlanan, V-ing eş zamanlı eylemi gösterebilir. “Having completed the work, she left” önce işin tamamlandığını gösterir; “Walking home, she called me” eş zamanlılığı anlatabilir. Kısaltılan bölümün öznesi ile ana cümlenin öznesi uyumlu olmalıdır; aksi hâlde anlatım belirsizleşebilir.",
+    "introductionParagraphs": [
+      "Participle Clauses (ortaçlı cümlecikler), iki ilişkili eylemi -ing veya V3 gibi biçimlerle daha kısa bir yapıda birleştirmekle ilgilidir. Participle clause uygun özne ilişkisi varsa yan cümleyi kısaltır. Having + V3 önce tamamlanan, V-ing eş zamanlı eylemi gösterebilir.",
+      "“Having completed the work, she left” önce işin tamamlandığını gösterir; “Walking home, she called me” eş zamanlılığı anlatabilir. Kısaltılan bölümün öznesi ile ana cümlenin öznesi uyumlu olmalıdır; aksi hâlde anlatım belirsizleşebilir."
+    ],
+    "exampleAnalysis": "“Having checked the figures, the auditor signed the report.” önce rakamları kontrol etme, sonra raporu imzalama sırasını gösterir. Her iki eylemin öznesi auditor'dır: “Denetçi rakamları kontrol ettikten sonra raporu imzaladı.”"
   },
   {
     "id": "cefr-c1-54",
@@ -3021,7 +3286,12 @@
         "explanationTr": "Have/get something done ettirgen; be supposed to beklenti; be allowed to izin bildirir. Özne, eylem ve tamamlanma zamanına dikkat edilir."
       }
     ],
-    "introduction": "Have/get something done ettirgen; be supposed to beklenti; be allowed to izin bildirir. Özne, eylem ve tamamlanma zamanına dikkat edilir. “We had the system checked” sistemi kontrol ettirdik; “Staff are supposed to report errors” personelden hataları bildirmesi beklenir demektir. “Employees are allowed to enter” ise giriş iznini anlatır; beklenti ile izin aynı şey değildir."
+    "introduction": "Have/get something done ettirgen; be supposed to beklenti; be allowed to izin bildirir. Özne, eylem ve tamamlanma zamanına dikkat edilir. “We had the system checked” sistemi kontrol ettirdik; “Staff are supposed to report errors” personelden hataları bildirmesi beklenir demektir. “Employees are allowed to enter” ise giriş iznini anlatır; beklenti ile izin aynı şey değildir.",
+    "introductionParagraphs": [
+      "Advanced Passive & Causatives, bir işin yaptırılması, yapılmasının beklenmesi veya yapılmasına izin verilmesini gelişmiş yapılarla ifade etmekle ilgilidir. Have/get something done ettirgen; be supposed to beklenti; be allowed to izin bildirir. Özne, eylem ve tamamlanma zamanına dikkat edilir.",
+      "“We had the system checked” sistemi kontrol ettirdik; “Staff are supposed to report errors” personelden hataları bildirmesi beklenir demektir. “Employees are allowed to enter” ise giriş iznini anlatır; beklenti ile izin aynı şey değildir."
+    ],
+    "exampleAnalysis": "“The manager had the documents translated.” belgeleri yöneticinin kendisinin çevirmediğini, çeviriyi yaptırdığını anlatır. “Yönetici belgeleri çevirtti.” Had + documents + translated yapısında translated yapılan işi belirtir."
   },
   {
     "id": "cefr-c1-55",
@@ -3077,7 +3347,12 @@
         "explanationTr": "Resmî dilde edat + which/whom kullanılabilir: the person to whom I spoke. Günlük dilde edat çoğunlukla cümlenin sonuna taşınabilir."
       }
     ],
-    "introduction": "Resmî dilde edat + which/whom kullanılabilir: the person to whom I spoke. Günlük dilde edat çoğunlukla cümlenin sonuna taşınabilir. “The person to whom I spoke” resmî; “the person who I spoke to” daha günlük bir alternatiftir. “The box in which the files were kept” içinde saklandıkları kutuyu belirtir. Edat + whom insanlarla, edat + which nesnelerle kullanılır."
+    "introduction": "Resmî dilde edat + which/whom kullanılabilir: the person to whom I spoke. Günlük dilde edat çoğunlukla cümlenin sonuna taşınabilir. “The person to whom I spoke” resmî; “the person who I spoke to” daha günlük bir alternatiftir. “The box in which the files were kept” içinde saklandıkları kutuyu belirtir. Edat + whom insanlarla, edat + which nesnelerle kullanılır.",
+    "introductionParagraphs": [
+      "Advanced Relative Clauses, özellikle resmî dilde bir isimle onu açıklayan cümlecik arasında edatlı ilişkiler kurmakla ilgilidir. Resmî dilde edat + which/whom kullanılabilir: the person to whom I spoke. Günlük dilde edat çoğunlukla cümlenin sonuna taşınabilir.",
+      "“The person to whom I spoke” resmî; “the person who I spoke to” daha günlük bir alternatiftir. “The box in which the files were kept” içinde saklandıkları kutuyu belirtir. Edat + whom insanlarla, edat + which nesnelerle kullanılır."
+    ],
+    "exampleAnalysis": "“The committee to which the report was submitted met yesterday.” ifadesinde to which, raporun sunulduğu komiteye bağlanır: “Raporun sunulduğu komite dün toplandı.” Günlük dilde edat cümlenin sonunda da bulunabilir."
   },
   {
     "id": "cefr-c1-56",
@@ -3133,7 +3408,12 @@
         "explanationTr": "Should have + V3 geçmişte yapılması beklenen fakat yapılmamış bir eyleme yönelik eleştiriyi ifade edebilir. Need, dare ve shall kullanımı bağlama ve resmiyet düzeyine göre değişir."
       }
     ],
-    "introduction": "Should have + V3 geçmişte yapılması beklenen fakat yapılmamış bir eyleme yönelik eleştiriyi ifade edebilir. Need, dare ve shall kullanımı bağlama ve resmiyet düzeyine göre değişir. “You should have told me” geçmişte söylemenin uygun olacağına dair değerlendirmedir. “You needn't have brought food” getirilen şeyin gerekli olmadığını anlatabilir. Shall ve dare gibi biçimler resmiyet, bölge ve bağlama göre değişir."
+    "introduction": "Should have + V3 geçmişte yapılması beklenen fakat yapılmamış bir eyleme yönelik eleştiriyi ifade edebilir. Need, dare ve shall kullanımı bağlama ve resmiyet düzeyine göre değişir. “You should have told me” geçmişte söylemenin uygun olacağına dair değerlendirmedir. “You needn't have brought food” getirilen şeyin gerekli olmadığını anlatabilir. Shall ve dare gibi biçimler resmiyet, bölge ve bağlama göre değişir.",
+    "introductionParagraphs": [
+      "Complex Modal Uses (ileri modal kullanımları), geçmişteki beklenti, eleştiri, gereklilik veya gereksizlik gibi anlam farklarını ifade etmekle ilgilidir. Should have + V3 geçmişte yapılması beklenen fakat yapılmamış bir eyleme yönelik eleştiriyi ifade edebilir. Need, dare ve shall kullanımı bağlama ve resmiyet düzeyine göre değişir.",
+      "“You should have told me” geçmişte söylemenin uygun olacağına dair değerlendirmedir. “You needn't have brought food” getirilen şeyin gerekli olmadığını anlatabilir. Shall ve dare gibi biçimler resmiyet, bölge ve bağlama göre değişir."
+    ],
+    "exampleAnalysis": "“You should have checked the date.” geçmişte kontrol etmenin uygun olduğunu ancak yapılmadığını ima eder: “Tarihi kontrol etmeliydin.” Should have + V3, geçmişe ilişkin bir değerlendirme yapar."
   },
   {
     "id": "cefr-c1-57",
@@ -3189,7 +3469,12 @@
         "explanationTr": "Do/does/did olumlu cümlede ana fiili vurgulayabilir. Yardımcı fiilden sonra yalın fiil kullanılır ve vurgu konuşma bağlamına bağlıdır."
       }
     ],
-    "introduction": "Do/does/did olumlu cümlede ana fiili vurgulayabilir. Yardımcı fiilden sonra yalın fiil kullanılır ve vurgu konuşma bağlamına bağlıdır. “I do agree” gerçekten katıldığımı vurgular; “She does understand” ve “He did call” farklı kişi ve zaman örnekleridir. Does veya did sonrasında ana fiil yalın kalır; vurgu ile soru ve olumsuz yardımcılarını karıştırma."
+    "introduction": "Do/does/did olumlu cümlede ana fiili vurgulayabilir. Yardımcı fiilden sonra yalın fiil kullanılır ve vurgu konuşma bağlamına bağlıdır. “I do agree” gerçekten katıldığımı vurgular; “She does understand” ve “He did call” farklı kişi ve zaman örnekleridir. Does veya did sonrasında ana fiil yalın kalır; vurgu ile soru ve olumsuz yardımcılarını karıştırma.",
+    "introductionParagraphs": [
+      "Emphatic Structures (vurgu yapıları), normalde olumlu bir cümleyi do, does veya did ile güçlendirerek konuşanın vurgusunu göstermesiyle ilgilidir. Do/does/did olumlu cümlede ana fiili vurgulayabilir. Yardımcı fiilden sonra yalın fiil kullanılır ve vurgu konuşma bağlamına bağlıdır.",
+      "“I do agree” gerçekten katıldığımı vurgular; “She does understand” ve “He did call” farklı kişi ve zaman örnekleridir. Does veya did sonrasında ana fiil yalın kalır; vurgu ile soru ve olumsuz yardımcılarını karıştırma."
+    ],
+    "exampleAnalysis": "“I do appreciate your help.” cümlesindeki do, takdir ifadesini güçlendirir: “Yardımınızı gerçekten takdir ediyorum.” Do sonrasında appreciate yalın kalır; yardımcı fiil burada soru kurmak için kullanılmaz."
   },
   {
     "id": "cefr-c2-58",
@@ -3245,7 +3530,12 @@
         "explanationTr": "Edebî veya resmî metinlerde ancak belirli bir ifade öne alındığında devrik yapı kullanılır: Not until..., Only after... . Anlam ve üslup bağlamla değerlendirilir."
       }
     ],
-    "introduction": "Edebî veya resmî metinlerde ancak belirli bir ifade öne alındığında devrik yapı kullanılır: Not until..., Only after... . Anlam ve üslup bağlamla değerlendirilir. “Rarely do we encounter such a case” ve “Not until later did they discover the error” resmî veya edebî vurgu sağlar. Cümlenin başındaki sınırlayıcı ifade ana cümlede yardımcı fiil ile öznenin yer değiştirmesine yol açabilir."
+    "introduction": "Edebî veya resmî metinlerde ancak belirli bir ifade öne alındığında devrik yapı kullanılır: Not until..., Only after... . Anlam ve üslup bağlamla değerlendirilir. “Rarely do we encounter such a case” ve “Not until later did they discover the error” resmî veya edebî vurgu sağlar. Cümlenin başındaki sınırlayıcı ifade ana cümlede yardımcı fiil ile öznenin yer değiştirmesine yol açabilir.",
+    "introductionParagraphs": [
+      "Stylistic Inversion & Emphasis, resmî veya edebî anlatımda devrik cümle düzeniyle belirli bir sınırlandırmayı veya bilgiyi vurgulamakla ilgilidir. Edebî veya resmî metinlerde ancak belirli bir ifade öne alındığında devrik yapı kullanılır: Not until..., Only after... . Anlam ve üslup bağlamla değerlendirilir.",
+      "“Rarely do we encounter such a case” ve “Not until later did they discover the error” resmî veya edebî vurgu sağlar. Cümlenin başındaki sınırlayıcı ifade ana cümlede yardımcı fiil ile öznenin yer değiştirmesine yol açabilir."
+    ],
+    "exampleAnalysis": "“Only after the meeting did we understand the issue.” cümlesinde only after the meeting öne çıktığı için did özne we'den önce gelir. “Sorunu ancak toplantıdan sonra anladık.” Anlamı koruyan normal sıra “We understood ... only after the meeting” olur."
   },
   {
     "id": "cefr-c2-59",
@@ -3301,7 +3591,12 @@
         "explanationTr": "Resmî koşullarda if atılıp yardımcı fiil öne alınabilir: Had I known, Were it not for. But for + isim, olmasaydı anlamı verebilir."
       }
     ],
-    "introduction": "Resmî koşullarda if atılıp yardımcı fiil öne alınabilir: Had I known, Were it not for. But for + isim, olmasaydı anlamı verebilir. “Had they known, they would have acted” = “If they had known...”; “Were it not for your help...” = “If it were not for your help...” biçimindedir. Bu ters sıralama resmîdir ve koşul türüne göre doğru yardımcı seçilir."
+    "introduction": "Resmî koşullarda if atılıp yardımcı fiil öne alınabilir: Had I known, Were it not for. But for + isim, olmasaydı anlamı verebilir. “Had they known, they would have acted” = “If they had known...”; “Were it not for your help...” = “If it were not for your help...” biçimindedir. Bu ters sıralama resmîdir ve koşul türüne göre doğru yardımcı seçilir.",
+    "introductionParagraphs": [
+      "Complex Conditional Variations, if kullanılmadan kurulan daha resmî koşul cümleleri ve koşul anlamı taşıyan alternatiflerle ilgilidir. Resmî koşullarda if atılıp yardımcı fiil öne alınabilir: Had I known, Were it not for. But for + isim, olmasaydı anlamı verebilir.",
+      "“Had they known, they would have acted” = “If they had known...”; “Were it not for your help...” = “If it were not for your help...” biçimindedir. Bu ters sıralama resmîdir ve koşul türüne göre doğru yardımcı seçilir."
+    ],
+    "exampleAnalysis": "“Had we known about the delay, we would have waited.” cümlesi “If we had known about the delay...” anlamındadır. “Gecikmeyi bilseydik beklerdik.” Had, if kaldırılınca öznenin önüne geçer."
   },
   {
     "id": "cefr-c2-60",
@@ -3357,7 +3652,12 @@
         "explanationTr": "Ellipsis, anlam bağlamdan açık olduğunda tekrarlanan sözcükleri çıkarmaktır. Kısaltma belirsizlik yaratmamalı; yardımcı fiil anlamı koruyabilir."
       }
     ],
-    "introduction": "Ellipsis, anlam bağlamdan açık olduğunda tekrarlanan sözcükleri çıkarmaktır. Kısaltma belirsizlik yaratmamalı; yardımcı fiil anlamı koruyabilir. “Ali can swim, and Ece can too” ifadesinde ikinci swim, önceki cümleden anlaşıldığı için tekrarlanmaz. “I ordered tea and she coffee” örneğinde de repeated verb çıkarılmıştır. Eksiltme ancak anlam açık kaldığında uygundur."
+    "introduction": "Ellipsis, anlam bağlamdan açık olduğunda tekrarlanan sözcükleri çıkarmaktır. Kısaltma belirsizlik yaratmamalı; yardımcı fiil anlamı koruyabilir. “Ali can swim, and Ece can too” ifadesinde ikinci swim, önceki cümleden anlaşıldığı için tekrarlanmaz. “I ordered tea and she coffee” örneğinde de repeated verb çıkarılmıştır. Eksiltme ancak anlam açık kaldığında uygundur.",
+    "introductionParagraphs": [
+      "Nuances of Meaning & Ellipsis, bağlamdan anlaşılabilen sözcükleri tekrar etmeden kullanma ve böylece anlamı yoğunlaştırmayla ilgilidir. Ellipsis, anlam bağlamdan açık olduğunda tekrarlanan sözcükleri çıkarmaktır. Kısaltma belirsizlik yaratmamalı; yardımcı fiil anlamı koruyabilir.",
+      "“Ali can swim, and Ece can too” ifadesinde ikinci swim, önceki cümleden anlaşıldığı için tekrarlanmaz. “I ordered tea and she coffee” örneğinde de repeated verb çıkarılmıştır. Eksiltme ancak anlam açık kaldığında uygundur."
+    ],
+    "exampleAnalysis": "“Zeynep ordered tea and Ali coffee.” cümlesinde ikinci ordered söylenmez; bağlamdan “Ali ordered coffee” anlaşılır. “Zeynep çay, Ali kahve sipariş etti.” Eksiltme yalnızca eksik bölüm kolayca anlaşılabiliyorsa uygundur."
   },
   {
     "id": "cefr-c2-61",
@@ -3413,6 +3713,11 @@
         "explanationTr": "İleri düzey kullanımda dil bilgisi deyimsel kalıplarla bağlama uygun birleştirilir. Örneğin It's high time + past form, artık bir şey yapılması gerektiğini vurgular."
       }
     ],
-    "introduction": "İleri düzey kullanımda dil bilgisi deyimsel kalıplarla bağlama uygun birleştirilir. Örneğin It's high time + past form, artık bir şey yapılması gerektiğini vurgular. “It's high time we left” biçimindeki geçmiş zaman, geçmiş bir olayı değil artık gerçekleşmesi gereken durumu vurgular. Deyimsel yapıların uygunluğu resmiyet ve bağlama göre değişir; kelimesi kelimesine çeviri her zaman anlamı vermez."
+    "introduction": "İleri düzey kullanımda dil bilgisi deyimsel kalıplarla bağlama uygun birleştirilir. Örneğin It's high time + past form, artık bir şey yapılması gerektiğini vurgular. “It's high time we left” biçimindeki geçmiş zaman, geçmiş bir olayı değil artık gerçekleşmesi gereken durumu vurgular. Deyimsel yapıların uygunluğu resmiyet ve bağlama göre değişir; kelimesi kelimesine çeviri her zaman anlamı vermez.",
+    "introductionParagraphs": [
+      "Idiomatic Grammar Usages, dil bilgisi yapılarının yerleşik ifade kalıplarında sözlük anlamının ötesinde nasıl kullanıldığıyla ilgilidir. İleri düzey kullanımda dil bilgisi deyimsel kalıplarla bağlama uygun birleştirilir. Örneğin It's high time + past form, artık bir şey yapılması gerektiğini vurgular.",
+      "“It's high time we left” biçimindeki geçmiş zaman, geçmiş bir olayı değil artık gerçekleşmesi gereken durumu vurgular. Deyimsel yapıların uygunluğu resmiyet ve bağlama göre değişir; kelimesi kelimesine çeviri her zaman anlamı vermez."
+    ],
+    "exampleAnalysis": "“It's high time we started.” geçmiş biçim started içerse de geçmiş bir olayı anlatmaz; işe artık başlanması gerektiğini vurgular. “Artık başlamamızın zamanı geldi.” Bu kalıp, zamanı kelimesi kelimesine çevirmeden yorumlanmalıdır."
   }
 ]
