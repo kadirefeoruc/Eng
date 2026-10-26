@@ -8,7 +8,12 @@ pattern=re.compile(r'''(["'`])/(?=(?:'''+prefixes+r''')(?:[/?."'`]|$))''')
 for p in dest.rglob('*'):
  if not p.is_file() or p.suffix not in ['.html','.js','.json','.css','.webmanifest']:continue
  s=p.read_text()
+ if p.name=='account.js':
+  s=s.replace('a[href^="/signin-with-chatgpt"]','a[href^="/signin-with-chatgpt"],a[href="/account/"]')
+  s=s.replace("a.textContent='Üye ol / Giriş yap'","a.textContent=session?'Hesabım':'Üye ol / Giriş yap'")
+  s=s.replace("if(url.pathname!=='/api/records')return native(input,options);", "if(url.pathname==='/api/conversation')return json({ready:false,signedIn:!!session,error:'Canlı AI için güvenli sunucu bağlantısı gerekiyor.'});if(url.pathname.startsWith('/api/')&&url.pathname!=='/api/records')return json({error:'Canlı AI için güvenli sunucu bağlantısı gerekiyor.'},503);if(url.pathname!=='/api/records')return native(input,options);")
  s=pattern.sub(lambda m:m[1]+base+'/',s)
+ s=re.sub(r'href="/Eng/signin-with-chatgpt[^"]*"','href="/Eng/account/"',s)
  s=s.replace(r'^\/lessons\/',r'^\/Eng\/lessons\/')
  s=s.replace("scope:'/'","scope:'/Eng/'").replace("getRegistration('/')","getRegistration('/Eng/')")
  s=s.replace("url.pathname==='/'","url.pathname==='/Eng/'")

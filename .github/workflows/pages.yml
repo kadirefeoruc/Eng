@@ -24,10 +24,18 @@ jobs:
           python-version: '3.12'
       - name: Import verified platform assets into repository
         run: python scripts/bootstrap.py
+      - name: Record import diagnostics
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: import-diagnostics
+          path: diagnostics
       - name: Save platform source in Eng
+        if: always()
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          find site -name "*.download" -delete
           git add site
           if ! git diff --cached --quiet; then
             git commit -m "Import complete English platform and audio assets"
@@ -35,6 +43,8 @@ jobs:
           fi
       - name: Build GitHub Pages
         run: python scripts/build-pages.py
+      - name: Check lessons, offline assets and account routes
+        run: node scripts/check-pages.mjs
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:
