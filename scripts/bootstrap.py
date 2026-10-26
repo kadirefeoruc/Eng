@@ -1,6 +1,6 @@
 from pathlib import Path
 from concurrent.futures import ThreadPoolExecutor,as_completed
-import hashlib,json,time,urllib.parse,subprocess,sys
+import hashlib,json,time,urllib.parse,subprocess,sys,re
 root=Path(__file__).resolve().parents[1];dest=root/'site';source='https://ingilizce-egitim-dersleri.kefeorc.chatgpt.site'
 if (dest/'.import-complete').is_file():
  print('Repository assets already imported; no external download required.');sys.exit(0)
@@ -19,6 +19,11 @@ def download(item):
    try:
     subprocess.run(['curl','--fail','--silent','--show-error','--location','--max-time','60',source+'/'+urllib.parse.quote(target),'-o',str(tmp)],check=True)
     b=tmp.read_bytes();tmp.unlink()
+    if item['path'].endswith('.html'):
+     def remove_host_instrumentation(m):
+      t=m.group()
+      return b'' if b'window.__CF$cv$params' in t and b'/cdn-cgi/challenge-platform/scripts/jsd/main.js' in t else t
+     b=re.sub(rb'<script\b[^>]*>[\s\S]*?</script>',remove_host_instrumentation,b)
     actual=hashlib.sha256(b).hexdigest()
     if actual!=item['sha256']:
      d=root/'diagnostics'/item['path'];d.parent.mkdir(parents=True,exist_ok=True);d.write_bytes(b)
