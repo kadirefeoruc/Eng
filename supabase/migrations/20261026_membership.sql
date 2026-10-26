@@ -50,10 +50,8 @@ $$;
 revoke all on function public.has_course_access() from public, anon;
 grant execute on function public.has_course_access() to authenticated;
 
--- Gelecekte özel içerik teslimi için. Ders dosyalarını kendiliğinden taşımaz.
-insert into storage.buckets (id, name, public)
- values ('eng-course-private', 'eng-course-private', false)
- on conflict (id) do update set public = false;
+-- Gelecekteki özel içerik için: Storage panelinde eng-course-private adlı
+-- private bucket ayrıca oluşturulmalıdır. Bu SQL dosya taşımaz.
 drop policy if exists active_members_read_course on storage.objects;
 create policy active_members_read_course on storage.objects for select to authenticated
  using (bucket_id = 'eng-course-private' and (select public.has_course_access()));
