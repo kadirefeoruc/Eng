@@ -1,0 +1,26 @@
+from pathlib import Path
+import tarfile,hashlib,json,re,shutil
+root=Path(__file__).resolve().parents[1]
+dest=root/'_site';shutil.rmtree(dest,ignore_errors=True);shutil.copytree(root/'site',dest)
+base='/Eng'
+prefixes='|'.join(re.escape(n) for n in sorted([p.name for p in dest.iterdir()]+['api','signin-with-chatgpt','lesson'],key=len,reverse=True))
+pattern=re.compile(r'''(["'`])/(?=(?:'''+prefixes+r''')(?:[/?."'`]|$))''')
+for p in dest.rglob('*'):
+ if not p.is_file() or p.suffix not in ['.html','.js','.json','.css','.webmanifest']:continue
+ s=p.read_text()
+ s=pattern.sub(lambda m:m[1]+base+'/',s)
+ s=s.replace(r'^\/lessons\/',r'^\/Eng\/lessons\/')
+ s=s.replace("scope:'/'","scope:'/Eng/'").replace("getRegistration('/')","getRegistration('/Eng/')")
+ s=s.replace("url.pathname==='/'","url.pathname==='/Eng/'")
+ if p.suffix=='.webmanifest':
+  obj=json.loads(s);obj['start_url']='/Eng/home/';obj['scope']='/Eng/';s=json.dumps(obj,ensure_ascii=False)
+ if p.name=='sw.js':
+  s=s.replace('english-offline-shell-v7','eng-pages-shell-v1').replace('english-offline-lesson-','eng-pages-lesson-')
+  s=s.replace("const allowed=","const allowed=url.pathname.startsWith('/Eng/account')||")
+ if p.name=='app.js' and p.parent.name=='offline':s=s.replace('english-offline-lesson-','eng-pages-lesson-')
+ p.write_text(s)
+(dest/'index.html').write_text('<!doctype html><html lang="tr"><meta charset="utf-8"><meta http-equiv="refresh" content="0;url=./home/"><title>İngilizce Eğitim</title><a href="./home/">Platformu aç</a></html>')
+(dest/'lesson').mkdir(exist_ok=True)
+(dest/'lesson/index.html').write_text('''<!doctype html><meta charset="utf-8"><title>Ders açılıyor</title><script>const id=new URLSearchParams(location.search).get('lesson')||'1';location.replace('/Eng/lessons/'+(/^(?:[1-9]|[1-4][0-9]|50)$/.test(id)?id:'1')+'.html'+location.hash)</script>''')
+(dest/'.nojekyll').touch()
+print('Built GitHub Pages:',sum(1 for p in dest.rglob('*') if p.is_file()),'files')
