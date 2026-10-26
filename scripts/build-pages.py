@@ -12,6 +12,19 @@ for p in dest.rglob('*'):
   s=s.replace('a[href^="/signin-with-chatgpt"]','a[href^="/signin-with-chatgpt"],a[href="/account/"]')
   s=s.replace("a.textContent='Giriş yap'","a.textContent=session?'Hesabım':'Giriş yap'")
   s=s.replace("if(url.pathname!=='/api/records')return native(input,options);", "if(url.pathname==='/api/conversation')return json({ready:false,signedIn:!!session,error:'Canlı AI için güvenli sunucu bağlantısı gerekiyor.'});if(url.pathname.startsWith('/api/')&&url.pathname!=='/api/records')return json({error:'Canlı AI için güvenli sunucu bağlantısı gerekiyor.'},503);if(url.pathname!=='/api/records')return native(input,options);")
+ if p.parent.name=='lessons' and p.suffix=='.html':
+  s=s.replace('<button class="header-btn" id="retry-save">Tekrar bağlan</button>','')
+  s=s.replace("document.getElementById('retry-save').onclick=()=>loaded?flushWrites():loadRecords();", """let retryingRecords=false;
+async function retryRecordsAutomatically(){
+ if(!navigator.onLine||retryingRecords)return;
+ if(loaded&&!pendingWrites.size)return;
+ retryingRecords=true;
+ try{if(loaded){saveQueue=saveQueue.then(flushWrites).catch(()=>{});await saveQueue}else await loadRecords()}finally{retryingRecords=false}
+}
+window.addEventListener('online',retryRecordsAutomatically);
+setInterval(retryRecordsAutomatically,30000);""")
+  s=s.replace('Kaydedilemedi. Seçimlerin bu açık sayfada korunuyor; “Tekrar bağlan”a bas.','Kaydedilemedi. Bağlantı otomatik olarak yeniden denenecek.')
+  s=s.replace('Ders değişmeden önce kayıtlarını göndermemiz gerekiyor. Tekrar bağlan düğmesini kullan.','Ders değişmeden önce kayıtların gönderilmesi gerekiyor. Bağlantı otomatik olarak yeniden denenecek.')
  s=pattern.sub(lambda m:m[1]+base+'/',s)
  s=re.sub(r'href="/Eng/signin-with-chatgpt[^"]*"','href="/Eng/account/"',s)
  s=s.replace(r'^\/lessons\/',r'^\/Eng\/lessons\/')
@@ -20,7 +33,7 @@ for p in dest.rglob('*'):
  if p.suffix=='.webmanifest':
   obj=json.loads(s);obj['start_url']='/Eng/home/';obj['scope']='/Eng/';s=json.dumps(obj,ensure_ascii=False)
  if p.name=='sw.js':
-  s=s.replace('english-offline-shell-v7','eng-pages-shell-v5').replace('english-offline-lesson-','eng-pages-lesson-')
+  s=s.replace('english-offline-shell-v7','eng-pages-shell-v6').replace('english-offline-lesson-','eng-pages-lesson-')
   s=s.replace("const allowed=","const allowed=url.pathname.startsWith('/Eng/account')||")
  if p.name=='app.js' and p.parent.name=='offline':s=s.replace('english-offline-lesson-','eng-pages-lesson-')
  p.write_text(s)
