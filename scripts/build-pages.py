@@ -10,7 +10,7 @@ for p in dest.rglob('*'):
  s=p.read_text()
  if p.name=='account.js':
   s=s.replace('a[href^="/signin-with-chatgpt"]','a[href^="/signin-with-chatgpt"],a[href="/account/"]')
-  s=s.replace("a.textContent='Üye ol / Giriş yap'","a.textContent=session?'Hesabım':'Üye ol / Giriş yap'")
+  s=s.replace("a.textContent='Giriş yap'","a.textContent=session?'Hesabım':'Giriş yap'")
   s=s.replace("if(url.pathname!=='/api/records')return native(input,options);", "if(url.pathname==='/api/conversation')return json({ready:false,signedIn:!!session,error:'Canlı AI için güvenli sunucu bağlantısı gerekiyor.'});if(url.pathname.startsWith('/api/')&&url.pathname!=='/api/records')return json({error:'Canlı AI için güvenli sunucu bağlantısı gerekiyor.'},503);if(url.pathname!=='/api/records')return native(input,options);")
  s=pattern.sub(lambda m:m[1]+base+'/',s)
  s=re.sub(r'href="/Eng/signin-with-chatgpt[^"]*"','href="/Eng/account/"',s)
@@ -20,7 +20,7 @@ for p in dest.rglob('*'):
  if p.suffix=='.webmanifest':
   obj=json.loads(s);obj['start_url']='/Eng/home/';obj['scope']='/Eng/';s=json.dumps(obj,ensure_ascii=False)
  if p.name=='sw.js':
-  s=s.replace('english-offline-shell-v7','eng-pages-shell-v2').replace('english-offline-lesson-','eng-pages-lesson-')
+  s=s.replace('english-offline-shell-v7','eng-pages-shell-v3').replace('english-offline-lesson-','eng-pages-lesson-')
   s=s.replace("const allowed=","const allowed=url.pathname.startsWith('/Eng/account')||")
  if p.name=='app.js' and p.parent.name=='offline':s=s.replace('english-offline-lesson-','eng-pages-lesson-')
  p.write_text(s)
