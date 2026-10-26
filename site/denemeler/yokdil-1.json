@@ -1,0 +1,313 @@
+{
+  "id": "yokdil-1",
+  "title": "YÖKDİL Fen ve Sosyal Bilimler Karma Deneme 1",
+  "durationMinutes": 45,
+  "description": "ÖSYM tarafından yayımlanan soru türleri incelenerek hazırlanmış özgün alıştırmadır. Resmî sınav sorusu değildir; başarı yüzdesi resmî sınav puanına eşdeğer değildir. Fen ve sosyal bilimler birlikte çalışılır; gerçek YÖKDİL alanlara ayrılır.",
+  "questions": [
+    {
+      "id": "yokdil-1-01",
+      "category": "Kelime",
+      "prompt": "The researchers treated the preliminary findings with ---- because the sample was too small to support broad conclusions.",
+      "options": [
+        "certainty",
+        "caution",
+        "indifference",
+        "hostility",
+        "enthusiasm"
+      ],
+      "explanation": "Küçük örneklem genellemeyi sınırlar; “with caution” temkinli yaklaşmayı ifade eder.",
+      "answerIndex": 1
+    },
+    {
+      "id": "yokdil-1-02",
+      "category": "Kelime",
+      "prompt": "A transparent selection procedure can ---- public confidence by making the reasons for each decision open to scrutiny.",
+      "options": [
+        "undermine",
+        "conceal",
+        "postpone",
+        "strengthen",
+        "exhaust"
+      ],
+      "explanation": "Kararların denetlenebilir olması güveni güçlendirir: strengthen public confidence.",
+      "answerIndex": 3
+    },
+    {
+      "id": "yokdil-1-03",
+      "category": "Dil bilgisi",
+      "prompt": "By the time the second survey began in June, the team ---- all the responses collected in March.",
+      "options": [
+        "had analysed",
+        "will analyse",
+        "has analysed",
+        "is analysing",
+        "would analyse"
+      ],
+      "explanation": "Geçmişteki ikinci olaydan önce tamamlanan analiz için past perfect gerekir.",
+      "answerIndex": 0
+    },
+    {
+      "id": "yokdil-1-04",
+      "category": "Bağlaç",
+      "prompt": "---- the new material is more expensive to manufacture, its longer lifespan may reduce total costs.",
+      "options": [
+        "Because",
+        "Unless",
+        "Once",
+        "So that",
+        "Although"
+      ],
+      "explanation": "İlk maliyetin yüksekliği ile toplam maliyetin düşmesi arasında zıtlık vardır.",
+      "answerIndex": 4
+    },
+    {
+      "id": "yokdil-1-05",
+      "category": "Edat",
+      "prompt": "The reliability of the estimate depends ---- the quality of the observations rather than ---- their sheer number.",
+      "options": [
+        "for / at",
+        "with / by",
+        "on / on",
+        "in / for",
+        "at / with"
+      ],
+      "explanation": "“Depend on” kalıbı iki paralel tamamlayıcıda da on gerektirir.",
+      "answerIndex": 2
+    },
+    {
+      "id": "yokdil-1-06",
+      "category": "Cloze test",
+      "prompt": "Choose the best expression for gap (6).",
+      "options": [
+        "Similarly",
+        "For instance",
+        "Therefore",
+        "However",
+        "In other words"
+      ],
+      "explanation": "Faydanın ardından tek başına yeterli olmama sınırlaması gelir; However uygundur.",
+      "passage": "Urban trees can reduce the heat experienced by pedestrians. Their leaves provide shade, while water released from them helps cool the surrounding air. (6) ----, planting trees alone does not guarantee a comfortable street. Species must be selected carefully, and young trees need regular care. A planning team in a fictional town therefore combined temperature measurements (7) ---- interviews with residents. The resulting map showed where new planting was most urgently (8) ----.",
+      "answerIndex": 3
+    },
+    {
+      "id": "yokdil-1-07",
+      "category": "Cloze test",
+      "prompt": "Choose the best word for gap (7).",
+      "options": [
+        "with",
+        "against",
+        "despite",
+        "onto",
+        "beneath"
+      ],
+      "explanation": "“Combine A with B”: ölçümleri görüşmelerle birleştirmek.",
+      "passage": "Urban trees can reduce the heat experienced by pedestrians. Their leaves provide shade, while water released from them helps cool the surrounding air. (6) ----, planting trees alone does not guarantee a comfortable street. Species must be selected carefully, and young trees need regular care. A planning team in a fictional town therefore combined temperature measurements (7) ---- interviews with residents. The resulting map showed where new planting was most urgently (8) ----.",
+      "answerIndex": 0
+    },
+    {
+      "id": "yokdil-1-08",
+      "category": "Cloze test",
+      "prompt": "Choose the best word for gap (8).",
+      "options": [
+        "avoided",
+        "forgotten",
+        "rejected",
+        "concealed",
+        "needed"
+      ],
+      "explanation": "Harita yeni ağaçlandırmaya en acil ihtiyaç duyulan yerleri gösterir.",
+      "passage": "Urban trees can reduce the heat experienced by pedestrians. Their leaves provide shade, while water released from them helps cool the surrounding air. (6) ----, planting trees alone does not guarantee a comfortable street. Species must be selected carefully, and young trees need regular care. A planning team in a fictional town therefore combined temperature measurements (7) ---- interviews with residents. The resulting map showed where new planting was most urgently (8) ----.",
+      "answerIndex": 4
+    },
+    {
+      "id": "yokdil-1-09",
+      "category": "Cümle tamamlama",
+      "prompt": "Although satellite images can reveal changes in land cover over large areas, ----.",
+      "options": [
+        "all changes in land use occur at the same speed",
+        "field observations are still needed to interpret some of those changes",
+        "they eliminate every source of uncertainty in environmental research",
+        "the images therefore cannot contain useful information",
+        "land cover has never been studied on a regional scale"
+      ],
+      "explanation": "Although sonrası yararı sınırlayan tamamlayıcı gerekir; saha gözlemleri hâlâ gereklidir.",
+      "answerIndex": 1
+    },
+    {
+      "id": "yokdil-1-10",
+      "category": "Cümle tamamlama",
+      "prompt": "The historian compared several independent accounts of the event so that ----.",
+      "options": [
+        "the event had already taken place before the accounts were written",
+        "there were fewer documents in the archive than expected",
+        "inconsistencies could be identified before a conclusion was drawn",
+        "each account would necessarily become completely accurate",
+        "the archive was closed for repairs last summer"
+      ],
+      "explanation": "So that amaç bildirir: sonuç çıkarmadan önce tutarsızlıkları belirleyebilmek.",
+      "answerIndex": 2
+    },
+    {
+      "id": "yokdil-1-11",
+      "category": "Cümle tamamlama",
+      "prompt": "Unless participants are selected from a sufficiently broad population, ----.",
+      "options": [
+        "the findings may not represent the diversity of the wider community",
+        "every conclusion drawn from the study must be correct",
+        "the survey will automatically include all age groups",
+        "researchers no longer need to describe their sampling method",
+        "the sample will be more diverse than the population itself"
+      ],
+      "explanation": "Unless “yeterince geniş evrenden seçilmedikçe” anlamındadır; temsil sorunu oluşabilir.",
+      "answerIndex": 0
+    },
+    {
+      "id": "yokdil-1-12",
+      "category": "Çeviri · İngilizce → Türkçe",
+      "prompt": "Choose the most accurate Turkish translation: “The new method allows researchers to detect small changes without damaging the original sample.”",
+      "options": [
+        "Yeni yöntem, araştırmacıların küçük değişiklikleri tespit etmek için orijinal örneğe zarar vermesini gerektirir.",
+        "Araştırmacılar orijinal örneğe zarar vermedikçe yeni yöntem küçük değişiklikleri önler.",
+        "Küçük değişiklikler tespit edildiğinde yeni yöntem orijinal örneğin zararını azaltır.",
+        "Yeni yöntem, araştırmacıların orijinal örneğe zarar vermeden küçük değişiklikleri tespit etmelerini sağlar.",
+        "Araştırmacılar, yeni yöntem zarar görmesin diye orijinal örnekte küçük değişiklikler yapabilir."
+      ],
+      "explanation": "Allows = sağlar; without damaging = zarar vermeden; özgün özne ve nesne ilişkileri korunur.",
+      "answerIndex": 3
+    },
+    {
+      "id": "yokdil-1-13",
+      "category": "Çeviri · İngilizce → Türkçe",
+      "prompt": "Choose the most accurate Turkish translation: “Although online archives have made documents easier to access, not all historical records have been digitised.”",
+      "options": [
+        "Çevrim içi arşivler belgelere erişimi zorlaştırdığından bütün tarihî kayıtlar dijitalleştirilmiştir.",
+        "Bütün tarihî kayıtlar dijitalleştirildiği için çevrim içi arşivlerde belgelere erişmek daha kolaydır.",
+        "Çevrim içi arşivler belgelere erişmeyi kolaylaştırmış olsa da bütün tarihî kayıtlar dijitalleştirilmiş değildir.",
+        "Çevrim içi arşivlerde hiçbir tarihî kayıt dijitalleştirilmediği hâlde belgelere erişmek kolaylaşmıştır.",
+        "Belgelere erişmek kolaylaşmadan önce bütün tarihî kayıtların çevrim içi arşivlerde dijitalleştirilmesi gerekir."
+      ],
+      "explanation": "“Not all” hiçbirinin değil hepsinin dijitalleşmediğini belirtir; although zıtlığı korunur.",
+      "answerIndex": 2
+    },
+    {
+      "id": "yokdil-1-14",
+      "category": "Çeviri · Türkçe → İngilizce",
+      "prompt": "Choose the most accurate English translation: “Araştırmacılar, sonuçların farklı koşullarda tekrarlanıp tekrarlanamayacağını belirlemek için deneyi yeniden tasarladı.”",
+      "options": [
+        "The researchers redesigned the experiment to determine whether the results could be replicated under different conditions.",
+        "The researchers replicated the results to determine why the experiment had been redesigned under different conditions.",
+        "The researchers redesigned the conditions because they knew the results could never be replicated.",
+        "The researchers determined that different conditions had to be replicated before they could publish the experiment.",
+        "The researchers redesigned the experiment only after the results had been replicated under identical conditions."
+      ],
+      "explanation": "Amaç, whether ile belirsizliğin korunması ve farklı koşullarda tekrarlanabilirlik yalnızca A seçeneğinde birlikte bulunur.",
+      "answerIndex": 0
+    },
+    {
+      "id": "yokdil-1-15",
+      "category": "Paragraf tamamlama",
+      "prompt": "Choose the sentence that best fills the gap.",
+      "options": [
+        "The recordings are always more accurate than written sources.",
+        "The age of a building can be estimated from its construction materials.",
+        "Consequently, all accounts from the same period should be discarded.",
+        "Most interviewers prefer to avoid asking any questions.",
+        "Yet memories can be shaped by later experiences and present concerns."
+      ],
+      "explanation": "Sonraki cümledeki karşılaştırma gereğini belleğin değişebilirliği açıklar.",
+      "passage": "Oral history can preserve experiences that never entered official documents. Interviews may reveal how individuals understood changes in their communities. ---- This is why historians compare personal recollections with other accounts and records rather than treating every remembered detail as a verified fact.",
+      "answerIndex": 4
+    },
+    {
+      "id": "yokdil-1-16",
+      "category": "Anlam bütünlüğünü bozan cümle",
+      "prompt": "Which numbered sentence is irrelevant to the passage?",
+      "options": [
+        "I",
+        "II",
+        "III",
+        "IV",
+        "V"
+      ],
+      "explanation": "III kütüphane üyeliğine geçer; diğer cümleler kontrollü deneyde değişkenleri ele alır.",
+      "passage": "(I) A controlled experiment aims to isolate the effect of a particular variable. (II) Conditions unrelated to that variable should therefore be kept as similar as possible. (III) University libraries often allow graduates to renew their membership online. (IV) If several conditions change at once, the cause of an observed difference may be unclear. (V) Careful control thus makes the results easier to interpret.",
+      "answerIndex": 2
+    },
+    {
+      "id": "yokdil-1-17",
+      "category": "Okuma · ana fikir",
+      "prompt": "What is the main point of the passage?",
+      "options": [
+        "Technical maps are useless unless every numerical value is removed.",
+        "Explanations may help people interpret risk information, but their effect on later behaviour remains untested.",
+        "Residents act on flood warnings only when they memorise exact water depths.",
+        "The study proves that household flood damage can be eliminated.",
+        "Providing more information necessarily reduces public understanding."
+      ],
+      "explanation": "Metin açıklamaların pratik anlamaya katkısını ve davranış hakkında veri bulunmadığını birlikte vurgular.",
+      "passage": "A research team in a fictional coastal town tested two ways of presenting flood information. One group of residents received a technical map showing estimated water depths. A second group received the same map accompanied by short explanations and examples of household actions. Both groups answered questions immediately afterwards. The second group identified suitable protective actions more accurately, but the two groups remembered numerical depth estimates equally well. The study did not track whether residents later changed their behaviour. The researchers therefore suggested that explanations can improve the practical interpretation of a map, while cautioning that improved understanding should not be confused with proven action.",
+      "answerIndex": 1
+    },
+    {
+      "id": "yokdil-1-18",
+      "category": "Okuma · ayrıntı",
+      "prompt": "In which respect did the two groups perform similarly?",
+      "options": [
+        "Selecting protective actions",
+        "Reporting past flood damage",
+        "Changing household behaviour",
+        "Remembering numerical depth estimates",
+        "Explaining the purpose of the study"
+      ],
+      "explanation": "Metinde iki grubun sayısal derinlik tahminlerini eşit derecede hatırladığı açıkça belirtilir.",
+      "passage": "A research team in a fictional coastal town tested two ways of presenting flood information. One group of residents received a technical map showing estimated water depths. A second group received the same map accompanied by short explanations and examples of household actions. Both groups answered questions immediately afterwards. The second group identified suitable protective actions more accurately, but the two groups remembered numerical depth estimates equally well. The study did not track whether residents later changed their behaviour. The researchers therefore suggested that explanations can improve the practical interpretation of a map, while cautioning that improved understanding should not be confused with proven action.",
+      "answerIndex": 3
+    },
+    {
+      "id": "yokdil-1-19",
+      "category": "Okuma · çıkarım",
+      "prompt": "What can be inferred about the museum’s approach?",
+      "options": [
+        "It regarded every public contribution as a verified fact.",
+        "It removed all descriptions that mentioned personal experiences.",
+        "It valued contributions while preserving evidence of disagreement.",
+        "It considered official catalogues permanently complete.",
+        "It stopped investigating photographs once an alternative description appeared."
+      ],
+      "explanation": "Çelişkili açıklamaları kaynak bilgileriyle saklamak katkıyı değerlendirmek ve belirsizliği korumaktır.",
+      "passage": "A museum invited local residents to add descriptions to photographs in its collection. Staff hoped to recover names and locations that were missing from official catalogues. Several contributors recognised people or buildings, but their descriptions sometimes conflicted. Rather than choosing one version immediately, the museum recorded the alternatives together with information about each contributor. This approach made uncertainty visible and created opportunities for further research. It also changed the catalogue from a fixed list of facts into a record of how knowledge about the collection was being assembled.",
+      "answerIndex": 2
+    },
+    {
+      "id": "yokdil-1-20",
+      "category": "Okuma · gönderim",
+      "prompt": "In the passage, “This approach” refers to ----.",
+      "options": [
+        "keeping alternative descriptions and details about their contributors",
+        "replacing every official catalogue with a photograph",
+        "asking residents to avoid mentioning uncertain names",
+        "selecting a single description before examining its source",
+        "recording only buildings that still exist"
+      ],
+      "explanation": "Gönderim hemen önceki cümledeki alternatifleri katkıcı bilgileriyle birlikte kaydetme işlemidir.",
+      "passage": "A museum invited local residents to add descriptions to photographs in its collection. Staff hoped to recover names and locations that were missing from official catalogues. Several contributors recognised people or buildings, but their descriptions sometimes conflicted. Rather than choosing one version immediately, the museum recorded the alternatives together with information about each contributor. This approach made uncertainty visible and created opportunities for further research. It also changed the catalogue from a fixed list of facts into a record of how knowledge about the collection was being assembled.",
+      "answerIndex": 0
+    }
+  ],
+  "track": "yokdil",
+  "version": 1,
+  "sources": [
+    {
+      "title": "ÖSYM · 2025-YÖKDİL/2 İngilizce Fen Bilimleri PDF (%10)",
+      "url": "https://dokuman.osym.gov.tr/pdfdokuman/2025/YOKDIL-2/TSK/ingilizce-fen_ykdl2d27072025.pdf"
+    },
+    {
+      "title": "ÖSYM · 2025-YÖKDİL/2 İngilizce Sosyal Bilimler PDF (%10)",
+      "url": "https://dokuman.osym.gov.tr/pdfdokuman/2025/YOKDIL-2/TSK/ingilizce-sosyal_ykdl2d27072025.pdf"
+    },
+    {
+      "title": "YÖK · İlk YÖKDİL sınavı ve alana özgü yapı (2017)",
+      "url": "https://basin.yok.gov.tr/AciklamaBelgeleri/2017/04_YOKDIL_Sinavina_Yogun_%C4%B0lgi.pdf"
+    }
+  ]
+}

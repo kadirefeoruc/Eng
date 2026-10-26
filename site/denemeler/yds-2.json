@@ -1,0 +1,309 @@
+{
+  "id": "yds-2",
+  "title": "YDS/e-YDS Deneme 2",
+  "durationMinutes": 45,
+  "description": "Özgün B2–C1 düzeyi 20 soruluk çalışma denemesidir. Resmî sınav değildir; sonucu resmî sınav puanına eşdeğer değildir.",
+  "questions": [
+    {
+      "id": "yds-2-q01",
+      "category": "Kelime",
+      "prompt": "To make the archive easier to search, staff developed a ---- system for assigning keywords to every document.",
+      "options": [
+        "reluctant",
+        "temporary",
+        "consistent",
+        "fragile",
+        "distant"
+      ],
+      "explanation": "Consistent system, belgelerde aynı ilkelerin uygulandığı tutarlı sistem demektir.",
+      "answerIndex": 2
+    },
+    {
+      "id": "yds-2-q02",
+      "category": "Dil Bilgisi",
+      "prompt": "The committee would have reached a decision yesterday if all the required documents ---- on time.",
+      "options": [
+        "arrive",
+        "will arrive",
+        "have arrived",
+        "were arriving",
+        "had arrived"
+      ],
+      "explanation": "Geçmişte gerçekleşmemiş koşul: if + past perfect, would have + V3.",
+      "answerIndex": 4
+    },
+    {
+      "id": "yds-2-q03",
+      "category": "Kelime",
+      "prompt": "The report does not ---- the existence of regional differences; it argues that these differences require further investigation.",
+      "options": [
+        "deny",
+        "recruit",
+        "restore",
+        "permit",
+        "compile"
+      ],
+      "explanation": "Rapor farklılıkları inkâr etmiyor; daha fazla araştırılmalarını savunuyor.",
+      "answerIndex": 0
+    },
+    {
+      "id": "yds-2-q04",
+      "category": "Dil Bilgisi",
+      "prompt": "The library extended its opening hours, ---- students could use the reading rooms later in the evening.",
+      "options": [
+        "despite",
+        "unless",
+        "whereas",
+        "so that",
+        "even if"
+      ],
+      "explanation": "So that, saatlerin uzatılmasının amacını belirtir.",
+      "answerIndex": 3
+    },
+    {
+      "id": "yds-2-q05",
+      "category": "Cloze Test",
+      "prompt": "Choose the best option for blank (1).",
+      "options": [
+        "although",
+        "because",
+        "unless",
+        "before",
+        "whereas"
+      ],
+      "explanation": "Because, özellik odaklı eğitimin neden kullanım güçlüğü doğurabildiğini açıklar.",
+      "passage": "When a company introduces a new digital tool, training often concentrates on its individual features. Employees may nevertheless struggle to use it effectively (1) ---- the training does not show how those features fit into everyday tasks. A more useful approach is to organise practice around realistic problems, allowing staff to apply new skills and receive (2) ---- on their decisions.",
+      "answerIndex": 1
+    },
+    {
+      "id": "yds-2-q06",
+      "category": "Cloze Test",
+      "prompt": "Choose the best option for blank (2).",
+      "options": [
+        "feedback",
+        "permission",
+        "withdrawal",
+        "ownership",
+        "departure"
+      ],
+      "explanation": "Receive feedback on decisions, verilen kararlarla ilgili geri bildirim almak demektir.",
+      "passage": "When a company introduces a new digital tool, training often concentrates on its individual features. Employees may nevertheless struggle to use it effectively (1) ---- the training does not show how those features fit into everyday tasks. A more useful approach is to organise practice around realistic problems, allowing staff to apply new skills and receive (2) ---- on their decisions.",
+      "answerIndex": 0
+    },
+    {
+      "id": "yds-2-q07",
+      "category": "Cümle Tamamlama",
+      "prompt": "Even if a survey includes thousands of respondents, ----.",
+      "options": [
+        "its findings must represent everyone equally well",
+        "the questionnaire cannot contain any ambiguous wording",
+        "there is no reason to examine how the sample was chosen",
+        "the responses become independent of the questions asked",
+        "its conclusions may be distorted if certain groups are systematically excluded"
+      ],
+      "explanation": "Büyük örneklem, belirli grupların sistematik dışlanmasından doğan yanlılığı gidermez.",
+      "answerIndex": 4
+    },
+    {
+      "id": "yds-2-q08",
+      "category": "Cümle Tamamlama",
+      "prompt": "The publisher postponed the release of the report so that ----.",
+      "options": [
+        "the report had already appeared in print",
+        "no corrections could possibly be made",
+        "the authors could check several disputed figures",
+        "the final version was distributed the previous week",
+        "the original deadline had been met without delay"
+      ],
+      "explanation": "So that amaç belirtir; erteleme yazarlara tartışmalı verileri kontrol etme zamanı sağlar.",
+      "answerIndex": 2
+    },
+    {
+      "id": "yds-2-q09",
+      "category": "Cümle Tamamlama",
+      "prompt": "Whereas early navigation systems depended heavily on visible landmarks, ----.",
+      "options": [
+        "visible landmarks were therefore their only source of information",
+        "many modern systems can determine location using signals from satellites",
+        "the earliest navigators never looked at the landscape",
+        "all modern devices work without any external signals",
+        "satellite signals had already been available for centuries"
+      ],
+      "explanation": "Whereas, eski sistemlerin görünür işaretlere bağımlılığı ile uydu kullanan modern sistemleri karşılaştırır.",
+      "answerIndex": 1
+    },
+    {
+      "id": "yds-2-q10",
+      "category": "İngilizce–Türkçe Çeviri",
+      "prompt": "Choose the best Turkish translation: “The policy may reduce commuting time, provided that the additional services are available when demand is highest.”",
+      "options": [
+        "Ek seferler yalnızca talep azaldığında sunulursa politika işe gidiş geliş süresini azaltacaktır.",
+        "Politika işe gidiş geliş süresini azalttığından, talebin en yüksek olduğu saatlerde ek sefer gerekmemektedir.",
+        "Talebin en yüksek olduğu zamanlarda sunulan ek seferler, politikanın işe gidiş geliş süresini artırmasını önleyememiştir.",
+        "Ek seferlerin talebin en yüksek olduğu zamanlarda sunulması koşuluyla politika işe gidiş geliş süresini azaltabilir.",
+        "Politika, talep düzeyinden bağımsız olarak ek seferlerin süresini azaltmak amacıyla hazırlanmıştır."
+      ],
+      "explanation": "Provided that koşulu ve may reduce olasılığı doğru biçimde aktarılır.",
+      "answerIndex": 3
+    },
+    {
+      "id": "yds-2-q11",
+      "category": "Türkçe–İngilizce Çeviri",
+      "prompt": "Choose the best English translation: “Bir kaynağın sık alıntılanması, içerdiği her iddianın bağımsız olarak doğrulandığı anlamına gelmez.”",
+      "options": [
+        "The fact that a source is frequently cited does not mean that every claim it contains has been independently verified.",
+        "A source cannot be cited frequently unless every claim it contains has been independently verified.",
+        "Every claim in a frequently cited source must be verified by the person who first published it.",
+        "Independent verification becomes unnecessary once a source has been cited several times.",
+        "A source is cited less frequently when its claims have been verified independently."
+      ],
+      "explanation": "Sık alıntılanmanın tüm iddiaların bağımsız doğrulandığını göstermediği anlamı korunmuştur.",
+      "answerIndex": 0
+    },
+    {
+      "id": "yds-2-q12",
+      "category": "Okuma",
+      "prompt": "Why was the initial comparison between room users and non-users problematic?",
+      "options": [
+        "Users were forbidden from recording their work.",
+        "Non-users had no assigned responsibilities.",
+        "The rooms were open only outside working hours.",
+        "All staff performed exactly the same tasks.",
+        "The groups differed in the kinds of duties they carried out."
+      ],
+      "explanation": "İş türleri farklı olduğundan çıktı farkı yalnızca odalara bağlanamaz.",
+      "passage": "Several offices have introduced quiet rooms where employees can work without conversation or phone calls. In one organisation, staff reported that the rooms were helpful for tasks requiring sustained concentration. Their use was uneven, however: employees whose duties involved frequent calls rarely entered them. Managers initially compared the output of users and non-users, but soon recognised a problem. The groups performed different kinds of work, so a difference in output could not be attributed to the rooms alone. The organisation therefore began asking employees to evaluate how suitable each workspace was for specific tasks, while also recording interruptions during comparable periods of work.",
+      "answerIndex": 4
+    },
+    {
+      "id": "yds-2-q13",
+      "category": "Okuma",
+      "prompt": "What can be inferred about the organisation’s later approach?",
+      "options": [
+        "It assumed that personal reports are always inaccurate.",
+        "It treated phone calls as unnecessary in every job.",
+        "It paid greater attention to the relationship between workspace and task.",
+        "It stopped gathering information about interruptions.",
+        "It required every employee to use a quiet room all day."
+      ],
+      "explanation": "Yeni yaklaşım belirli görevler için mekân uygunluğunu ve karşılaştırılabilir çalışma dönemlerini inceler.",
+      "passage": "Several offices have introduced quiet rooms where employees can work without conversation or phone calls. In one organisation, staff reported that the rooms were helpful for tasks requiring sustained concentration. Their use was uneven, however: employees whose duties involved frequent calls rarely entered them. Managers initially compared the output of users and non-users, but soon recognised a problem. The groups performed different kinds of work, so a difference in output could not be attributed to the rooms alone. The organisation therefore began asking employees to evaluate how suitable each workspace was for specific tasks, while also recording interruptions during comparable periods of work.",
+      "answerIndex": 2
+    },
+    {
+      "id": "yds-2-q14",
+      "category": "Okuma",
+      "prompt": "Which statement is explicitly supported by the passage?",
+      "options": [
+        "Every employee preferred quiet rooms to shared offices.",
+        "Workers with call-heavy duties seldom used the quiet rooms.",
+        "Quiet rooms doubled the output of all staff.",
+        "The organisation removed its shared workspaces.",
+        "Managers proved that the rooms caused all observed differences."
+      ],
+      "explanation": "Metin, sık telefon görüşmesi gerektiren görevleri olanların odalara nadiren girdiğini açıkça belirtir.",
+      "passage": "Several offices have introduced quiet rooms where employees can work without conversation or phone calls. In one organisation, staff reported that the rooms were helpful for tasks requiring sustained concentration. Their use was uneven, however: employees whose duties involved frequent calls rarely entered them. Managers initially compared the output of users and non-users, but soon recognised a problem. The groups performed different kinds of work, so a difference in output could not be attributed to the rooms alone. The organisation therefore began asking employees to evaluate how suitable each workspace was for specific tasks, while also recording interruptions during comparable periods of work.",
+      "answerIndex": 1
+    },
+    {
+      "id": "yds-2-q15",
+      "category": "Okuma",
+      "prompt": "According to the interviews, what initially discouraged participation in the scheme?",
+      "options": [
+        "Uncertainty about where cups could be returned",
+        "A requirement to return cups to a distant factory",
+        "The absence of any deposit arrangement",
+        "A universal preference for disposable cups",
+        "A ban on returning cups to cafés"
+      ],
+      "explanation": "Görüşmelerde müşterilerin hangi kafelerin iade kabul ettiğinden emin olmadığı anlaşılmıştır.",
+      "passage": "A town introduced a reusable-cup scheme in which customers paid a small deposit and could return cups to any participating café. At first, participation was low even though most customers said they supported reducing waste. Interviews suggested that many were unsure which cafés accepted returns. The town then added a shared symbol to participating shop windows and printed a simple return map on receipts. Returns subsequently increased. However, because the change coincided with the summer tourist season, the organisers could not determine how much of the increase was due to clearer information and how much reflected a larger number of customers.",
+      "answerIndex": 0
+    },
+    {
+      "id": "yds-2-q16",
+      "category": "Okuma",
+      "prompt": "Why did the organisers avoid attributing the increase in returns solely to clearer information?",
+      "options": [
+        "The shared symbol was never displayed.",
+        "Customers had stopped receiving receipts.",
+        "The scheme no longer included tourists.",
+        "The information changes coincided with a seasonal rise in potential customers.",
+        "All cafés withdrew from the scheme during summer."
+      ],
+      "explanation": "Yaz turist sezonu eşzamanlı olduğundan bilgi iyileşmesinin etkisi müşteri artışından ayrılamaz.",
+      "passage": "A town introduced a reusable-cup scheme in which customers paid a small deposit and could return cups to any participating café. At first, participation was low even though most customers said they supported reducing waste. Interviews suggested that many were unsure which cafés accepted returns. The town then added a shared symbol to participating shop windows and printed a simple return map on receipts. Returns subsequently increased. However, because the change coincided with the summer tourist season, the organisers could not determine how much of the increase was due to clearer information and how much reflected a larger number of customers.",
+      "answerIndex": 3
+    },
+    {
+      "id": "yds-2-q17",
+      "category": "Diyalog Tamamlama",
+      "prompt": "Choose the best response to complete the dialogue.\nEditor: The article says the programme improved attendance, but it gives only this year’s figures.\nAuthor: ----\nEditor: Exactly. Readers need that comparison to judge the claim.",
+      "options": [
+        "Then I will remove the title to make more room.",
+        "Attendance is unrelated to the subject of the article.",
+        "I have already decided that comparisons are impossible.",
+        "The article should focus entirely on next year’s budget.",
+        "You mean I should include attendance figures from before the programme began?"
+      ],
+      "explanation": "Editörün “that comparison” sözü, program öncesi ve sonrası devam verilerinin karşılaştırılmasına gönderme yapar.",
+      "answerIndex": 4
+    },
+    {
+      "id": "yds-2-q18",
+      "category": "Yakın Anlam",
+      "prompt": "Choose the sentence closest in meaning: “The device is reliable only when it is calibrated at regular intervals.”",
+      "options": [
+        "Regular calibration guarantees that the device can never fail.",
+        "Regular calibration is necessary for the device to be reliable.",
+        "The device remains reliable even if it is never calibrated.",
+        "The device needs calibration only after it has failed.",
+        "The more often the device is calibrated, the less reliable it becomes."
+      ],
+      "explanation": "Only when düzenli kalibrasyonu güvenilirlik için gerekli koşul yapar; tek başına mutlak garanti vermez.",
+      "answerIndex": 1
+    },
+    {
+      "id": "yds-2-q19",
+      "category": "Paragraf Tamamlama",
+      "prompt": "Choose the sentence that best fills the gap.",
+      "options": [
+        "Consequently, all summaries should have exactly the same number of words.",
+        "This proves that detailed evidence is irrelevant to any decision.",
+        "A summary should therefore preserve the qualifications that could change how the findings are interpreted.",
+        "For this reason, every reader must conduct the original study again.",
+        "In contrast, the colour of a report’s cover determines its scientific value."
+      ],
+      "explanation": "Paragraf, özetin kararları etkileyen sınırlamaları koruması gerektiği düşüncesiyle tamamlanır.",
+      "passage": "A short summary can make a long report more accessible. Yet shortening a text can also remove details that matter, such as the conditions under which a result was observed. ---- Without them, a cautious finding may be mistaken for a universal rule.",
+      "answerIndex": 2
+    },
+    {
+      "id": "yds-2-q20",
+      "category": "Anlam Bütünlüğünü Bozan Cümle",
+      "prompt": "Which numbered sentence interrupts the coherence of the passage?",
+      "options": [
+        "I",
+        "II",
+        "III",
+        "IV",
+        "V"
+      ],
+      "explanation": "IV numaralı cümle akıllı telefon kameralarıyla ilgilidir; diğerleri sözlü tarih kayıtlarının korunmasını anlatır.",
+      "passage": "(I) Recording oral histories creates an opportunity to preserve personal accounts of past events. (II) The quality of the recording affects how easily future listeners can understand those accounts. (III) Interviewers therefore choose quiet locations and check the equipment before beginning. (IV) Smartphone cameras often offer several modes for photographing landscapes. (V) They also keep backup copies so that a technical failure does not destroy the interview.",
+      "answerIndex": 3
+    }
+  ],
+  "track": "yds",
+  "version": 1,
+  "sources": [
+    {
+      "title": "ÖSYM · 2025-YDS/İngilizce PDF (%10)",
+      "url": "https://dokuman.osym.gov.tr/pdfdokuman/2025/YDS-INGILIZCE/yds_ing_kitapcik05072025.pdf"
+    },
+    {
+      "title": "ÖSYM · e-Sınav örnek uygulaması",
+      "url": "https://esinav.osym.gov.tr/aday/hosgeldiniz"
+    }
+  ]
+}

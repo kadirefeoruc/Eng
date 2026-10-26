@@ -1,0 +1,313 @@
+{
+  "id": "yokdil-2",
+  "title": "YÖKDİL Fen ve Sosyal Bilimler Karma Deneme 2",
+  "durationMinutes": 45,
+  "description": "Özgün B2–C1 düzeyi 20 soruluk çalışma denemesidir. Resmî sınav değildir; sonucu resmî sınav puanına eşdeğer değildir.",
+  "questions": [
+    {
+      "id": "yokdil-2-q01",
+      "category": "Kelime",
+      "prompt": "The new sensor is sensitive enough to ---- changes in air pressure that older instruments fail to register.",
+      "options": [
+        "impose",
+        "detect",
+        "postpone",
+        "reverse",
+        "justify"
+      ],
+      "explanation": "Detect, fark edilmesi güç değişiklikleri saptamak anlamındadır.",
+      "answerIndex": 1
+    },
+    {
+      "id": "yokdil-2-q02",
+      "category": "Dil Bilgisi",
+      "prompt": "By the time the coastal survey began, unusually high tides ---- several of the observation platforms.",
+      "options": [
+        "damage",
+        "are damaging",
+        "will damage",
+        "had damaged",
+        "have been damaging"
+      ],
+      "explanation": "Geçmişteki başlangıçtan daha önce gerçekleşen olay past perfect gerektirir.",
+      "answerIndex": 3
+    },
+    {
+      "id": "yokdil-2-q03",
+      "category": "Kelime",
+      "prompt": "Although the interviews were detailed, the small sample made it difficult to ---- the findings to the entire population.",
+      "options": [
+        "confine",
+        "attribute",
+        "suspend",
+        "reconcile",
+        "generalize"
+      ],
+      "explanation": "Generalize findings to a population, bulguları nüfusun tamamına genellemek demektir.",
+      "answerIndex": 4
+    },
+    {
+      "id": "yokdil-2-q04",
+      "category": "Dil Bilgisi",
+      "prompt": "The researchers repeated the experiment under controlled conditions ---- they could distinguish the effect of temperature from that of humidity.",
+      "options": [
+        "so that",
+        "even though",
+        "as if",
+        "unless",
+        "whereas"
+      ],
+      "explanation": "So that amaç bildirir: iki etkiyi ayırt edebilmek için.",
+      "answerIndex": 0
+    },
+    {
+      "id": "yokdil-2-q05",
+      "category": "Kelime",
+      "prompt": "Because the two groups had different access to transport, a direct comparison of their attendance rates could be ----.",
+      "options": [
+        "exhaustive",
+        "inevitable",
+        "misleading",
+        "portable",
+        "redundant"
+      ],
+      "explanation": "Gruplar arasındaki ulaşım farkı doğrudan karşılaştırmayı yanıltıcı kılabilir.",
+      "answerIndex": 2
+    },
+    {
+      "id": "yokdil-2-q06",
+      "category": "Cloze Test",
+      "prompt": "Choose the best option for blank (1).",
+      "options": [
+        "rejects",
+        "recovers",
+        "contributes",
+        "depends",
+        "results"
+      ],
+      "explanation": "Depend on, ölçümün değerinin sensörün yerleştirildiği konuma bağlı olduğunu belirtir.",
+      "passage": "Farmers increasingly use soil sensors to decide when crops need irrigation. The value of each reading, however, (1) ---- on where the sensor is placed, since moisture can vary considerably across a field. Measurements taken near the surface may change rapidly after light rain, (2) ---- does not necessarily replenish water around deeper roots. Reliable irrigation decisions therefore require readings from several depths (3) ---- a single measurement of the uppermost layer.",
+      "answerIndex": 3
+    },
+    {
+      "id": "yokdil-2-q07",
+      "category": "Cloze Test",
+      "prompt": "Choose the best option for blank (2).",
+      "options": [
+        "which",
+        "what",
+        "whose",
+        "where",
+        "whether"
+      ],
+      "explanation": "Which, hafif yağmura gönderme yapar; bu yağmur derin köklerin çevresindeki suyu mutlaka yenilemez.",
+      "passage": "Farmers increasingly use soil sensors to decide when crops need irrigation. The value of each reading, however, (1) ---- on where the sensor is placed, since moisture can vary considerably across a field. Measurements taken near the surface may change rapidly after light rain, (2) ---- does not necessarily replenish water around deeper roots. Reliable irrigation decisions therefore require readings from several depths (3) ---- a single measurement of the uppermost layer.",
+      "answerIndex": 0
+    },
+    {
+      "id": "yokdil-2-q08",
+      "category": "Cloze Test",
+      "prompt": "Choose the best option for blank (3).",
+      "options": [
+        "owing to",
+        "as soon as",
+        "provided that",
+        "in case of",
+        "rather than"
+      ],
+      "explanation": "Rather than, tek bir yüzey ölçümü yerine farklı derinliklerden ölçümler gerektiğini anlatır.",
+      "passage": "Farmers increasingly use soil sensors to decide when crops need irrigation. The value of each reading, however, (1) ---- on where the sensor is placed, since moisture can vary considerably across a field. Measurements taken near the surface may change rapidly after light rain, (2) ---- does not necessarily replenish water around deeper roots. Reliable irrigation decisions therefore require readings from several depths (3) ---- a single measurement of the uppermost layer.",
+      "answerIndex": 4
+    },
+    {
+      "id": "yokdil-2-q09",
+      "category": "Cümle Tamamlama",
+      "prompt": "Although satellite images reveal where forest cover has declined, ----.",
+      "options": [
+        "they therefore make field research unnecessary",
+        "they do not always explain why the decline occurred",
+        "all environmental changes can be predicted precisely",
+        "this guarantees the immediate recovery of damaged land",
+        "the loss must have happened before satellites existed"
+      ],
+      "explanation": "Although ile başlayan sınırlamaya uygun karşıtlık, görüntülerin nedeni her zaman açıklayamamasıdır.",
+      "answerIndex": 1
+    },
+    {
+      "id": "yokdil-2-q10",
+      "category": "Cümle Tamamlama",
+      "prompt": "Unless the same definition of unemployment is used in both surveys, ----.",
+      "options": [
+        "the two surveys must have interviewed identical people",
+        "any difference between the results will prove that the economy improved",
+        "both surveys will necessarily produce the same estimate",
+        "comparing their results may lead to mistaken conclusions",
+        "the definition becomes irrelevant to the analysis"
+      ],
+      "explanation": "Tanımlar aynı değilse sonuçları karşılaştırmak hatalı çıkarımlara yol açabilir.",
+      "answerIndex": 3
+    },
+    {
+      "id": "yokdil-2-q11",
+      "category": "Cümle Tamamlama",
+      "prompt": "The material retained its flexibility after repeated heating, ----.",
+      "options": [
+        "which suggests that it may be suitable for components exposed to temperature changes",
+        "although this proves that it cannot tolerate heat",
+        "so its response to temperature was never investigated",
+        "because the experiment involved no changes in temperature",
+        "unless all flexible materials are identical"
+      ],
+      "explanation": "Isıtma sonrası esnekliğin korunması, sıcaklık değişimine maruz kalan parçalarda kullanım ihtimalini destekler.",
+      "answerIndex": 0
+    },
+    {
+      "id": "yokdil-2-q12",
+      "category": "İngilizce–Türkçe Çeviri",
+      "prompt": "Choose the best Turkish translation: “A larger sample can improve the precision of an estimate, but it does not automatically remove bias in the way participants are selected.”",
+      "options": [
+        "Daha büyük bir örneklem katılımcı seçimini kolaylaştırır, ancak tahminin kesinliğini her zaman azaltır.",
+        "Katılımcılar tarafsız seçildiğinde, tahminin kesinliğini artırmak için daha büyük örneklem kullanmak gerekmez.",
+        "Daha büyük bir örneklem tahminin kesinliğini artırabilir, ancak katılımcıların seçilme biçimindeki yanlılığı kendiliğinden ortadan kaldırmaz.",
+        "Tahminin kesinliği yalnızca örneklem büyüdüğünde artar ve katılımcı seçimindeki yanlılık böylece giderilir.",
+        "Katılımcıların seçilme biçimindeki yanlılık, daha büyük örneklemlerde tahmin yapmayı tamamen engeller."
+      ],
+      "explanation": "Can ve does not automatically anlamları ile seçim biçimindeki yanlılık birlikte korunmuştur.",
+      "answerIndex": 2
+    },
+    {
+      "id": "yokdil-2-q13",
+      "category": "İngilizce–Türkçe Çeviri",
+      "prompt": "Choose the best Turkish translation: “Although the lake appears stable from year to year, small changes in nutrient levels can alter the balance between species.”",
+      "options": [
+        "Göldeki besin düzeyleri her yıl değiştiğinden, türler arasındaki denge hiçbir zaman korunamaz.",
+        "Türler arasındaki denge değişse de göldeki besin düzeyleri yıldan yıla aynı kalır.",
+        "Gölün yıldan yıla istikrarlı görünmesi, besin düzeylerindeki değişikliklerin küçük olduğunu kanıtlar.",
+        "Besin düzeyleri ancak önemli ölçüde değişirse gölün yıldan yıla istikrarlı görünmesi mümkündür.",
+        "Göl yıldan yıla istikrarlı görünse de besin düzeylerindeki küçük değişiklikler türler arasındaki dengeyi değiştirebilir."
+      ],
+      "explanation": "Although karşıtlığı ve küçük değişikliklerin olası etkisi eksiksiz aktarılmıştır.",
+      "answerIndex": 4
+    },
+    {
+      "id": "yokdil-2-q14",
+      "category": "Türkçe–İngilizce Çeviri",
+      "prompt": "Choose the best English translation: “Araştırmacılar, yeni ulaşım hattının etkisini değerlendirmeden önce bölgedeki nüfus değişimlerini dikkate almalıdır.”",
+      "options": [
+        "Researchers should consider changes in the area’s population before evaluating the impact of the new transport line.",
+        "Researchers evaluated population changes before deciding whether the area needed a new transport line.",
+        "The impact of the new transport line should be evaluated only if researchers expect the population to grow.",
+        "Researchers should change the transport line before considering its impact on the local population.",
+        "The local population must be informed before researchers can approve the new transport line."
+      ],
+      "explanation": "Before zaman ilişkisi, should gerekliliği ve nüfus değişimlerini dikkate alma anlamı korunmuştur.",
+      "answerIndex": 0
+    },
+    {
+      "id": "yokdil-2-q15",
+      "category": "Paragraf Tamamlama",
+      "prompt": "Choose the sentence that best fills the gap.",
+      "options": [
+        "Therefore, every species grows equally well in disturbed soil.",
+        "These benefits mean that damaged land never requires management.",
+        "Consequently, seeds cannot survive outside agricultural fields.",
+        "Some can draw on energy stored in their roots, while others produce seeds that remain viable in the soil for years.",
+        "However, the chemical composition of stars is unrelated to farming."
+      ],
+      "explanation": "Boşluk, bitkilerin bozulma sonrası geri dönmesini sağlayan mekanizmalarla açıklanmalıdır.",
+      "passage": "Certain plants return quickly after a field has been cleared or a roadside disturbed. Their success is partly explained by features that allow them to survive periods of disruption. ---- These different strategies help explain why removing visible shoots may not permanently eliminate the plants.",
+      "answerIndex": 3
+    },
+    {
+      "id": "yokdil-2-q16",
+      "category": "Anlam Bütünlüğünü Bozan Cümle",
+      "prompt": "Which numbered sentence interrupts the coherence of the passage?",
+      "options": [
+        "I",
+        "II",
+        "III",
+        "IV",
+        "V"
+      ],
+      "explanation": "II numaralı cümle kişisel finans uygulamalarıyla ilgilidir; diğerleri tarihsel mektupların kanıt olarak kullanımını tartışır.",
+      "passage": "(I) Historians often use private letters to investigate everyday life. (II) Modern budgeting apps can automatically sort purchases into spending categories. (III) Such letters may reveal concerns that official documents rarely record. (IV) However, a writer may exaggerate achievements or conceal disagreements. (V) Comparing several letters with other sources can therefore help historians assess their reliability.",
+      "answerIndex": 1
+    },
+    {
+      "id": "yokdil-2-q17",
+      "category": "Okuma",
+      "prompt": "According to the passage, why could pedestrians feel hot above a relatively cool pavement?",
+      "options": [
+        "The sensors measured only underground temperatures.",
+        "Pale pavements prevented all air movement.",
+        "Reflected sunlight could increase the heat reaching their bodies.",
+        "Tree shade increased the temperature of the pavement.",
+        "The study took place during the winter."
+      ],
+      "explanation": "Açık renkli yüzeylerin yansıttığı güneş ışığı yayaların aldığı ısıyı artırabilir.",
+      "passage": "A team studying heat in a coastal city placed sensors on streets with different types of pavement. Pale surfaces were generally cooler than dark ones at midday. Yet pedestrians did not always experience greater comfort above the cooler surfaces. Some pale pavements reflected more sunlight towards people, increasing the heat they received. Streets with tree shade tended to provide more consistent relief. The researchers stress that their observations cover only one summer and a limited range of street designs. They recommend evaluating surface temperature alongside the conditions people actually experience, rather than treating either measure as a complete description of urban heat.",
+      "answerIndex": 2
+    },
+    {
+      "id": "yokdil-2-q18",
+      "category": "Okuma",
+      "prompt": "Which conclusion is best supported by the passage?",
+      "options": [
+        "Pale pavement should be removed from every city.",
+        "Street design has no effect on comfort.",
+        "One summer of observations is sufficient to predict all future conditions.",
+        "Surface temperature alone always indicates pedestrian comfort.",
+        "Assessing urban heat requires attention to more than the temperature of the ground."
+      ],
+      "explanation": "Yüzey sıcaklığı ile insanların deneyimlediği koşullar birlikte değerlendirilmelidir.",
+      "passage": "A team studying heat in a coastal city placed sensors on streets with different types of pavement. Pale surfaces were generally cooler than dark ones at midday. Yet pedestrians did not always experience greater comfort above the cooler surfaces. Some pale pavements reflected more sunlight towards people, increasing the heat they received. Streets with tree shade tended to provide more consistent relief. The researchers stress that their observations cover only one summer and a limited range of street designs. They recommend evaluating surface temperature alongside the conditions people actually experience, rather than treating either measure as a complete description of urban heat.",
+      "answerIndex": 4
+    },
+    {
+      "id": "yokdil-2-q19",
+      "category": "Okuma",
+      "prompt": "Why did the programme introduce practical group activities?",
+      "options": [
+        "To replace all fluent speakers with written teaching materials.",
+        "To help learners use the language in ordinary situations.",
+        "To restrict the language to the telling of traditional stories.",
+        "To stop participants from discussing contemporary topics.",
+        "To prove that every learner progressed at the same rate."
+      ],
+      "explanation": "Pratik grup etkinlikleri, kayıtların tek başına sağlayamadığı gündelik kullanım deneyimini kazandırmak için eklenmiştir.",
+      "passage": "A community language programme initially focused on recording older speakers telling traditional stories. Although the recordings preserved vocabulary and pronunciation, younger learners found it difficult to use the language in everyday conversations. The programme then added small group sessions in which fluent speakers and learners planned meals, repaired objects and discussed local events together. Participants began using a wider range of expressions outside class. The organisers still valued the recordings, but concluded that access to an archive should be accompanied by opportunities to use the language for practical purposes. They cautioned that progress varied among learners and that attendance alone did not guarantee confident speaking.",
+      "answerIndex": 1
+    },
+    {
+      "id": "yokdil-2-q20",
+      "category": "Okuma",
+      "prompt": "Which conclusion is best supported by the passage?",
+      "options": [
+        "Preserving language materials can be usefully combined with meaningful opportunities to practise speaking.",
+        "Recorded stories prevent learners from acquiring everyday expressions.",
+        "Regular attendance ensures that all learners become confident speakers.",
+        "Language archives become worthless once group activities are introduced.",
+        "Practical activities are effective only when traditional vocabulary is excluded."
+      ],
+      "explanation": "Program hem kayıtları değerli bulmuş hem de bunların pratik konuşma fırsatlarıyla desteklenmesi gerektiği sonucuna varmıştır.",
+      "passage": "A community language programme initially focused on recording older speakers telling traditional stories. Although the recordings preserved vocabulary and pronunciation, younger learners found it difficult to use the language in everyday conversations. The programme then added small group sessions in which fluent speakers and learners planned meals, repaired objects and discussed local events together. Participants began using a wider range of expressions outside class. The organisers still valued the recordings, but concluded that access to an archive should be accompanied by opportunities to use the language for practical purposes. They cautioned that progress varied among learners and that attendance alone did not guarantee confident speaking.",
+      "answerIndex": 0
+    }
+  ],
+  "track": "yokdil",
+  "version": 1,
+  "sources": [
+    {
+      "title": "ÖSYM · 2025-YÖKDİL/2 İngilizce Fen Bilimleri PDF (%10)",
+      "url": "https://dokuman.osym.gov.tr/pdfdokuman/2025/YOKDIL-2/TSK/ingilizce-fen_ykdl2d27072025.pdf"
+    },
+    {
+      "title": "ÖSYM · 2025-YÖKDİL/2 İngilizce Sosyal Bilimler PDF (%10)",
+      "url": "https://dokuman.osym.gov.tr/pdfdokuman/2025/YOKDIL-2/TSK/ingilizce-sosyal_ykdl2d27072025.pdf"
+    },
+    {
+      "title": "YÖK · İlk YÖKDİL sınavı ve alana özgü yapı (2017)",
+      "url": "https://basin.yok.gov.tr/AciklamaBelgeleri/2017/04_YOKDIL_Sinavina_Yogun_%C4%B0lgi.pdf"
+    }
+  ]
+}

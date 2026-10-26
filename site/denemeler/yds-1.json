@@ -1,0 +1,309 @@
+{
+  "id": "yds-1",
+  "title": "YDS/e-YDS Deneme 1",
+  "durationMinutes": 45,
+  "description": "ÖSYM tarafından yayımlanan soru türleri incelenerek hazırlanmış özgün alıştırmadır. Resmî sınav sorusu değildir; başarı yüzdesi resmî sınav puanına eşdeğer değildir.",
+  "questions": [
+    {
+      "id": "yds-1-01",
+      "category": "Kelime",
+      "prompt": "The editor asked the author to ---- the distinction between an observation and an interpretation, which several readers had found unclear.",
+      "options": [
+        "abolish",
+        "conceal",
+        "clarify",
+        "distort",
+        "overlook"
+      ],
+      "explanation": "Belirsiz bulunan ayrımı açıklığa kavuşturmak gerekir: clarify.",
+      "answerIndex": 2
+    },
+    {
+      "id": "yds-1-02",
+      "category": "Kelime",
+      "prompt": "The proposal remained ----: it could still be revised after the consultation period.",
+      "options": [
+        "irreversible",
+        "compulsory",
+        "unrelated",
+        "identical",
+        "provisional"
+      ],
+      "explanation": "Daha sonra değiştirilebilen teklif geçicidir; provisional.",
+      "answerIndex": 4
+    },
+    {
+      "id": "yds-1-03",
+      "category": "Dil bilgisi",
+      "prompt": "If the organisers had checked the room capacity earlier, they ---- a larger venue before the tickets sold out.",
+      "options": [
+        "could have booked",
+        "will book",
+        "have booked",
+        "are booking",
+        "can book"
+      ],
+      "explanation": "Geçmişte gerçekleşmemiş koşul için could have + V3 uygundur.",
+      "answerIndex": 0
+    },
+    {
+      "id": "yds-1-04",
+      "category": "Bağlaç",
+      "prompt": "The report is useful ---- its recommendations are treated as possibilities to investigate rather than guarantees of success.",
+      "options": [
+        "even if not",
+        "as long as",
+        "in case of",
+        "as though",
+        "despite"
+      ],
+      "explanation": "As long as “şu koşulla” anlamında raporun yararlı olmasının koşulunu verir.",
+      "answerIndex": 1
+    },
+    {
+      "id": "yds-1-05",
+      "category": "Cloze test",
+      "prompt": "Choose the best expression for gap (5).",
+      "options": [
+        "Likewise",
+        "For example",
+        "As a result",
+        "Nevertheless",
+        "In particular"
+      ],
+      "explanation": "İlk ilginin yüksekliği ile sürdürülebilirlik sorunu arasında zıtlık vardır.",
+      "passage": "A city library introduced a service that lent everyday tools as well as books. Its aim was to give residents access to items they used only occasionally. Demand was high at first. (5) ----, staff soon discovered that popularity alone did not ensure a sustainable service: items needed inspection and repair. They therefore introduced a booking system (6) ---- allowed more time for maintenance between loans.",
+      "answerIndex": 3
+    },
+    {
+      "id": "yds-1-06",
+      "category": "Cloze test",
+      "prompt": "Choose the best word for gap (6).",
+      "options": [
+        "whose",
+        "what",
+        "that",
+        "where",
+        "whom"
+      ],
+      "explanation": "Booking system öznesini niteleyen relative clause için that gerekir.",
+      "passage": "A city library introduced a service that lent everyday tools as well as books. Its aim was to give residents access to items they used only occasionally. Demand was high at first. (5) ----, staff soon discovered that popularity alone did not ensure a sustainable service: items needed inspection and repair. They therefore introduced a booking system (6) ---- allowed more time for maintenance between loans.",
+      "answerIndex": 2
+    },
+    {
+      "id": "yds-1-07",
+      "category": "Cümle tamamlama",
+      "prompt": "Even when two surveys ask about the same issue, ----.",
+      "options": [
+        "differences in wording may influence the answers they receive",
+        "their results must be identical in every respect",
+        "neither survey can contain more than one question",
+        "all participants necessarily interpret every term in the same way",
+        "the topic has therefore never been investigated"
+      ],
+      "explanation": "Even when koşuluna rağmen farklı sözcük seçiminin cevapları etkileyebilmesi mantıklı tamamlamadır.",
+      "answerIndex": 0
+    },
+    {
+      "id": "yds-1-08",
+      "category": "Cümle tamamlama",
+      "prompt": "The company delayed the launch until the accessibility review was complete because ----.",
+      "options": [
+        "all users had already bought the product before it existed",
+        "the review could only start after the launch was over",
+        "accessibility was unrelated to how people used the product",
+        "no changes to the design had ever been possible",
+        "problems identified during the review might require changes to the interface"
+      ],
+      "explanation": "İncelemede bulunabilecek sorunların arayüz değişikliği gerektirmesi ertelemenin nedenidir.",
+      "answerIndex": 4
+    },
+    {
+      "id": "yds-1-09",
+      "category": "Cümle tamamlama",
+      "prompt": "Rather than assuming that silence indicated agreement, the chair ----.",
+      "options": [
+        "announced that every member had supported the decision",
+        "invited members to state any reservations explicitly",
+        "prevented participants from expressing a different opinion",
+        "treated the absence of discussion as unanimous approval",
+        "closed the meeting without allowing further comments"
+      ],
+      "explanation": "Sessizliği onay saymak yerine çekinceleri açıkça söylemeye davet etmek tutarlıdır.",
+      "answerIndex": 1
+    },
+    {
+      "id": "yds-1-10",
+      "category": "Çeviri · İngilizce → Türkçe",
+      "prompt": "Choose the most accurate translation: “Unless reliable alternatives are available, asking commuters to give up their cars is unlikely to change their behaviour.”",
+      "options": [
+        "İşe gidip gelenler otomobillerini bıraktığında güvenilir seçenekler sunmanın davranışlarını değiştirmesi mümkün değildir.",
+        "Güvenilir seçenekler mevcut olduğu için işe gidip gelenlerden otomobillerini bırakmalarını istemeye gerek yoktur.",
+        "İşe gidip gelenlerin davranışlarının değişmesi için bütün ulaşım seçeneklerinden vazgeçmeleri gerekir.",
+        "Güvenilir alternatifler mevcut olmadıkça işe gidip gelenlerden otomobillerini bırakmalarını istemenin davranışlarını değiştirmesi pek olası değildir.",
+        "Güvenilir alternatifler bulunmasa bile işe gidip gelenlerden otomobillerini bırakmalarını istemek davranışlarını kesinlikle değiştirir."
+      ],
+      "explanation": "Unless koşulu ve is unlikely olasılık düzeyi D seçeneğinde korunur.",
+      "answerIndex": 3
+    },
+    {
+      "id": "yds-1-11",
+      "category": "Çeviri · Türkçe → İngilizce",
+      "prompt": "Choose the most accurate translation: “Bir yöntemin geçmişte başarılı olması, her yeni durumda aynı sonucu vereceği anlamına gelmez.”",
+      "options": [
+        "If a method succeeds in every new situation, it must have produced different results in the past.",
+        "A method can succeed in the past only if it produces the same result in every new situation.",
+        "The fact that a method was successful in the past does not mean that it will produce the same result in every new situation.",
+        "A method that failed in the past will not necessarily be successful in a new situation.",
+        "The success of a method in the past proves that new situations always require the same result."
+      ],
+      "explanation": "Geçmiş başarıdan gelecekte aynı sonuca zorunlu olarak ulaşılamayacağı anlamı yalnızca C’de korunur.",
+      "answerIndex": 2
+    },
+    {
+      "id": "yds-1-12",
+      "category": "Okuma · ana fikir",
+      "prompt": "Which statement best captures the main idea?",
+      "options": [
+        "Visitors always prefer the shortest possible explanation.",
+        "Interviews are unable to reveal why visitors make choices.",
+        "Audio guides prevent visitors from discussing exhibits.",
+        "Offering optional depth may address visitors’ needs better than a fixed choice of length.",
+        "Museums should require every visitor to hear the entire guide."
+      ],
+      "explanation": "Esas çıkarım kısa veya uzun üstünlüğü değil isteğe bağlı derinliğin yararıdır.",
+      "passage": "In a fictional regional museum, visitors could choose between a short audio guide and a longer one. Most selected the short version. At first, managers interpreted this as evidence that visitors wanted less information. Interviews suggested a more complicated explanation. Many visitors had chosen the short guide because they did not know how long they would stay, and some wanted to spend more time discussing exhibits with companions. The museum subsequently offered a brief introduction to each exhibit followed by optional additional sections. The number of visitors who listened to some additional material increased. This did not establish that longer guides were generally better; it suggested that flexibility could be more important than total length.",
+      "answerIndex": 3
+    },
+    {
+      "id": "yds-1-13",
+      "category": "Okuma · ayrıntı",
+      "prompt": "Why did some visitors choose the short guide?",
+      "options": [
+        "They were uncertain how long they would remain in the museum.",
+        "They were required to finish it before entering the building.",
+        "The longer version contained no information about exhibits.",
+        "The short version prevented conversation with companions.",
+        "They had already listened to every additional section."
+      ],
+      "explanation": "Görüşmelerde bazı ziyaretçilerin kalış sürelerinden emin olmadıkları belirtilir.",
+      "passage": "In a fictional regional museum, visitors could choose between a short audio guide and a longer one. Most selected the short version. At first, managers interpreted this as evidence that visitors wanted less information. Interviews suggested a more complicated explanation. Many visitors had chosen the short guide because they did not know how long they would stay, and some wanted to spend more time discussing exhibits with companions. The museum subsequently offered a brief introduction to each exhibit followed by optional additional sections. The number of visitors who listened to some additional material increased. This did not establish that longer guides were generally better; it suggested that flexibility could be more important than total length.",
+      "answerIndex": 0
+    },
+    {
+      "id": "yds-1-14",
+      "category": "Okuma · çıkarım",
+      "prompt": "What does the passage imply about the managers’ initial interpretation?",
+      "options": [
+        "It was confirmed as the only possible explanation.",
+        "It demonstrated that interviews were unnecessary.",
+        "It relied on information unavailable to visitors.",
+        "It proved that visitors disliked all audio content.",
+        "It overlooked motives other than a desire for less information."
+      ],
+      "explanation": "İlk yorum yalnızca az bilgi isteğini varsayar; görüşmeler farklı nedenler gösterir.",
+      "passage": "In a fictional regional museum, visitors could choose between a short audio guide and a longer one. Most selected the short version. At first, managers interpreted this as evidence that visitors wanted less information. Interviews suggested a more complicated explanation. Many visitors had chosen the short guide because they did not know how long they would stay, and some wanted to spend more time discussing exhibits with companions. The museum subsequently offered a brief introduction to each exhibit followed by optional additional sections. The number of visitors who listened to some additional material increased. This did not establish that longer guides were generally better; it suggested that flexibility could be more important than total length.",
+      "answerIndex": 4
+    },
+    {
+      "id": "yds-1-15",
+      "category": "Okuma · ayrıntı",
+      "prompt": "Which change did the organisers make?",
+      "options": [
+        "They stopped collecting any information about tool use.",
+        "They included participation in knowledge-sharing activities in their evaluation.",
+        "They excluded visitors who did not borrow tools.",
+        "They replaced all practical demonstrations with written reports.",
+        "They concluded that the workshop had no social purpose."
+      ],
+      "explanation": "Organizatörler tavsiye, gösterim ve onarım katılımını da değerlendirmeye ekler.",
+      "passage": "When a neighbourhood introduced a shared workshop, its organisers initially measured success by the number of tools borrowed. Later, they noticed that some regular visitors rarely borrowed anything. These people came to exchange advice, watch demonstrations, or help others repair objects. The organisers added measures of participation in these activities to their reports. Borrowing figures remained useful, but they no longer stood alone. The change reflected a broader understanding of the workshop as both a lending service and a place where practical knowledge could circulate.",
+      "answerIndex": 1
+    },
+    {
+      "id": "yds-1-16",
+      "category": "Okuma · sözcük anlamı",
+      "prompt": "In the passage, “stood alone” most nearly means ----.",
+      "options": [
+        "were recorded inaccurately",
+        "were published anonymously",
+        "served as the only measure",
+        "were calculated infrequently",
+        "remained entirely unchanged"
+      ],
+      "explanation": "Borrowing figures no longer stood alone: ödünç alma sayısı artık tek ölçüt değildi.",
+      "passage": "When a neighbourhood introduced a shared workshop, its organisers initially measured success by the number of tools borrowed. Later, they noticed that some regular visitors rarely borrowed anything. These people came to exchange advice, watch demonstrations, or help others repair objects. The organisers added measures of participation in these activities to their reports. Borrowing figures remained useful, but they no longer stood alone. The change reflected a broader understanding of the workshop as both a lending service and a place where practical knowledge could circulate.",
+      "answerIndex": 2
+    },
+    {
+      "id": "yds-1-17",
+      "category": "Diyalog tamamlama",
+      "prompt": "Complete the dialogue.\nMina: The survey received twice as many responses as last year.\nOwen: Then it must represent the whole community more accurately.\nMina: ----\nOwen: Good point. We should check who actually responded before making that claim.",
+      "options": [
+        "Last year’s survey was printed on recycled paper.",
+        "I agree; a larger number always removes every form of bias.",
+        "We should publish the conclusion without checking the sample.",
+        "Not necessarily. More responses from the same narrow group would still leave other groups underrepresented.",
+        "Yes, which proves that nobody ignored the questionnaire."
+      ],
+      "explanation": "Owen’ın son cevabı, yanıt sayısının tek başına temsil gücünü garantilemediği itirazına karşılık verir.",
+      "answerIndex": 3
+    },
+    {
+      "id": "yds-1-18",
+      "category": "Yakın anlam",
+      "prompt": "Choose the sentence closest in meaning: “Only after the instructions had been simplified did most participants complete the task without assistance.”",
+      "options": [
+        "Most participants completed the task without help only once the instructions had been made simpler.",
+        "Most participants simplified the instructions after completing the task with assistance.",
+        "Before the instructions were simplified, all participants had already completed the task without help.",
+        "Simplifying the instructions prevented most participants from completing the task independently.",
+        "Most participants required assistance even after they had successfully simplified the task."
+      ],
+      "explanation": "Only after zaman koşulu, most niceliği ve without assistance anlamı A’da korunur.",
+      "answerIndex": 0
+    },
+    {
+      "id": "yds-1-19",
+      "category": "Paragraf tamamlama",
+      "prompt": "Choose the sentence that best fills the gap.",
+      "options": [
+        "The system would therefore never require any supervision.",
+        "Every unusual result is necessarily a genuine discovery.",
+        "Manual checks are unrelated to data quality.",
+        "The researchers decided to remove all unexpected results automatically.",
+        "An unusual value can reflect either a real event or a fault in the equipment."
+      ],
+      "explanation": "Son cümledeki inceleme, olağandışı değerin gerçek olay ya da arıza olabilmesiyle gerekçelenir.",
+      "passage": "An automated sensor can collect measurements far more frequently than a person can. However, collecting more data does not remove the need for judgement. ---- Researchers must therefore examine unexpected readings before deciding whether to retain or exclude them.",
+      "answerIndex": 4
+    },
+    {
+      "id": "yds-1-20",
+      "category": "Anlam bütünlüğünü bozan cümle",
+      "prompt": "Which sentence is irrelevant to the passage?",
+      "options": [
+        "I",
+        "II",
+        "III",
+        "IV",
+        "V"
+      ],
+      "explanation": "II sanatçının sergisinden söz eder; diğer cümleler okunabilir yönlendirme tabelalarını açıklar.",
+      "passage": "(I) Clear signs help people navigate an unfamiliar building. (II) The building’s oldest painting was completed during the artist’s first exhibition abroad. (III) To serve this purpose, labels should use consistent terms for the same destinations. (IV) They should also be placed where users need to make a choice of direction. (V) Testing the signs with first-time visitors can reveal confusing labels or missing information.",
+      "answerIndex": 1
+    }
+  ],
+  "track": "yds",
+  "version": 1,
+  "sources": [
+    {
+      "title": "ÖSYM · 2025-YDS/İngilizce PDF (%10)",
+      "url": "https://dokuman.osym.gov.tr/pdfdokuman/2025/YDS-INGILIZCE/yds_ing_kitapcik05072025.pdf"
+    },
+    {
+      "title": "ÖSYM · e-Sınav örnek uygulaması",
+      "url": "https://esinav.osym.gov.tr/aday/hosgeldiniz"
+    }
+  ]
+}
