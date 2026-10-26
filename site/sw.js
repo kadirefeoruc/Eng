@@ -1,6 +1,6 @@
 const SHELL='english-offline-shell-v7';
 const PREFIX='english-offline-lesson-';
-const SHELL_URLS=['/account/profile.js','/platform/account.js','/account/','/home/','/home/app.js','/home/lessons.json','/platform/ui.css','/platform/ui.js','/offline/','/offline/app.js','/offline/style.css','/offline/catalog.json','/offline-register.js','/offline.webmanifest','/favicon.svg','/grammar/','/grammar/app.js','/grammar/style.css','/grammar/topics.json','/grammar/cefr-topics.json','/guess/','/guess/app.js','/guess/style.css','/guess/words.json'];
+const SHELL_URLS=['/account/profile.js','/platform/account.js','/account/','/home/','/home/app.js','/home/lessons.json','/platform/ui.css','/platform/ui.js','/offline/','/offline/app.js','/offline/style.css','/offline/catalog.json','/offline-register.js','/offline.webmanifest','/favicon.svg','/grammar/','/grammar/app.js','/grammar/style.css','/grammar/topics.json','/grammar/cefr-topics.json','/grammar/dictionary.json','/guess/','/guess/app.js','/guess/style.css','/guess/words.json'];
 const cleanResponse=async r=>new Response(await r.arrayBuffer(),{status:r.status,statusText:r.statusText,headers:r.headers});
 self.addEventListener('install',event=>event.waitUntil((async()=>{
  const cache=await caches.open(SHELL);

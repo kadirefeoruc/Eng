@@ -8,3 +8,5 @@
 @media(max-width:850px){.sheets{width:calc(100% - 20px);padding:10px 0}}
 
 .examples-heading{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap}.examples-heading h2{margin:0}#next-topic:disabled{opacity:.5;cursor:not-allowed}#completion-status{font-size:14px;color:#455d7a}#topic option{background:#fff}
+
+.grammar-word{display:inline!important;vertical-align:baseline;min-height:0!important;margin:0!important;padding:0 1px!important;border:0!important;border-radius:2px!important;background:transparent!important;color:#175a9c!important;font:inherit!important;text-decoration:underline;text-decoration-color:#94b5dd;text-underline-offset:3px;cursor:pointer}.grammar-word:hover,.grammar-word:focus-visible{background:#e7f1ff!important;outline:2px solid #d9a232}.grammar-example{border:1px solid #d2e0f0;border-radius:10px;background:#f8fbff;padding:12px 15px;margin:12px 0}.grammar-example p{margin:5px 0}.grammar-example p[lang=en]{font-weight:650}#word-manual{width:100%;padding:10px;margin-bottom:12px;font:inherit;border:1px solid #b9c9df;border-radius:8px}#word-manual[hidden]{display:none!important}

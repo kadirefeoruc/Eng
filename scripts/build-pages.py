@@ -33,7 +33,7 @@ setInterval(retryRecordsAutomatically,30000);""")
  if p.suffix=='.webmanifest':
   obj=json.loads(s);obj['start_url']='/Eng/home/';obj['scope']='/Eng/';s=json.dumps(obj,ensure_ascii=False)
  if p.name=='sw.js':
-  s=s.replace('english-offline-shell-v7','eng-pages-shell-v13').replace('english-offline-lesson-','eng-pages-lesson-')
+  s=s.replace('english-offline-shell-v7','eng-pages-shell-v14').replace('english-offline-lesson-','eng-pages-lesson-')
   s=s.replace("const allowed=","const allowed=url.pathname.startsWith('/Eng/account')||")
  if p.name=='app.js' and p.parent.name=='offline':s=s.replace('english-offline-lesson-','eng-pages-lesson-')
  p.write_text(s)
