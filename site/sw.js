@@ -1,6 +1,6 @@
 const SHELL='english-offline-shell-v7';
 const PREFIX='english-offline-lesson-';
-const SHELL_URLS=['/account/profile.js','/platform/account.js','/account/','/home/','/home/app.js','/home/lessons.json','/platform/ui.css','/platform/ui.js','/offline/','/offline/app.js','/offline/style.css','/offline/catalog.json','/offline-register.js','/offline.webmanifest','/favicon.svg','/grammar/','/grammar/app.js','/grammar/style.css','/grammar/topics.json','/grammar/cefr-topics.json'];
+const SHELL_URLS=['/account/profile.js','/platform/account.js','/account/','/home/','/home/app.js','/home/lessons.json','/platform/ui.css','/platform/ui.js','/offline/','/offline/app.js','/offline/style.css','/offline/catalog.json','/offline-register.js','/offline.webmanifest','/favicon.svg','/grammar/','/grammar/app.js','/grammar/style.css','/grammar/topics.json','/grammar/cefr-topics.json','/guess/','/guess/app.js','/guess/style.css','/guess/words.json'];
 const cleanResponse=async r=>new Response(await r.arrayBuffer(),{status:r.status,statusText:r.statusText,headers:r.headers});
 self.addEventListener('install',event=>event.waitUntil((async()=>{
  const cache=await caches.open(SHELL);
@@ -18,7 +18,7 @@ async function cached(url){
  if(lesson)target=self.location.origin+'/lessons/'+lesson[1]+'.html';
  if(['/offline','/offline/index.html'].includes(parsed.pathname))target=self.location.origin+'/offline/';
  if(['/home','/home/index.html'].includes(parsed.pathname))target=self.location.origin+'/home/';
- if(['/grammar','/grammar/index.html'].includes(parsed.pathname))target=self.location.origin+'/grammar/';
+ if(['/grammar','/grammar/index.html'].includes(parsed.pathname))target=self.location.origin+'/grammar/';if(['/guess','/guess/index.html'].includes(parsed.pathname))target=self.location.origin+'/guess/';
  // The current shell wins over older lesson bundles when shared assets are updated.
  const shell=await(await caches.open(SHELL)).match(target,{ignoreSearch:true});if(shell)return shell;
  for(const key of (await caches.keys()).filter(k=>k.startsWith(PREFIX)).reverse()){
@@ -48,7 +48,7 @@ async function network(req,timeout=30000){
 self.addEventListener('fetch',event=>{
  const req=event.request,url=new URL(req.url);
  if(req.method!=='GET'||url.origin!==self.location.origin||url.pathname.startsWith('/api/')||url.pathname.startsWith('/signin'))return;
- const allowed=url.pathname.startsWith('/audio/')||url.pathname.startsWith('/lessons/')||url.pathname.startsWith('/home')||url.pathname.startsWith('/platform/')||url.pathname.startsWith('/grammar')||url.pathname.startsWith('/offline')||url.pathname==='/favicon.svg'||url.pathname==='/'||url.pathname==='/lesson';if(!allowed)return;
+ const allowed=url.pathname.startsWith('/audio/')||url.pathname.startsWith('/lessons/')||url.pathname.startsWith('/home')||url.pathname.startsWith('/platform/')||url.pathname.startsWith('/grammar')||url.pathname.startsWith('/guess')||url.pathname.startsWith('/offline')||url.pathname==='/favicon.svg'||url.pathname==='/'||url.pathname==='/lesson';if(!allowed)return;
  event.respondWith((async()=>{
   if(req.mode!=='navigate'&&req.cache==='reload')return network(req,60000);
   let target=url.href;
