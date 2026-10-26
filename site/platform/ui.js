@@ -7,6 +7,55 @@
  const tabs=isLesson?header.querySelector('[role=tablist]'):null;
  if(tabs){const home=link('Anasayfa','/home/','home');home.className='platform-tab';tabs.prepend(home);const coach=link('Kelime Koçu','/coach/','coach');coach.className='platform-tab';tabs.append(coach);const grammar=link('Gramer','/grammar/','grammar');grammar.className='platform-tab';document.getElementById('tab-listen').after(grammar);for(const key of ['read','listen','words','exams','conversation']){const b=document.getElementById('tab-'+key);if(b){const i=document.createElement('span');i.className='platform-icon';i.innerHTML=icon(key);b.prepend(i);}}}
  else{const nav=document.createElement('nav');nav.className='platform-nav';nav.setAttribute('aria-label','Ana gezinme');for(const [label,key,href]of [['Anasayfa','home','/home/'],['Okuma','read','/lessons/'+last+'.html#read'],['Dinleme','listen','/lessons/'+last+'.html#listen'],['Gramer','grammar','/grammar/'],['Kelimelerim','words','/lessons/'+last+'.html#words'],['Kelime Koçu','coach','/coach/'],['Sınav','exams','/lessons/'+last+'.html#exams']])nav.append(link(label,href,key));header.prepend(nav);}
+
+ // The online count represents distinct connected accounts, not total registrations.
+ const presenceBadge=document.createElement('span');
+ presenceBadge.className='active-members';presenceBadge.textContent='Aktif üyeler: bağlanıyor…';
+ const exam=isLesson?document.getElementById('tab-exams'):header.querySelector('.platform-nav a[href*="#exams"]');
+ if(exam)exam.after(presenceBadge);
+ (async()=>{
+  const account=window.EngAccount;if(!account||!exam)return;
+  const state=await account.ready;if(!state.user)return;
+  if(!navigator.onLine||!window.WebSocket||!crypto.subtle){presenceBadge.textContent='Aktif üye bilgisi kullanılamıyor';return;}
+  const digest=await crypto.subtle.digest('SHA-256',new TextEncoder().encode('eng-presence:'+state.user.id));
+  const presenceKey=Array.from(new Uint8Array(digest),b=>b.toString(16).padStart(2,'0')).join('');
+  const topic='realtime:eng-active-members-v1',apiKey='sb_publishable_etGDgvkaC_kssQXrzih6SQ_Rf3YPXS-';
+  let socket,heartbeat,retry,ref=0,connected=false,tracked=false,synced=false,stateMap={};
+  const send=(event,payload,join='1',channel=topic)=>socket.send(JSON.stringify({topic:channel,event,payload,ref:String(++ref),join_ref:join}));
+  const show=()=>{if(connected&&tracked&&synced)presenceBadge.textContent=Object.keys(stateMap).length+' aktif üye';};
+  function connect(){
+   if(!navigator.onLine){presenceBadge.textContent='Aktif üye bilgisi kullanılamıyor';return;}
+   connected=false;tracked=false;synced=false;ref=0;stateMap={};presenceBadge.textContent='Aktif üyeler: bağlanıyor…';
+   let token;try{token=JSON.parse(localStorage.getItem('eng:supabase:session')||'null')?.access_token}catch{}
+   if(!token){presenceBadge.textContent='Aktif üye bilgisi kullanılamıyor';return;}
+   socket=new WebSocket('wss://rykrxoaslfjlugcdrbiz.supabase.co/realtime/v1/websocket?apikey='+encodeURIComponent(apiKey)+'&vsn=1.0.0');
+   socket.onopen=()=>{send('phx_join',{config:{broadcast:{ack:false,self:false},presence:{key:presenceKey,enabled:true},postgres_changes:[],private:false},access_token:token});heartbeat=setInterval(()=>{if(socket.readyState===WebSocket.OPEN)send('heartbeat',{},null,'phoenix')},25000)};
+   socket.onmessage=e=>{let m;try{m=JSON.parse(e.data)}catch{return}
+    if(m.topic!==topic)return;
+    if(m.event==='phx_reply'&&m.ref==='1'){
+     if(m.payload.status!=='ok'){socket.close();return}
+     connected=true;send('presence',{type:'presence',event:'track',payload:{}});
+    }else if(m.event==='phx_reply'&&m.ref==='2'){
+     if(m.payload.status!=='ok'){socket.close();return}tracked=true;show();
+    }else if(m.event==='presence_state'){stateMap=m.payload||{};synced=true;show()}
+    else if(m.event==='presence_diff'){
+     for(const [key,value] of Object.entries(m.payload.joins||{})){
+      const current=stateMap[key]?.metas||[];const refs=new Set(current.map(x=>x.phx_ref));
+      stateMap[key]={metas:current.concat((value.metas||[]).filter(x=>!refs.has(x.phx_ref)))};
+     }
+     for(const [key,value] of Object.entries(m.payload.leaves||{})){
+      if(!stateMap[key])continue;const gone=new Set((value.metas||[]).map(x=>x.phx_ref));
+      stateMap[key].metas=stateMap[key].metas.filter(x=>!gone.has(x.phx_ref));if(!stateMap[key].metas.length)delete stateMap[key];
+     }show();
+    }else if(m.event==='phx_error'||m.event==='phx_close')socket.close();
+   };
+   socket.onclose=()=>{clearInterval(heartbeat);presenceBadge.textContent='Aktif üye bilgisi kullanılamıyor';retry=setTimeout(connect,10000)};
+   socket.onerror=()=>socket.close();
+  }
+  addEventListener('pagehide',()=>{clearTimeout(retry);if(socket){socket.onclose=null;socket.close()}clearInterval(heartbeat)});
+  addEventListener('online',()=>{if(!socket||socket.readyState===WebSocket.CLOSED){clearTimeout(retry);connect()}});
+  connect();
+ })().catch(()=>{presenceBadge.textContent='Aktif üye bilgisi kullanılamıyor'});
  const tools=document.createElement('div');tools.className='platform-tools';const toggle=document.createElement('button');toggle.type='button';toggle.className='flight-switch';toggle.setAttribute('role','switch');toggle.setAttribute('aria-label','Uçuş modu');let enabled=path.startsWith('/offline')||!navigator.onLine;toggle.setAttribute('aria-checked',String(enabled));toggle.innerHTML=icon('flight')+'<span>Uçuş modu</span><span class="switch-track"><span class="switch-thumb"></span></span>';toggle.onclick=()=>{const next=toggle.getAttribute('aria-checked')!=='true';toggle.setAttribute('aria-checked',String(next));try{localStorage.setItem('platform:flight',next?'1':'0');}catch{}if(next)location.assign('/offline/?setup=1');else if(path.startsWith('/offline'))location.assign('/home/');};let touchX=null;toggle.addEventListener('touchstart',e=>{touchX=e.changedTouches[0].clientX;},{passive:true});toggle.addEventListener('touchend',e=>{if(touchX===null)return;const dx=e.changedTouches[0].clientX-touchX;touchX=null;if(Math.abs(dx)>15){e.preventDefault();const wanted=dx>0;if((toggle.getAttribute('aria-checked')==='true')!==wanted)toggle.click();}},{passive:false});tools.append(toggle);header.append(tools);
  const footer=document.createElement('footer');footer.className='platform-footer';footer.innerHTML='<p>YÖK-DİL ve YDS Sınavlarına yönelik geliştirilmiştir.</p><p>Geliştiren: <a href="https://www.linkedin.com/in/kadirefeoruc/" target="_blank" rel="noopener noreferrer">K. Efe ORUÇ</a></p>';document.body.append(footer);
  if(isLesson){const syncTab=()=>{const target=location.hash.slice(1);if(['read','listen','words','exams','conversation'].includes(target))document.getElementById('tab-'+target)?.click();};addEventListener('hashchange',syncTab);document.querySelectorAll('[role=tab]').forEach(b=>b.addEventListener('click',()=>history.replaceState(null,'','#'+b.getAttribute('aria-controls'))));const target=location.hash.slice(1);if(['read','listen','words','exams','conversation'].includes(target))document.getElementById('tab-'+target)?.click();}
