@@ -13,7 +13,6 @@ for p in dest.rglob('*'):
   s=s.replace("a.textContent='Giriş yap'","a.textContent=session?'Hesabım':'Giriş yap'")
   s=s.replace("if(url.pathname!=='/api/records')return native(input,options);", "if(url.pathname==='/api/conversation')return json({ready:false,signedIn:!!session,error:'Canlı AI için güvenli sunucu bağlantısı gerekiyor.'});if(url.pathname.startsWith('/api/')&&url.pathname!=='/api/records')return json({error:'Canlı AI için güvenli sunucu bağlantısı gerekiyor.'},503);if(url.pathname!=='/api/records')return native(input,options);")
  if p.parent.name=='lessons' and p.suffix=='.html':
-  if p.name=='1.html': s=s.replace('</head>', '<script defer src="/platform/reading-assessment.js"></script></head>', 1)
   s=s.replace('<button class="header-btn" id="retry-save">Tekrar bağlan</button>','')
   s=s.replace("document.getElementById('retry-save').onclick=()=>loaded?flushWrites():loadRecords();", """let retryingRecords=false;
 async function retryRecordsAutomatically(){
@@ -45,7 +44,7 @@ for(const panel of ['read']){""")
  if p.suffix=='.webmanifest':
   obj=json.loads(s);obj['start_url']='/Eng/home/';obj['scope']='/Eng/';s=json.dumps(obj,ensure_ascii=False)
  if p.name=='sw.js':
-  s=s.replace('english-offline-shell-v7','eng-pages-shell-v19').replace('english-offline-lesson-','eng-pages-lesson-')
+  s=s.replace('english-offline-shell-v7','eng-pages-shell-v20').replace('english-offline-lesson-','eng-pages-lesson-')
   s=s.replace("const allowed=","const allowed=url.pathname.startsWith('/Eng/account')||")
  if p.name=='app.js' and p.parent.name=='offline':s=s.replace('english-offline-lesson-','eng-pages-lesson-')
  p.write_text(s)

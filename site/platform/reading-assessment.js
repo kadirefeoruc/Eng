@@ -1,5 +1,6 @@
 (()=>{
 'use strict';
+if (document.querySelector('#reading-assessment')) return;
 const data={
 easy:[
 ['What can be inferred about Maya’s reason for visiting the library?',['She needs a suitable place to study that her home does not provide.','She is required to buy books for her university courses.','She wants to avoid all contact with other students.','She cannot study unless a staff member gives her the answers.','She visits only to use the library’s paid computer services.'],0,'Maya’nın evi küçük ve gürültülü olduğu için orada çalışması zordur. Kütüphane ona sessiz ve ücretsiz bir çalışma ortamı sağlar.'],
