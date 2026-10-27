@@ -19,3 +19,8 @@ header .header-actions #account-name{display:none!important}
 
 .platform-nav a.guess-link,.platform-tab.guess-link{background:#08734d!important;border-color:#77d3a7!important;color:#fff!important}
 .platform-nav a.guess-link[aria-current=page],.platform-tab.guess-link[aria-current=page]{background:#dcf8e9!important;color:#125238!important}
+
+/* Menü sığmadığında ikinci satır yerine yatay kaydırılır. */
+.platform-nav,header .tabs{flex-wrap:nowrap!important;overflow-x:auto;padding-bottom:6px}
+.word-coach-link{display:inline-block;margin:4px 0 16px;padding:10px 14px;border:1px solid #175a9c;border-radius:9px;background:#175a9c;color:#fff;text-decoration:none;font:650 15px/1.4 system-ui}
+.word-coach-link:hover{background:#124b84}.word-coach-link:focus-visible{outline:3px solid #f2b44e;outline-offset:3px}
