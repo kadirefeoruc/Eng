@@ -25,6 +25,17 @@ window.addEventListener('online',retryRecordsAutomatically);
 setInterval(retryRecordsAutomatically,30000);""")
   s=s.replace('Kaydedilemedi. Seçimlerin bu açık sayfada korunuyor; “Tekrar bağlan”a bas.','Kaydedilemedi. Bağlantı otomatik olarak yeniden denenecek.')
   s=s.replace('Ders değişmeden önce kayıtlarını göndermemiz gerekiyor. Tekrar bağlan düğmesini kullan.','Ders değişmeden önce kayıtların gönderilmesi gerekiyor. Bağlantı otomatik olarak yeniden denenecek.')
+  # Ders tamamlandı işareti yalnızca zor okuma metninde gösterilir.
+  completion_panel="for(const panel of ['read','listen']){"
+  completion_level="stopSpeech();applyPassageData(level);currentNote=null;lastSentence=0;"
+  completion_guard="if(!loaded){renderCompletions();return;}"
+  assert completion_panel in s and completion_level in s and completion_guard in s, f'Missing completion controls in {p}'
+  s=s.replace(completion_panel, """function syncCompletionVisibility(){document.querySelectorAll('.course-completion').forEach(card=>{const show=activeLevel==='hard';card.hidden=!show;card.style.display=show?'':'none';const input=card.querySelector('[data-complete-lesson]');if(input)input.disabled=!loaded||!show;});}
+for(const panel of ['read']){""")
+  s=s.replace(completion_level,completion_level+"syncCompletionVisibility();")
+  s=s.replace(completion_guard,"if(!loaded||activeLevel!=='hard'){renderCompletions();syncCompletionVisibility();return;}")
+  s=s.replace("renderCompletions();\n\n// The exam is separate","renderCompletions();syncCompletionVisibility();\n\n// The exam is separate")
+  s=s.replace('Henüz tamamladığın ders yok. Okuma veya Dinleme sayfasının sonundaki “Bu dersi tamamladım” kutusunu işaretle.','Henüz tamamladığın ders yok. Okuma bölümünde zor metnin sonundaki “Bu dersi tamamladım” kutusunu işaretle.')
  s=pattern.sub(lambda m:m[1]+base+'/',s)
  s=re.sub(r'href="/Eng/signin-with-chatgpt[^"]*"','href="/Eng/account/"',s)
  s=s.replace(r'^\/lessons\/',r'^\/Eng\/lessons\/')
@@ -33,7 +44,7 @@ setInterval(retryRecordsAutomatically,30000);""")
  if p.suffix=='.webmanifest':
   obj=json.loads(s);obj['start_url']='/Eng/home/';obj['scope']='/Eng/';s=json.dumps(obj,ensure_ascii=False)
  if p.name=='sw.js':
-  s=s.replace('english-offline-shell-v7','eng-pages-shell-v15').replace('english-offline-lesson-','eng-pages-lesson-')
+  s=s.replace('english-offline-shell-v7','eng-pages-shell-v16').replace('english-offline-lesson-','eng-pages-lesson-')
   s=s.replace("const allowed=","const allowed=url.pathname.startsWith('/Eng/account')||")
  if p.name=='app.js' and p.parent.name=='offline':s=s.replace('english-offline-lesson-','eng-pages-lesson-')
  p.write_text(s)
