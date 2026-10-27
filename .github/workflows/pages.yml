@@ -42,7 +42,9 @@ jobs:
             git push origin HEAD:main
           fi
       - name: Test account and membership behaviour
-        run: node --test tests/account.test.mjs
+        run: |
+          node --test tests/account.test.mjs
+          node tests/reading-assessment.test.cjs
       - name: Build GitHub Pages
         run: python scripts/build-pages.py
       - name: Check lessons, offline assets and account routes
