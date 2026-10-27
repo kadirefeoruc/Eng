@@ -14,6 +14,7 @@ for p in dest.rglob('*'):
   s=s.replace("if(url.pathname!=='/api/records')return native(input,options);", "if(url.pathname==='/api/conversation')return json({ready:false,signedIn:!!session,error:'Canlı AI için güvenli sunucu bağlantısı gerekiyor.'});if(url.pathname.startsWith('/api/')&&url.pathname!=='/api/records')return json({error:'Canlı AI için güvenli sunucu bağlantısı gerekiyor.'},503);if(url.pathname!=='/api/records')return native(input,options);")
  if p.parent.name=='lessons' and p.suffix=='.html':
   s=s.replace('<button class="header-btn" id="retry-save">Tekrar bağlan</button>','')
+  s=s.replace("document.getElementById('start-lesson-exam').onclick=()=>startLessonExam(false);","document.getElementById('start-lesson-exam').onclick=()=>{const previous=examAttempts[examSelect.value];if(previous&&previous.index>=10&&!confirm('Bu ders sınavını daha önce tamamladın. Tekrar çözmek ister misin?'))return;startLessonExam(false)};")
   s=s.replace("document.getElementById('retry-save').onclick=()=>loaded?flushWrites():loadRecords();", """let retryingRecords=false;
 async function retryRecordsAutomatically(){
  if(!navigator.onLine||retryingRecords)return;
@@ -44,7 +45,7 @@ for(const panel of ['read']){""")
  if p.suffix=='.webmanifest':
   obj=json.loads(s);obj['start_url']='/Eng/home/';obj['scope']='/Eng/';s=json.dumps(obj,ensure_ascii=False)
  if p.name=='sw.js':
-  s=s.replace('english-offline-shell-v7','eng-pages-shell-v23').replace('english-offline-lesson-','eng-pages-lesson-')
+  s=s.replace('english-offline-shell-v7','eng-pages-shell-v24').replace('english-offline-lesson-','eng-pages-lesson-')
   s=s.replace("const allowed=","const allowed=url.pathname.startsWith('/Eng/account')||")
  if p.name=='app.js' and p.parent.name=='offline':s=s.replace('english-offline-lesson-','eng-pages-lesson-')
  p.write_text(s)
