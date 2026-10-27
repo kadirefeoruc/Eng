@@ -16,3 +16,6 @@ header .header-actions a[href*="/account/"],header .header-actions a[href*="/sig
 .platform-account-email{display:inline-flex;align-items:center;min-height:40px;padding:8px 12px;border:1px solid #ffffff80;border-radius:9px;background:#ffffff18;color:#fff;font:600 14px/1.4 system-ui;overflow-wrap:anywhere}
 .platform-account-email[hidden]{display:none!important}
 header .header-actions #account-name{display:none!important}
+
+.platform-nav a.guess-link,.platform-tab.guess-link{background:#08734d!important;border-color:#77d3a7!important;color:#fff!important}
+.platform-nav a.guess-link[aria-current=page],.platform-tab.guess-link[aria-current=page]{background:#dcf8e9!important;color:#125238!important}
