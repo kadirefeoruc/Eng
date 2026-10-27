@@ -24,3 +24,8 @@ header .header-actions #account-name{display:none!important}
 .platform-nav,header .tabs{flex-wrap:nowrap!important;overflow-x:auto;padding-bottom:6px}
 .word-coach-link{display:inline-block;margin:4px 0 16px;padding:10px 14px;border:1px solid #175a9c;border-radius:9px;background:#175a9c;color:#fff;text-decoration:none;font:650 15px/1.4 system-ui}
 .word-coach-link:hover{background:#124b84}.word-coach-link:focus-visible{outline:3px solid #f2b44e;outline-offset:3px}
+
+/* Okuma alanında kartlar ayrı satırlara yerleştirilir. */
+#read > #reading-assessment{grid-column:1;grid-row:4}
+#read > #reading-assessment ~ .course-completion{grid-column:1;grid-row:5}
+@media(max-width:850px){#read > #reading-assessment{grid-row:5}#read > #reading-assessment ~ .course-completion{grid-row:6}}
