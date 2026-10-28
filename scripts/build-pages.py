@@ -45,7 +45,7 @@ for(const panel of ['read']){""")
  if p.suffix=='.webmanifest':
   obj=json.loads(s);obj['start_url']='/Eng/home/';obj['scope']='/Eng/';s=json.dumps(obj,ensure_ascii=False)
  if p.name=='sw.js':
-  s=s.replace('english-offline-shell-v7','eng-pages-shell-v27').replace('english-offline-lesson-','eng-pages-lesson-')
+  s=s.replace('english-offline-shell-v7','eng-pages-shell-v28').replace('english-offline-lesson-','eng-pages-lesson-')
   s=s.replace("const allowed=","const allowed=url.pathname.startsWith('/Eng/account')||")
  if p.name=='app.js' and p.parent.name=='offline':s=s.replace('english-offline-lesson-','eng-pages-lesson-')
  p.write_text(s)
@@ -54,3 +54,4 @@ for(const panel of ['read']){""")
 (dest/'lesson/index.html').write_text('''<!doctype html><meta charset="utf-8"><title>Ders açılıyor</title><script>const id=new URLSearchParams(location.search).get('lesson')||'1';location.replace('/Eng/lessons/'+(/^(?:[1-9]|[1-4][0-9]|50)$/.test(id)?id:'1')+'.html'+location.hash)</script>''')
 (dest/'.nojekyll').touch()
 print('Built GitHub Pages:',sum(1 for p in dest.rglob('*') if p.is_file()),'files')
+

@@ -35,12 +35,23 @@ async function membership(){
  if(!r.ok){if(r.status===404)return {configured:false};throw Error('Üyelik durumu şu anda doğrulanamıyor.');}
  const status=await r.json();storeSession({...session,membership:status});return status;
 }
+async function platformRpc(name,body={}){
+ if(!/^[a-z_]+$/.test(name))throw Error('Geçersiz işlem');
+ const r=await rest('rpc/'+name,{method:'POST',body:JSON.stringify(body)});
+ const data=await r.json();if(!r.ok){const e=Error(data.message||'İşlem tamamlanamadı.');e.status=r.status;throw e}return data;
+}
+async function adminStatus(){try{return await platformRpc('platform_self_status')}catch(e){if(e.status===404)return {configured:false,enabled:true,admin:false};throw e}}
+async function adminRequest(body){
+ const access=await token();if(!access)throw Error('Önce giriş yapın.');
+ let r;try{r=await native(BASE+'/functions/v1/eng-admin',{method:'POST',headers:{apikey:KEY,Authorization:'Bearer '+access,'Content-Type':'application/json'},body:JSON.stringify(body)})}catch{throw Error('Admin sunucusuna erişilemiyor. Supabase’de eng-admin fonksiyonunun yayınlandığını kontrol edin.')}
+ const data=await r.json();if(!r.ok)throw Error(r.status===404?'eng-admin fonksiyonu henüz yayınlanmamış. Supabase Edge Functions kurulumunu tamamlayın.':data.error||data.message||'İşlem tamamlanamadı.');return data;
+}
 async function reauthenticate(password){
  if(!session||!password)throw Error('Mevcut şifreni yaz.');
  const result=await auth('token?grant_type=password',{email:session.user.email,password});
  storeSession(result);
 }
-Object.assign(window.EngAccount,{
+Object.assign(window.EngAccount,{platformRpc,adminStatus,adminRequest,
  async updateProfile(firstName,lastName,phone){
   if(firstName.length>80||lastName.length>80||!firstName.trim()||!lastName.trim())throw Error('İsim ve soyisim alanlarını kontrol et.');
   if(!/^[+\d\s()\-]{0,30}$/.test(phone))throw Error('Telefon numarasını kontrol et.');
@@ -54,7 +65,9 @@ Object.assign(window.EngAccount,{
   try{
    if(navigator.onLine)await authUser();
    else if(!session.verified_at)throw Error('İlk giriş için internet gerekiyor.');
-   const status=await membership();
+   const self=await adminStatus();
+   if(self.configured&&!self.enabled){storeSession(null);if(!accountPage)accountRedirect();return {user:null,error:'Hesabınız pasife alınmış.'};}
+   const status=self.admin?{configured:true,active:true,plan:'admin'}:await membership();
    if(!accountPage&&status?.configured!==false&&status?.active===false){accountRedirect();return {user:session.user,membership:status};}
    gate.remove();return {user:session.user,membership:status};
   }catch(e){if(e.status===401||e.status===403)storeSession(null);if(!accountPage)accountRedirect();return {user:session?.user||null,error:e.message};}
@@ -67,7 +80,10 @@ document.addEventListener('DOMContentLoaded',async()=>{
  const host=document.querySelector('.platform-tools')||document.querySelector('header');if(!host)return;
  const badge=document.createElement('a');badge.href='/account/#membership';badge.style.cssText='display:inline-block;background:#fff3cf;color:#4d3700;padding:8px 12px;border-radius:9px;margin:8px';
  const m=result.membership;
- badge.textContent=m?.plan==='paid'?'Ücretli üyelik aktif':m?.active?'Deneme süresi: '+m.remaining_days+' gün kaldı':m?.configured===false?'Üyeliğiniz: Deneme Aşamasında':m?.active===false?'Deneme süresi sona erdi':'Üyelik durumu';
+ badge.textContent=m?.plan==='admin'?'Yönetici hesabı':m?.plan==='paid'?'Ücretli üyelik aktif':m?.active?'Deneme süresi: '+m.remaining_days+' gün kaldı':m?.configured===false?'Üyeliğiniz: Deneme Aşamasında':m?.active===false?'Deneme süresi sona erdi':'Üyelik durumu';
  host.append(badge);
+ const adminLink=document.getElementById('admin-link');if(adminLink){try{adminLink.hidden=!(await adminStatus()).admin}catch{adminLink.hidden=true}}
+ const activity=document.createElement('script');activity.src='/platform/activity.js';document.body.append(activity);
 });
 })();
+

@@ -1,0 +1,8 @@
+(()=>{'use strict';let lastInteraction=Date.now(),inflight=false,available=true;
+for(const name of ['pointerdown','keydown','scroll','touchstart'])addEventListener(name,()=>{lastInteraction=Date.now()},{passive:true});
+function active(){return !document.hidden&&(Date.now()-lastInteraction<120000||Array.from(document.querySelectorAll('audio')).some(a=>!a.paused&&!a.ended))}
+async function ping(){if(inflight||!available||!navigator.onLine||!EngAccount.user)return;inflight=true;try{await EngAccount.platformRpc('platform_activity_ping',{p_active:active()})}catch(e){if(e.status===404)available=false;if(e.status===401||e.status===403)await EngAccount.signOut()}finally{inflight=false}}
+// Only count a text when its reading audio reaches the end with >=90% played.
+document.addEventListener('ended',async event=>{const player=event.target;if(!['read-audio','listen-audio'].includes(player.id))return;const match=location.pathname.match(/\/lessons\/(\d+)\.html$/);if(!match||!Number.isFinite(player.duration)||player.duration<=0)return;let played=0;for(let i=0;i<player.played.length;i++)played+=player.played.end(i)-player.played.start(i);if(played/player.duration<.9)return;const level=typeof activeLevel==='string'?activeLevel:null;if(!['easy','medium','hard'].includes(level))return;try{await EngAccount.platformRpc('platform_reading_finished',{p_lesson:Number(match[1]),p_level:level})}catch{/* An interrupted request does not count as completed. */}},true);
+EngAccount.ready.then(async r=>{if(!r.user)return;try{const s=await EngAccount.adminStatus();available=s.configured&&s.enabled;if(!available)return;ping();setInterval(ping,30000);document.addEventListener('visibilitychange',ping)}catch{available=false}});
+})();

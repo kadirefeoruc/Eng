@@ -1,0 +1,3 @@
+[functions.eng-admin]
+# JWT is validated explicitly via Auth getUser inside the function.
+verify_jwt = false
