@@ -77,13 +77,16 @@ addEventListener('pageshow',event=>{if(event.persisted&&!accountPage){if(!sessio
 document.addEventListener('DOMContentLoaded',async()=>{
  const result=await EngAccount.ready;
  if(!result.user)return;
+ const activity=document.createElement('script');activity.src='/platform/activity.js';document.body.append(activity);
  const host=document.querySelector('.platform-tools')||document.querySelector('header');if(!host)return;
  const badge=document.createElement('a');badge.href='/account/#membership';badge.style.cssText='display:inline-block;background:#fff3cf;color:#4d3700;padding:8px 12px;border-radius:9px;margin:8px';
  const m=result.membership;
- badge.textContent=m?.plan==='admin'?'Yönetici hesabı':m?.plan==='paid'?'Ücretli üyelik aktif':m?.active?'Deneme süresi: '+m.remaining_days+' gün kaldı':m?.configured===false?'Üyeliğiniz: Deneme Aşamasında':m?.active===false?'Deneme süresi sona erdi':'Üyelik durumu';
+ if(m?.plan==='admin'){badge.href='/account/admin.html';badge.id='admin-panel-link';}
+ badge.textContent=m?.plan==='admin'?'Yönetici paneli':m?.plan==='paid'?'Ücretli üyelik aktif':m?.active?(Number.isFinite(m.remaining_days)?'Deneme süresi: '+m.remaining_days+' gün kaldı':'Üyeliğiniz: Deneme Aşamasında'):m?.configured===false?'Üyeliğiniz: Deneme Aşamasında':m?.active===false?'Deneme süresi sona erdi':'Üyelik durumu';
  host.append(badge);
- const adminLink=document.getElementById('admin-link');if(adminLink){try{adminLink.hidden=!(await adminStatus()).admin}catch{adminLink.hidden=true}}
- const activity=document.createElement('script');activity.src='/platform/activity.js';document.body.append(activity);
+ const adminLink=document.getElementById('admin-link');if(adminLink)adminLink.hidden=m?.plan!=='admin';
+ const shortcut=document.getElementById('admin-shortcut');if(shortcut)shortcut.hidden=m?.plan!=='admin';
 });
 })();
+
 

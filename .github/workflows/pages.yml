@@ -46,6 +46,7 @@ jobs:
           node --test tests/account.test.mjs
           node tests/reading-assessment.test.cjs
           node tests/admin-function.test.mjs
+          node tests/admin-navigation.test.mjs
       - name: Build GitHub Pages
         run: python scripts/build-pages.py
       - name: Check lessons, offline assets and account routes
@@ -57,4 +58,5 @@ jobs:
       - name: Deploy
         id: deployment
         uses: actions/deploy-pages@v4
+
 
