@@ -44,6 +44,8 @@ def extend_readings(dest):
     catalog_file = dest / "offline/catalog.json"
     inventory = json.loads(catalog_file.read_text())
     for lesson in inventory["lessons"]:
+        if not lesson["id"].isdigit():
+            continue
         number = int(lesson["id"])
         if number < 6:
             continue
