@@ -2,6 +2,8 @@ from pathlib import Path
 import tarfile,hashlib,json,re,shutil
 root=Path(__file__).resolve().parents[1]
 dest=root/'_site';shutil.rmtree(dest,ignore_errors=True);shutil.copytree(root/'site',dest)
+from reading_content import extend_readings
+extend_readings(dest)
 base='/Eng'
 prefixes='|'.join(re.escape(n) for n in sorted([p.name for p in dest.iterdir()]+['api','signin-with-chatgpt','lesson'],key=len,reverse=True))
 pattern=re.compile(r'''(["'`])/(?=(?:'''+prefixes+r''')(?:[/?."'`]|$))''')
@@ -45,7 +47,7 @@ for(const panel of ['read']){""")
  if p.suffix=='.webmanifest':
   obj=json.loads(s);obj['start_url']='/Eng/home/';obj['scope']='/Eng/';s=json.dumps(obj,ensure_ascii=False)
  if p.name=='sw.js':
-  s=s.replace('english-offline-shell-v7','eng-pages-shell-v29').replace('english-offline-lesson-','eng-pages-lesson-')
+  s=s.replace('english-offline-shell-v7','eng-pages-shell-v30').replace('english-offline-lesson-','eng-pages-lesson-')
   s=s.replace("const allowed=","const allowed=url.pathname.startsWith('/Eng/account')||")
  if p.name=='app.js' and p.parent.name=='offline':s=s.replace('english-offline-lesson-','eng-pages-lesson-')
  p.write_text(s)

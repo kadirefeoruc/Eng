@@ -47,6 +47,8 @@ jobs:
           node tests/reading-assessment.test.cjs
           node tests/admin-function.test.mjs
           node tests/admin-navigation.test.mjs
+      - name: Install reading audio tools
+        run: sudo apt-get update -qq && sudo apt-get install -y ffmpeg espeak-ng
       - name: Build GitHub Pages
         run: python scripts/build-pages.py
       - name: Check lessons, offline assets and account routes
